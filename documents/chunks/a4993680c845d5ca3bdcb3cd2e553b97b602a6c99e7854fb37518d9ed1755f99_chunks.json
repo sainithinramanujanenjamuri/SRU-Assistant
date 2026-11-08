@@ -1,0 +1,176 @@
+{
+  "document_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99",
+  "chunks": [
+    {
+      "chunk_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0000",
+      "document_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99",
+      "chunk_index": 0,
+      "text": "VII Semester\n\nSchool of CS&AI\n\nCAPSTONE PROJECT TITLE AND ABSTRACT APPROVAL FORM",
+      "token_count": 14,
+      "char_count": 80,
+      "word_count": 12,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99",
+        "document_name": "sru_project_approval_form.docx",
+        "document_type": ".docx",
+        "department": null,
+        "program": null,
+        "academic_year": null,
+        "semester": "Semester VII",
+        "category": null,
+        "regulations": [],
+        "section_path": "",
+        "heading_hierarchy": [],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99",
+        "source_file": "sru_project_approval_form.docx",
+        "page_numbers": [],
+        "line_numbers": [],
+        "element_ids": [
+          "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_elem_0001",
+          "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_elem_0002",
+          "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_elem_0003"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0001",
+      "document_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99",
+      "chunk_index": 1,
+      "text": "| Project  Title | SRU Assistant: A RAG Framework for University Academic Query Resolution | SRU Assistant: A RAG Framework for University Academic Query Resolution |\n| --- | --- | --- |\n| Project Team Members | Project Team Members | Project Team Members |\n| Roll No                                      Name | Roll No                                      Name | ProjectTeam No: 235 |\n| 2303A52492\tSUNKARI SAI 2403A52L05\tENJAMURI SAI NITHIN 2403A52L07\tDANCHANALA PAVAN 2403A52L10\tAZMEERA THARUN 2403A52L11\tBOLAGANI SUSHANTH | 2303A52492\tSUNKARI SAI 2403A52L05\tENJAMURI SAI NITHIN 2403A52L07\tDANCHANALA PAVAN 2403A52L10\tAZMEERA THARUN 2403A52L11\tBOLAGANI SUSHANTH | 2303A52492\tSUNKARI SAI 2403A52L05\tENJAMURI SAI NITHIN 2403A52L07\tDANCHANALA PAVAN 2403A52L10\tAZMEERA THARUN 2403A52L11\tBOLAGANI SUSHANTH |",
+      "token_count": 120,
+      "char_count": 804,
+      "word_count": 111,
+      "is_table": true,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99",
+        "document_name": "sru_project_approval_form.docx",
+        "document_type": ".docx",
+        "department": null,
+        "program": null,
+        "academic_year": null,
+        "semester": "Semester VII",
+        "category": null,
+        "regulations": [],
+        "section_path": "",
+        "heading_hierarchy": [],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99",
+        "source_file": "sru_project_approval_form.docx",
+        "page_numbers": [],
+        "line_numbers": [],
+        "element_ids": [
+          "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_elem_0004"
+        ]
+      },
+      "table_metadata": {
+        "original_element_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_elem_0004",
+        "split": false,
+        "num_rows": 4
+      }
+    },
+    {
+      "chunk_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+      "document_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99",
+      "chunk_index": 2,
+      "text": "Abstract:\n\nStudents at SR University routinely struggle to find accurate, up-to-date information scattered across syllabi, academic calendars, exam schedules, and departmental notices, often relying on outdated PDFs or word-of-mouth. SRU Assistant addresses this by combining a RAG pipeline with the university's own academic documents to deliver accurate, source-grounded answers to natural language queries. The system ingests institutional documents such as course structures, semester calendars, and exam guidelines, converts them into vector embeddings, and stores them in a searchable vector database. When a student poses a query, the system retrieves the most relevant document segments and passes them to a large language model to generate a precise, context-aware response with citations to the source material. This eliminates hallucinated or generic answers common in standalone chatbots and ensures every response is traceable to an official university document. The framework is designed to be extensible to additional departments and document types, providing a scalable foundation for intelligent academic support systems.\n\nAPPROVAL",
+      "token_count": 192,
+      "char_count": 1148,
+      "word_count": 158,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99",
+        "document_name": "sru_project_approval_form.docx",
+        "document_type": ".docx",
+        "department": null,
+        "program": null,
+        "academic_year": null,
+        "semester": "Semester VII",
+        "category": null,
+        "regulations": [],
+        "section_path": "",
+        "heading_hierarchy": [],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99",
+        "source_file": "sru_project_approval_form.docx",
+        "page_numbers": [],
+        "line_numbers": [],
+        "element_ids": [
+          "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_elem_0005",
+          "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_elem_0006",
+          "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_elem_0007"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0003",
+      "document_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99",
+      "chunk_index": 3,
+      "text": "| Project Guide Information  Name:________________________  Designation:___________________  Action:  Accept           Reject      Signature of Guide:                  Date:_________________ | Comments |\n| --- | --- |",
+      "token_count": 33,
+      "char_count": 217,
+      "word_count": 21,
+      "is_table": true,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99",
+        "document_name": "sru_project_approval_form.docx",
+        "document_type": ".docx",
+        "department": null,
+        "program": null,
+        "academic_year": null,
+        "semester": "Semester VII",
+        "category": null,
+        "regulations": [],
+        "section_path": "",
+        "heading_hierarchy": [],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99",
+        "source_file": "sru_project_approval_form.docx",
+        "page_numbers": [],
+        "line_numbers": [],
+        "element_ids": [
+          "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_elem_0008"
+        ]
+      },
+      "table_metadata": {
+        "original_element_id": "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_elem_0008",
+        "split": false,
+        "num_rows": 1
+      }
+    }
+  ],
+  "total_chunks": 4,
+  "avg_token_count": 89.75,
+  "min_token_count": 14,
+  "max_token_count": 192,
+  "table_chunks_count": 2,
+  "duplicate_reports": [],
+  "generated_timestamp": "2026-10-06T15:05:12.573751+00:00"
+}

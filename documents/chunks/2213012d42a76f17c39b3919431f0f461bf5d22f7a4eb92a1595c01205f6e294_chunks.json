@@ -1,0 +1,68 @@
+{
+  "document_id": "2213012d42a76f17c39b3919431f0f461bf5d22f7a4eb92a1595c01205f6e294",
+  "chunks": [
+    {
+      "chunk_id": "2213012d42a76f17c39b3919431f0f461bf5d22f7a4eb92a1595c01205f6e294_chunk_0000",
+      "document_id": "2213012d42a76f17c39b3919431f0f461bf5d22f7a4eb92a1595c01205f6e294",
+      "chunk_index": 0,
+      "text": "SR University Special Academic Circular 2026-27\n\nDepartment of Computer Science and Artificial Intelligence\n\nDate of Notification: 15 October 2026\n\nSection 1: Quantum Computing Specialization Course\n\nCourse Code: 23QNT401T\n\nThe newly approved prerequisite for Quantum Computing is Advanced Linear Algebra with minimum grade B+.\n\nThe laboratory requirement requires attendance in 14 hands-on qiskit simulation sessions.",
+      "token_count": 64,
+      "char_count": 418,
+      "word_count": 54,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "2213012d42a76f17c39b3919431f0f461bf5d22f7a4eb92a1595c01205f6e294",
+        "document_name": "sru_quantum_circular_2026.txt",
+        "document_type": ".txt",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering",
+        "program": null,
+        "academic_year": "2026-27",
+        "semester": null,
+        "category": "department_notice",
+        "regulations": [],
+        "section_path": "",
+        "heading_hierarchy": [],
+        "chunk_course_codes": [
+          "23QNT401T"
+        ],
+        "chunk_dates": [
+          "15 October 2026"
+        ],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "2213012d42a76f17c39b3919431f0f461bf5d22f7a4eb92a1595c01205f6e294",
+        "source_file": "sru_quantum_circular_2026.txt",
+        "page_numbers": [],
+        "line_numbers": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        "element_ids": [
+          "2213012d42a76f17c39b3919431f0f461bf5d22f7a4eb92a1595c01205f6e294_elem_0001",
+          "2213012d42a76f17c39b3919431f0f461bf5d22f7a4eb92a1595c01205f6e294_elem_0002",
+          "2213012d42a76f17c39b3919431f0f461bf5d22f7a4eb92a1595c01205f6e294_elem_0003",
+          "2213012d42a76f17c39b3919431f0f461bf5d22f7a4eb92a1595c01205f6e294_elem_0004",
+          "2213012d42a76f17c39b3919431f0f461bf5d22f7a4eb92a1595c01205f6e294_elem_0005",
+          "2213012d42a76f17c39b3919431f0f461bf5d22f7a4eb92a1595c01205f6e294_elem_0006",
+          "2213012d42a76f17c39b3919431f0f461bf5d22f7a4eb92a1595c01205f6e294_elem_0007"
+        ]
+      },
+      "table_metadata": null
+    }
+  ],
+  "total_chunks": 1,
+  "avg_token_count": 64.0,
+  "min_token_count": 64,
+  "max_token_count": 64,
+  "table_chunks_count": 0,
+  "duplicate_reports": [],
+  "generated_timestamp": "2026-11-05T00:14:00.555410+00:00"
+}

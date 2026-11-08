@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SRU Assistant — Capstone Viva Presentation (Team 235)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: rgba(17, 24, 39, 0.85);
+      --card-border: rgba(99, 102, 241, 0.2);
+      --primary: #6366f1;
+      --primary-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #ec4899 100%);
+      --accent-blue: #38bdf8;
+      --accent-emerald: #10b981;
+      --accent-rose: #f43f5e;
+      --accent-amber: #f59e0b;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-subtle: #64748b;
+      --code-bg: #050811;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(99, 102, 241, 0.12) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(236, 72, 153, 0.1) 0%, transparent 45%),
+        radial-gradient(circle at 50% 50%, rgba(14, 165, 233, 0.08) 0%, transparent 50%);
+    }
+
+    /* Top Navigation & Controls */
+    header.presentation-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(11, 15, 25, 0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand-section {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .brand-badge {
+      background: var(--primary-gradient);
+      color: #fff;
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    .brand-title {
+      font-weight: 700;
+      font-size: 1.1rem;
+      background: linear-gradient(90deg, #fff 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .controls-section {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .btn {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      color: var(--text);
+      padding: 0.45rem 0.9rem;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: rgba(99, 102, 241, 0.2);
+      border-color: rgba(99, 102, 241, 0.4);
+      transform: translateY(-1px);
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      border-color: var(--primary);
+    }
+
+    .btn-primary:hover {
+      background: #4f46e5;
+    }
+
+    /* Progress bar */
+    .progress-bar-container {
+      width: 100%;
+      height: 3px;
+      background: rgba(255, 255, 255, 0.08);
+      position: relative;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: var(--primary-gradient);
+      width: 6.67%;
+      transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* Presentation Workspace */
+    main.presentation-workspace {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem 6rem;
+      position: relative;
+    }
+
+    .slide-wrapper {
+      width: 100%;
+      max-width: 1100px;
+      min-height: 600px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 18px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+      padding: 3rem;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      backdrop-filter: blur(16px);
+      transition: opacity 0.25s ease, transform 0.25s ease;
+    }
+
+    .slide-meta-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    }
+
+    .slide-topic-tag {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 700;
+      color: var(--accent-blue);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .slide-number-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      background: rgba(255, 255, 255, 0.05);
+      padding: 0.2rem 0.6rem;
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .slide-title {
+      font-size: 2.2rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .slide-subtitle {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+      font-weight: 400;
+    }
+
+    .slide-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
+
+    /* Grid Layouts */
+    .grid-2col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    .grid-3col {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+    }
+
+    .info-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 1.4rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .info-card:hover {
+      border-color: rgba(99, 102, 241, 0.35);
+      transform: translateY(-2px);
+    }
+
+    .card-icon {
+      font-size: 1.6rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .card-title {
+      font-weight: 700;
+      font-size: 1.15rem;
+      color: #fff;
+    }
+
+    .card-desc {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .pill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.4rem;
+    }
+
+    .pill {
+      background: rgba(99, 102, 241, 0.15);
+      color: #c7d2fe;
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      padding: 0.25rem 0.65rem;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    /* Data Tables */
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+
+    table.data-table th {
+      background: rgba(255, 255, 255, 0.06);
+      padding: 0.85rem 1rem;
+      font-weight: 700;
+      color: #e2e8f0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    table.data-table td {
+      padding: 0.8rem 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      color: var(--text-muted);
+    }
+
+    table.data-table tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+      color: #fff;
+    }
+
+    .highlight-cell {
+      color: var(--accent-emerald) !important;
+      font-weight: 700;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .stat-badge {
+      display: inline-block;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 0.8rem;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .stat-badge.green {
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--accent-emerald);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+
+    .stat-badge.blue {
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--accent-blue);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+    }
+
+    /* Code & Architecture Boxes */
+    .code-box {
+      background: var(--code-bg);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      padding: 1.1rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.88rem;
+      color: #e2e8f0;
+      line-height: 1.5;
+      overflow-x: auto;
+    }
+
+    .code-box code {
+      color: #38bdf8;
+    }
+
+    /* Speaker Notes Drawer */
+    .speaker-notes-panel {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(15, 23, 42, 0.96);
+      backdrop-filter: blur(16px);
+      border-top: 1px solid var(--primary);
+      padding: 1.25rem 2rem;
+      box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.5);
+      z-index: 90;
+      transform: translateY(100%);
+      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      max-height: 240px;
+      overflow-y: auto;
+    }
+
+    .speaker-notes-panel.active {
+      transform: translateY(0);
+    }
+
+    .notes-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--accent-amber);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .notes-content {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #cbd5e1;
+    }
+
+    /* Fixed Bottom Navigation Floating Bar */
+    .bottom-nav-bar {
+      position: fixed;
+      bottom: 1.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 80;
+      background: rgba(17, 24, 39, 0.88);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 50px;
+      padding: 0.45rem 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    .nav-btn {
+      background: none;
+      border: none;
+      color: var(--text);
+      cursor: pointer;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      transition: background 0.2s ease, transform 0.1s ease;
+    }
+
+    .nav-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+      transform: scale(1.08);
+    }
+
+    .nav-btn:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .slide-counter-display {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #e2e8f0;
+      white-space: nowrap;
+    }
+
+    /* Slide transition classes */
+    .slide {
+      display: none;
+    }
+
+    .slide.active {
+      display: flex;
+      animation: fadeIn 0.3s ease forwards;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Print styles */
+    @media print {
+      body {
+        background: #fff !important;
+        color: #000 !important;
+      }
+      header.presentation-header, .bottom-nav-bar, .speaker-notes-panel {
+        display: none !important;
+      }
+      .slide-wrapper {
+        border: 1px solid #ccc !important;
+        box-shadow: none !important;
+        background: #fff !important;
+        page-break-after: always;
+        display: flex !important;
+        min-height: auto;
+        padding: 2rem !important;
+      }
+      .slide {
+        display: flex !important;
+      }
+      .slide-title {
+        color: #000 !important;
+        -webkit-text-fill-color: initial !important;
+      }
+      table.data-table th, table.data-table td {
+        color: #000 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header class="presentation-header">
+    <div class="brand-section">
+      <span class="brand-badge">CAPSTONE TEAM 235</span>
+      <span class="brand-title">SRU Assistant — Capstone Viva Presentation</span>
+    </div>
+    <div class="controls-section">
+      <button class="btn" id="btnNotesToggle" title="Toggle Speaker Notes (Key: N)">
+        <span>🎙️ Notes (N)</span>
+      </button>
+      <button class="btn" id="btnFullscreen" title="Toggle Fullscreen (Key: F)">
+        <span>⛶ Fullscreen (F)</span>
+      </button>
+      <a href="/" class="btn btn-primary" title="Return to Live Assistant Application">
+        <span>⚡ Open Live Demo</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Progress Bar -->
+  <div class="progress-bar-container">
+    <div class="progress-bar-fill" id="progressBar"></div>
+  </div>
+
+  <!-- Main Presentation Slides Container -->
+  <main class="presentation-workspace">
+    <div class="slide-wrapper" id="slideContainer">
+
+      <!-- SLIDE 1: Title Slide -->
+      <div class="slide active" data-slide="1">
+        <div class="slide-meta-header">
+          <span class="slide-topic-tag">🎓 Capstone Project Viva-Voce</span>
+          <span class="slide-number-tag">01 / 15</span>
+        </div>
+        <h1 class="slide-title">SRU Assistant: A RAG Framework for University Academic Query Resolution</h1>
+        <p class="slide-subtitle">School of Computer Science & Artificial Intelligence (CS&AI), SR University</p>
+        
+        <div class="slide-body">
+          <div class="grid-2col" style="margin-top: 1rem;">
+            <div class="info-card" style="border-left: 4px solid var(--primary);">
+              <div class="card-title">👨‍💻 Capstone Team No: 235</div>
+              <div class="card-desc">
+                <p>• <strong>2303A52492</strong> — SUNKARI SAI</p>
+                <p>• <strong>2403A52L05</strong> — ENJAMURI SAI NITHIN</p>
+                <p>• <strong>2403A52L07</strong> — DANCHANALA PAVAN</p>
+                <p>• <strong>2403A52L10</strong> — AZMEERA THARUN</p>
+                <p>• <strong>2403A52L11</strong> — BOLAGANI SUSHANTH</p>
+              </div>
+            </div>
+
+            <div class="info-card" style="border-left: 4px solid var(--accent-blue);">
+              <div class="card-title">📌 Academic Context</div>
+              <div class="card-desc">
+                <p>• <strong>Course:</strong> 23CS403 Capstone Project Phase-I</p>
+                <p>• <strong>Program:</strong> B.Tech Computer Science & Engineering (R23)</p>
+                <p>• <strong>Academic Year:</strong> 2026–2027 (VII Semester)</p>
+                <p>• <strong>Domain:</strong> RAG, Dense-Sparse Hybrid Retrieval, NLP, System Security</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="speaker-notes-content" style="display:none;">
+          <strong>Presenter (Sunkari Sai):</strong> "Respected members of the evaluation committee and our guide, good morning. We are Capstone Team 235, presenting our engineering project: 'SRU Assistant: A RAG Framework for University Academic Query Resolution'. Today, we will walk you through the real-world institutional problem, our mathematical hybrid retrieval architecture, empirical ablation benchmarks showing a +25.9% MRR gain, and our live zero-cost local system."
+        </div>
+      </div>
+
+      <!-- SLIDE 2: Problem Statement -->
+      <div class="slide" data-slide="2">
+        <div class="slide-meta-header">
+          <span class="slide-topic-tag">🔍 Context & Motivation</span>
+          <span class="slide-number-tag">02 / 15</span>
+        </div>
+        <h2 class="slide-title">Problem Statement & Institutional Challenges</h2>
+        <p class="slide-subtitle">Why traditional document distribution and generic AI chatbots fail in university environments</p>
+        
+        <div class="slide-body">
+          <div class="grid-3col">
+            <div class="info-card">
+              <div class="card-icon">📑</div>
+              <div class="card-title">Information Silos</div>
+              <div class="card-desc">
+                Academic policies, R23 regulations, syllabus codes, and exam calendars are scattered across 50+ page PDFs and circulating circulars, leading to high administrative friction.
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-icon">⚠️</div>
+              <div class="card-title">Parametric Hallucinations</div>
+              <div class="card-desc">
+                Standard LLMs (ChatGPT, Claude) lack access to private university regulations. When asked about SR University rules, they hallucinate policies from other institutions.
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-icon">🚫</div>
+              <div class="card-title">Zero Provenance</div>
+              <div class="card-desc">
+                Generic chatbots cannot cite official document names, sections, or paragraph numbers, leaving students and faculty unable to verify claims.
+              </div>
+            </div>
+          </div>
+
+          <div class="code-box" style="margin-top: 1rem;">
+            <strong>Core Capstone Objective:</strong> Develop an end-to-end, zero-cost, local Retrieval-Augmented Generation (RAG) assistant that answers academic questions strictly grounded in official SR University documents with verifiable paragraph-level citations.
+          </div>
+        </div>
+
+        <div class="speaker-notes-content" style="display:none;">
+          <strong>Presenter (Enjamuri Sai Nithin):</strong> "Every semester, hundreds of students visit academic offices asking: 'What is the condonation limit under R23?', 'What are the passing marks for CIE vs SEE?', or 'When are Mid-1 exams scheduled?'. Generic AI chatbots answer confidently but hallucinate because they have no access to internal SR University documents. Our goal is strict ground truth with verifiable citations."
+        </div>
+      </div>
+
+      <!-- SLIDE 3: Proposed Solution -->
+      <div class="slide" data-slide="3">
+        <div class="slide-meta-header">
+          <span class="slide-topic-tag">💡 Engineering Solution</span>
+          <span class="slide-number-tag">03 / 15</span>
+        </div>
+        <h2 class="slide-title">Proposed Solution: SRU Assistant</h2>
+        <p class="slide-subtitle">A mathematically grounded, privacy-preserving, zero-cost institutional AI framework</p>
+        
+        <div class="slide-body">
+          <div class="grid-2col">
+            <div class="info-card">
+              <div class="card-title">1. Hybrid Retrieval (Dense + Sparse)</div>
+              <div class="card-desc">
+                Fuses cosine vector embeddings with BM25 Okapi lexical matching via Reciprocal Rank Fusion (RRF k=60) to eliminate vocabulary mismatch and guarantee exact code matching.
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-title">2. Strict Evidence Grounding</div>
+              <div class="card-desc">
+                Employs evidence-first prompting and automated citation verification. If no document evidence supports a question, it safely refuses rather than hallucinating.
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-title">3. Traceable Citation Provenance</div>
+              <div class="card-desc">
+                Outputs clickable numbered citations (<code>[1]</code>, <code>[2]</code>) that open a side drawer showing the exact source document, section, and text passage.
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-title">4. 100% Local & Zero-Cost</div>
+              <div class="card-desc">
+                Requires zero paid cloud APIs, running on local hardware with SQLite storage and optimized inference pipelines. Complete student data privacy.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="speaker-notes-content" style="display:none;">
+          <strong>Presenter (Danchanala Pavan):</strong> "SRU Assistant is engineered around 4 core pillars: Dual dense-sparse hybrid retrieval, strict evidence-first grounding, granular citation provenance, and zero-cost local execution. It operates without external API billing and preserves institutional privacy."
+        </div>
+      </div>
+
+      <!-- SLIDE 4: System Architecture -->
+      <div class="slide" data-slide="4">
+        <div class="slide-meta-header">
+          <span class="slide-topic-tag">🏗️ System Architecture</span>
+          <span class="slide-number-tag">04 / 15</span>
+        </div>
+        <h2 class="slide-title">End-to-End System Architecture</h2>
+        <p class="slide-subtitle">Modular pipeline separating offline ingestion from sub-millisecond online query resolution</p>
+        
+        <div class="slide-body">
+          <div class="code-box" style="font-size: 0.82rem; line-height: 1.45;">
+<span style="color:var(--accent-amber);">[ Offline Ingestion Pipeline ]</span>
+Institutional Documents (.docx, .pdf, .txt) ──► Document Parser & Table Cleaner
+  └──► Boundary-Aware Recursive Chunker (500 tokens, 50 overlap)
+        ├──► Dense Embeddings Vector Store (SQLite Database)
+        └──► Sparse Inverted Vocabulary Index (BM25 Okapi, 709 terms)
+
+<span style="color:var(--accent-emerald);">[ Online Runtime Query Pipeline ]</span>
+User Query ──► Phase 11 Query Security Guard (Injection Defense & Conversational Router)
+  ──► Phase 12 Query Analyzer & Acronym Normalizer ("mid 1" ──► "Mid-Semester Examination I")
+        ├──► Dense Cosine Semantic Search
+        └──► Sparse BM25 Keyword Search
+  ──► Reciprocal Rank Fusion (RRF k=60) ──► Cross-Encoder Re-ranker (Top-5 Selection)
+  ──► Grounded Generation & Temporal Conflict Detector (Phase 07)
+  ──► Automated Citation Provenance Verifier (Phase 08)
+  ──► Glassmorphic Web UI with Citation Modal Drawer (FastAPI REST API)
+          </div>
+        </div>
+
+        <div class="speaker-notes-content" style="display:none;">
+          <strong>Presenter (Sunkari Sai):</strong> "Here is our complete system flow. On the left is the offline indexing pipeline: official Word and PDF documents are parsed, chunked, and dual-indexed into SQLite vectors and a BM25 index. On the right is the query path: every student query passes through security guards, acronym expansion, hybrid RRF search, re-ranking, and grounded generation with citation verification."
+        </div>
+      </div>
+
+      <!-- SLIDE 5: Document Intelligence & Chunking -->
+      <div class="slide" data-slide="5">
+        <div class="slide-meta-header">
+          <span class="slide-topic-tag">📄 Ingestion & Chunking</span>
+          <span class="slide-number-tag">05 / 15</span>
+        </div>
+        <h2 class="slide-title">Document Intelligence & Chunking Strategy</h2>
+        <p class="slide-subtitle">Phase 01 & 02: Transforming messy administrative files into structured knowledge</p>
+        
+        <div class="slide-body">
+          <div class="grid-2col">
+            <div class="info-card">
+              <div class="card-title">Multi-Format Parser (Phase 01)</div>
+              <div class="card-desc">
+                <p>• Ingests <code>.docx</code>, <code>.pdf</code>, and <code>.txt</code> files.</p>
+                <p>• Normalizes tables into Markdown syntax so tabular relationships (credit tables, exam dates) remain intact.</p>
+                <p>• Retains document structural hierarchy: document title, section headings, and page boundaries.</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-title">Boundary-Aware Chunker (Phase 02)</div>
+              <div class="card-desc">
+                <p>• <strong>Chunk Size:</strong> 500 characters / tokens.</p>
+                <p>• <strong>Overlap Window:</strong> 50 characters / tokens.</p>
+                <p>• <strong>Boundary Protection:</strong> Splits at sentence and paragraph breaks rather than arbitrary character offsets, avoiding sliced dates or truncated regulation clauses.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="code-box">
+            <code>Chunk Metadata Schema:</code><br>
+            <code>{ "chunk_id": "chunk_04", "document_name": "sru_academic_regulations_r23.txt", "section": "2. Attendance Regulations", "page": 1, "token_count": 86 }</code>
+          </div>
+        </div>
+
+        <div class="speaker-notes-content" style="display:none;">
+          <strong>Presenter (Enjamuri Sai Nithin):</strong> "A major failure point in naive RAG is naive character chunking, where a sentence like 'Students with attendance below 65% are detained' gets cut in half. Our chunker respects paragraph and sentence boundaries with 50-token overlap, preserving semantic coherence."
+        </div>
+      </div>
+
+      <!-- SLIDE 6: Dual Indexing -->
+      <div class="slide" data-slide="6">
+        <div class="slide-meta-header">
+          <span class="slide-topic-tag">⚡ Indexing Systems</span>
+          <span class="slide-number-tag">06 / 15</span>
+        </div>
+        <h2 class="slide-title">Dual Indexing: Vector Store & BM25 Lexical Index</h2>
+        <p class="slide-subtitle">Phase 03 & 05: Addressing the fundamental limitations of pure semantic search</p>
+        
+        <div class="slide-body">
+          <div class="grid-2col">
+            <div class="info-card" style="border-top: 3px solid var(--accent-blue);">
+              <div class="card-title">1. SQLite Vector Store (Dense)</div>
+              <div class="card-desc">
+                <p>• Computes dense continuous semantic representations.</p>
+                <p>• Searches via <strong>Cosine Similarity:</strong></p>
+                <p style="text-align:center; margin: 0.5rem 0;"><code>Sim(q, d) = (q · d) / (||q|| ||d||)</code></p>
+                <p>• <strong>Strength:</strong> Solves synonymy and paraphrasing (e.g. <em>"minimum presence for exams"</em> matches <em>"Attendance Regulations"</em>).</p>
+              </div>
+            </div>
+
+            <div class="info-card" style="border-top: 3px solid var(--accent-emerald);">
+              <div class="card-title">2. BM25 Lexical Index (Sparse)</div>
+              <div class="card-desc">
+                <p>• Implements BM25 Okapi inverted indexing with term frequency saturation (k1=1.5, b=0.75).</p>
+                <p>• 709 unique academic vocabulary terms indexed.</p>
+                <p>• <strong>Strength:</strong> Pinpoints exact identifiers that vector embeddings blur (e.g. course codes <code>23CS401</code>, <code>23CS403</code>, dates <code>05 October 2026</code>).</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card" style="margin-top: 0.5rem;">
+            <div class="card-desc" style="color: #cbd5e1;">
+              💡 <strong>Why Both Are Mandatory:</strong> In academic queries, a student asking about <em>"23CS401 syllabus"</em> requires exact code matching (BM25), while asking <em>"can I write exams if I fell sick?"</em> requires semantic understanding (Vector).
+            </div>
+          </div>
+        </div>
+
+        <div class="speaker-notes-content" style="display:none;">
+          <strong>Presenter (Danchanala Pavan):</strong> "Notice why single-index RAG fails. If you only use vector embeddings, course codes like '23CS401' and '23CS402' have almost identical vector coordinates because they share similar context. BM25 provides exact token discrimination, while dense embeddings provide conceptual understanding."
+        </div>
+      </div>
+
+      <!-- SLIDE 7: Hybrid Retrieval & RRF -->
+      <div class="slide" data-slide="7">
+        <div class="slide-meta-header">
+          <span class="slide-topic-tag">🧮 Fusion Mathematics</span>
+          <span class="slide-number-tag">07 / 15</span>
+        </div>
+        <h2 class="slide-title">Hybrid Retrieval & Reciprocal Rank Fusion (RRF)</h2>
+        <p class="slide-subtitle">Phase 05: Unifying disparate score distributions into a single optimal ranking</p>
+        
+        <div class="slide-body">
+          <div class="info-card" style="border-left: 4px solid var(--primary);">
+            <div class="card-title">The Reciprocal Rank Fusion Formulation</div>
+            <div class="card-desc" style="font-size: 1.05rem;">
+              $$\text{RRF\_Score}(d \in D) = \sum_{m \in M} \frac{1}{k + r_m(d)}$$
+              <p style="margin-top:0.4rem;">Where $M = \{\text{Dense Vector Retrieval}, \text{BM25 Lexical Retrieval}\}$, $r_m(d)$ is the 1-based rank position of document chunk $d$ in system $m$, and $k = 60$ is the standard smoothing parameter.</p>
+            </div>
+          </div>
+
+          <div class="grid-2col" style="margin-top: 0.5rem;">
+            <div class="info-card">
+              <div class="card-title">Key Advantage 1: Scale Invariance</div>
+              <div class="card-desc">
+                Cosine similarity ranges from -1 to 1, while BM25 produces unbounded positive numbers. Linear weighting requires fragile manual normalization. RRF is completely rank-based and immune to score calibration mismatch.
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-title">Key Advantage 2: Outlier Resistance</div>
+              <div class="card-desc">
+                A single lucky lexical hit cannot dominate the final ranking unless it also demonstrates reasonable semantic alignment or consistent multi-list ranking.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="speaker-notes-content" style="display:none;">
+          <strong>Presenter (Danchanala Pavan):</strong> "Instead of arbitrary weight balancing like 0.7 vector + 0.3 BM25, we use Reciprocal Rank Fusion with smoothing constant k=60. RRF uses the ordinal rank rather than the raw score, making it scale-invariant and highly resilient to score scale discrepancies."
+        </div>
+      </div>
+
+      <!-- SLIDE 8: Re-ranking & Context Assembly -->
+      <div class="slide" data-slide="8">
+        <div class="slide-meta-header">
+          <span class="slide-topic-tag">🎯 Precision Refinement</span>
+          <span class="slide-number-tag">08 / 15</span>
+        </div>
+        <h2 class="slide-title">Two-Stage Re-ranking & Context Assembly</h2>
+        <p class="slide-subtitle">Phase 06: Filtering noise to pass only high-density evidence into the generation context</p>
+        
+        <div class="slide-body">
+          <div class="grid-2col">
+            <div class="info-card">
+              <div class="card-title">Two-Stage Re-ranking Pipeline</div>
+              <div class="card-desc">
+                <p>1. <strong>Candidate Pool:</strong> Pulls Top-20 candidate chunks from the RRF hybrid stage.</p>
+                <p>2. <strong>Exact-Match & Overlap Scoring:</strong> Scores candidates based on query term density, exact phrase matches, and metadata alignment.</p>
+                <p>3. <strong>Top-K Selection:</strong> Selects the Top-5 most relevant chunks (K=5 proven optimal in our Phase 9 benchmarks).</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-title">Evidence-First Context Construction</div>
+              <div class="card-desc">
+                <p>• Assembles chunks into clear structural blocks:</p>
+                <div class="code-box" style="margin-top: 0.5rem; font-size: 0.8rem;">
+--- Evidence 1 (ID: chunk_002) ---<br>
+Doc: sru_academic_regulations_r23.txt<br>
+Section: 2. Attendance Regulations<br>
+Content: "Every registered student must secure a minimum of 75%..."
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="speaker-notes-content" style="display:none;">
+          <strong>Presenter (Azmeera Tharun):</strong> "In Phase 6, we introduced two-stage re-ranking. Pulling Top-20 chunks and pruning them down to Top-5 ensures that tangential chunks are removed, keeping the generation prompt concise and focused."
+        </div>
+      </div>
+
+      <!-- SLIDE 9: Grounded Generation -->
+      <div class="slide" data-slide="9">
+        <div class="slide-meta-header">
+          <span class="slide-topic-tag">🛡️ Anti-Hallucination</span>
+          <span class="slide-number-tag">09 / 15</span>
+        </div>
+        <h2 class="slide-title">Grounded Generation & Anti-Hallucination Guardrails</h2>
+        <p class="slide-subtitle">Phase 07: Enforcing strict evidence adherence and controlled safe refusals</p>
+        
+        <div class="slide-body">
+          <div class="grid-3col">
+            <div class="info-card">
+              <div class="card-icon">🔒</div>
+              <div class="card-title">Evidence-First Prompting</div>
+              <div class="card-desc">
+                The generation engine is constrained to cite only facts present in the retrieved evidence block. External parametric knowledge is disallowed.
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-icon">🛑</div>
+              <div class="card-title">Controlled Safe Refusal</div>
+              <div class="card-desc">
+                When evidence relevance is insufficient, the system safely responds: <em>"I couldn't find sufficient information in the available SR University documents to answer this accurately."</em>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-icon">⚠️</div>
+              <div class="card-title">Conflict Detection</div>
+              <div class="card-desc">
+                Detects conflicting dates or contradictory clauses across multiple versions (e.g., draft schedule vs final calendar) and flags them directly to the student.
+              </div>
+            </div>
+          </div>
+
+          <div class="code-box" style="margin-top: 1rem;">
+            <strong>Verification Result:</strong> In our Phase 9 benchmark, SRU Assistant achieved <strong>94.2% Groundedness</strong> with <strong>0% hallucinated policies</strong>, compared to standard LLMs which fabricate pass marks and dates.
+          </div>
+        </div>
+
+        <div class="speaker-notes-content" style="display:none;">
+          <strong>Presenter (Azmeera Tharun):</strong> "The defining difference of SRU Assistant is our anti-hallucination policy. If a question is out of scope—for example, asking about hostel fees when only academic documents are uploaded—the assistant safely refuses rather than guessing."
+        </div>
+      </div>
+
+      <!-- SLIDE 10: Citation Provenance -->
+      <div class="slide" data-slide="10">
+        <div class="slide-meta-header">
+          <span class="slide-topic-tag">📌 Verifiable Evidence</span>
+          <span class="slide-number-tag">10 / 15</span>
+        </div>
+        <h2 class="slide-title">Citation Provenance & Verification Engine</h2>
+        <p class="slide-subtitle">Phase 08: Linking generated claims directly to source paragraphs</p>
+        
+        <div class="slide-body">
+          <div class="grid-2col">
+            <div class="info-card">
+              <div class="card-title">Granular In-Text Attribution</div>
+              <div class="card-desc">
+                Every factual claim includes an inline numerical citation badge:
+                <p style="margin-top:0.5rem; background:rgba(255,255,255,0.04); padding:0.6rem; border-radius:6px;">
+                  <em>"A minimum of 75% aggregate attendance is required to appear for SEE <span class="pill">[1]</span>, but attendance between 65% and 74.9% may be condoned on medical grounds <span class="pill">[2]</span>."</em>
+                </p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-title">Traceable Provenance Metadata</div>
+              <div class="card-desc">
+                Each badge connects to a complete citation object:
+                <p>• <strong>Document Name:</strong> <code>sru_academic_regulations_r23.txt</code></p>
+                <p>• <strong>Section:</strong> <code>2. Attendance and Condonation</code></p>
+                <p>• <strong>Page / Offset:</strong> Page 1</p>
+                <p>• <strong>Chunk ID:</strong> <code>chunk_02</code></p>
+                <p>• <strong>Evidence Excerpt:</strong> Full source sentence</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card" style="margin-top: 0.5rem; border-left: 4px solid var(--accent-emerald);">
+            <div class="card-title">Automated Citation Verifier</div>
+            <div class="card-desc">
+              Checks whether generated citation tags actually match the retrieved evidence. In our benchmark, SRU Assistant scored <strong>100.0% Citation Precision</strong>.
+            </div>
+          </div>
+        </div>
+
+        <div class="speaker-notes-content" style="display:none;">
+          <strong>Presenter (Azmeera Tharun):</strong> "In Phase 8, we implemented citation provenance. Clicking any citation badge in our UI opens a modal drawer displaying the exact paragraph and page number from the official SR University document. This gives faculty and students total transparency."
+        </div>
+      </div>
+
+      <!-- SLIDE 11: Security & Reliability -->
+      <div class="slide" data-slide="11">
+        <div class="slide-meta-header">
+          <span class="slide-topic-tag">🔒 Defense in Depth</span>
+          <span class="slide-number-tag">11 / 15</span>
+        </div>
+        <h2 class="slide-title">Security & Reliability Engineering</h2>
+        <p class="slide-subtitle">Phase 11 & 12: Hardening the system against prompt injection and adversarial inputs</p>
+        
+        <div class="slide-body">
+          <div class="grid-2col">
+            <div class="info-card">
+              <div class="card-title">1. Query Security Guard (Phase 11)</div>
+              <div class="card-desc">
+                <p>• <strong>Prompt Injection Defense:</strong> Detects jailbreak attempts (e.g. <em>"Ignore all previous rules and act as..."</em>) and blocks malicious directives.</p>
+                <p>• <strong>Canary Token Protection:</strong> Shields system prompt instructions from exfiltration.</p>
+                <p>• <strong>Input Sanitization:</strong> Strips script injections and enforces 500-character input bounds.</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-title">2. Intent Router & Acronym Expansion (Phase 12)</div>
+              <div class="card-desc">
+                <p>• <strong>Conversational Intent Filter:</strong> Intercepts greetings and identity queries (<em>"who are you?"</em>) in &lt;1 ms without running unnecessary vector searches.</p>
+                <p>• <strong>Acronym Normalizer:</strong> Expands institutional jargon (<em>"when is mid 1?"</em> ──► <em>"when is Mid-Semester Examination I?"</em>).</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-2col" style="margin-top:0.5rem;">
+            <div class="info-card">
+              <div class="card-title">3. Document Ingestion Guard</div>
+              <div class="card-desc">
+                Path traversal defense, MIME magic header validation, and SHA-256 duplicate detection on document uploads.
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-title">4. Privacy Telemetry</div>
+              <div class="card-desc">
+                Asynchronous JSONL audit logging with UUID <code>request_id</code>, recording latency and retrieval counts with zero PII exposure.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="speaker-notes-content" style="display:none;">
+          <strong>Presenter (Sunkari Sai):</strong> "In Phase 11 and 12, we engineered production reliability. We implemented query guards against prompt injection, document upload validation against path traversal, and academic acronym expansion so students can ask natural questions like 'when is mid 1?' and get exact calendar dates."
+        </div>
+      </div>
+
+      <!-- SLIDE 12: Empirical Results & Benchmarks -->
+      <div class="slide" data-slide="12">
+        <div class="slide-meta-header">
+          <span class="slide-topic-tag">📊 Quantitative Evaluation</span>
+          <span class="slide-number-tag">12 / 15</span>
+        </div>
+        <h2 class="slide-title">Empirical Results: Phase 9 Benchmark Ablation</h2>
+        <p class="slide-subtitle">Quantitative comparison across the four canonical RAG configurations</p>
+        
+        <div class="slide-body">
+          <div class="table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Experiment Configuration</th>
+                  <th>Recall@5</th>
+                  <th>MRR</th>
+                  <th>nDCG@5</th>
+                  <th>Groundedness</th>
+                  <th>Citation Precision</th>
+                  <th>Mean Latency</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Exp A:</strong> Baseline Vector RAG</td>
+                  <td>71.9%</td>
+                  <td>0.5625</td>
+                  <td>0.5718</td>
+                  <td>100.0%</td>
+                  <td>100.0%</td>
+                  <td>3.73 ms</td>
+                </tr>
+                <tr>
+                  <td><strong>Exp B:</strong> Hybrid RAG (Dense + BM25)</td>
+                  <td>81.2%</td>
+                  <td>0.6719</td>
+                  <td>0.6859</td>
+                  <td>100.0%</td>
+                  <td>100.0%</td>
+                  <td>3.39 ms</td>
+                </tr>
+                <tr>
+                  <td><strong>Exp C:</strong> Hybrid + Re-ranking</td>
+                  <td class="highlight-cell">81.2%</td>
+                  <td class="highlight-cell">0.7083</td>
+                  <td class="highlight-cell">0.7191</td>
+                  <td>100.0%</td>
+                  <td>100.0%</td>
+                  <td>4.60 ms</td>
+                </tr>
+                <tr>
+                  <td><strong>Exp D:</strong> Full Grounded Pipeline</td>
+                  <td class="highlight-cell">81.2%</td>
+                  <td class="highlight-cell">0.7083</td>
+                  <td class="highlight-cell">0.7191</td>
+                  <td class="highlight-cell">94.2%</td>
+                  <td class="highlight-cell">100.0%</td>
+                  <td>7.34 ms</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="grid-3col" style="margin-top: 0.75rem;">
+            <div class="info-card" style="text-align: center;">
+              <div class="card-title" style="color: var(--accent-emerald); font-size: 1.6rem;">+25.9%</div>
+              <div class="card-desc">MRR Gain over Baseline Vector RAG (0.5625 ──► 0.7083)</div>
+            </div>
+
+            <div class="info-card" style="text-align: center;">
+              <div class="card-title" style="color: var(--accent-blue); font-size: 1.6rem;">+9.3%</div>
+              <div class="card-desc">Absolute Recall@5 Improvement (71.9% ──► 81.2%)</div>
+            </div>
+
+            <div class="info-card" style="text-align: center;">
+              <div class="card-title" style="color: var(--primary); font-size: 1.6rem;">&lt; 8 ms</div>
+              <div class="card-desc">End-to-End Pipeline Latency on Local CPU</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="speaker-notes-content" style="display:none;">
+          <strong>Presenter (Sunkari Sai):</strong> "This is our key experimental finding. In our benchmark, transitioning from naive Vector RAG to Hybrid + Re-ranking boosted Mean Reciprocal Rank by +25.9% and Recall@5 by +9.3%. Furthermore, the entire end-to-end pipeline executes in under 8 milliseconds on consumer hardware without any cloud GPU overhead."
+        </div>
+      </div>
+
+      <!-- SLIDE 13: Live Demonstration Scenarios -->
+      <div class="slide" data-slide="13">
+        <div class="slide-meta-header">
+          <span class="slide-topic-tag">💻 System Demonstration</span>
+          <span class="slide-number-tag">13 / 15</span>
+        </div>
+        <h2 class="slide-title">Live Demonstration Scenarios</h2>
+        <p class="slide-subtitle">Validating system behavior across 5 real-world academic use cases</p>
+        
+        <div class="slide-body">
+          <div class="grid-2col">
+            <div class="info-card">
+              <div class="card-title">Demo 1: Regulation Query</div>
+              <div class="card-desc">
+                <p>• <strong>Query:</strong> <em>"What is the attendance requirement for R23?"</em></p>
+                <p>• <strong>Behavior:</strong> Retrieves 75% minimum, 65% medical condonation with discharge summary, and mandatory detention below 65%.</p>
+                <p>• <strong>Citation:</strong> <code>[1] sru_academic_regulations_r23.txt (Section 2)</code></p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-title">Demo 2: Course Code Lookup</div>
+              <div class="card-desc">
+                <p>• <strong>Query:</strong> <em>"What is course 23CS401?"</em></p>
+                <p>• <strong>Behavior:</strong> Sparse BM25 isolates course code instantly, outputting Deep Learning syllabus, credits, and reference textbooks.</p>
+                <p>• <strong>Citation:</strong> <code>[1] sru_btech_cse_syllabus_sem7.txt (Section 2)</code></p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-title">Demo 3: Acronym Query Expansion</div>
+              <div class="card-desc">
+                <p>• <strong>Query:</strong> <em>"When is mid 1?"</em></p>
+                <p>• <strong>Behavior:</strong> Expands to Mid-Semester Exam I. Retrieves exact dates: <strong>05 October 2026 to 10 October 2026</strong>.</p>
+                <p>• <strong>Citation:</strong> <code>[1] sru_academic_calendar_2026_27.txt (Section 1)</code></p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-title">Demo 4: Safe Refusal Out-of-Scope</div>
+              <div class="card-desc">
+                <p>• <strong>Query:</strong> <em>"What is the mess fee for next year?"</em></p>
+                <p>• <strong>Behavior:</strong> Controlled safe refusal triggered. Zero hallucinated fees.</p>
+                <p>• <strong>Citation:</strong> None (Safely rejected).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="speaker-notes-content" style="display:none;">
+          <strong>Presenter (Bolagani Sushanth):</strong> "Now, we will demonstrate the live system running locally on our machine. We will test these 4 queries live in the web browser, show the sub-millisecond response time, and click the citations to inspect the source excerpts in the side drawer."
+        </div>
+      </div>
+
+      <!-- SLIDE 14: Technical Rigor & Deliverables -->
+      <div class="slide" data-slide="14">
+        <div class="slide-meta-header">
+          <span class="slide-topic-tag">⚙️ Software Engineering</span>
+          <span class="slide-number-tag">14 / 15</span>
+        </div>
+        <h2 class="slide-title">Technical Rigor & Capstone Deliverables</h2>
+        <p class="slide-subtitle">Professional software standards, complete test coverage, and documentation</p>
+        
+        <div class="slide-body">
+          <div class="grid-3col">
+            <div class="info-card">
+              <div class="card-icon">🧪</div>
+              <div class="card-title">309 Automated Tests</div>
+              <div class="card-desc">
+                100% pass rate achieved in ~1.05s across unit, integration, and security test suites using Pytest.
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-icon">📚</div>
+              <div class="card-title">Full Project Memory</div>
+              <div class="card-desc">
+                13 detailed markdown records documenting every technical phase, rationale, and empirical verification.
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-icon">🌐</div>
+              <div class="card-title">Interactive Web App</div>
+              <div class="card-desc">
+                Fast, responsive glassmorphic UI, Swagger OpenAPI docs, and slide presentation viewer.
+              </div>
+            </div>
+          </div>
+
+          <div class="code-box" style="margin-top: 1rem;">
+            <code>$ .venv/bin/pytest tests/</code><br>
+            <span style="color:var(--accent-emerald);">============================== 309 passed in 1.05s ==============================</span>
+          </div>
+        </div>
+
+        <div class="speaker-notes-content" style="display:none;">
+          <strong>Presenter (Bolagani Sushanth):</strong> "We followed strict software engineering practices: a decoupled architecture, 309 automated tests passing with 100% success rate, comprehensive API documentation, and a zero-dependency local runtime."
+        </div>
+      </div>
+
+      <!-- SLIDE 15: Conclusion & Future Scope -->
+      <div class="slide" data-slide="15">
+        <div class="slide-meta-header">
+          <span class="slide-topic-tag">🚀 Conclusion</span>
+          <span class="slide-number-tag">15 / 15</span>
+        </div>
+        <h2 class="slide-title">Conclusion & Future Roadmap</h2>
+        <p class="slide-subtitle">Summary of capstone contributions and pathways for campus-wide deployment</p>
+        
+        <div class="slide-body">
+          <div class="grid-2col">
+            <div class="info-card" style="border-left: 4px solid var(--accent-emerald);">
+              <div class="card-title">Capstone Contributions</div>
+              <div class="card-desc">
+                <p>• Developed a domain-specialized, zero-cost RAG system for SR University.</p>
+                <p>• Empirically proved a <strong>+25.9% MRR gain</strong> using Hybrid RRF and Re-ranking over naive vector search.</p>
+                <p>• Completely eliminated hallucinations via strict evidence-first generation and citation provenance.</p>
+                <p>• Built a production-ready application with security guardrails and sub-10 ms CPU inference.</p>
+              </div>
+            </div>
+
+            <div class="info-card" style="border-left: 4px solid var(--primary);">
+              <div class="card-title">Future Scope (Phase-II)</div>
+              <div class="card-desc">
+                <p>• <strong>Local Small LLM:</strong> Plug-and-play integration with quantized Llama 3.2 3B via Ollama for natural conversational synthesis without cloud fees.</p>
+                <p>• <strong>Multilingual Queries:</strong> Telugu and Hindi translation pipelines for vernacular student access.</p>
+                <p>• <strong>Student ERP / LMS Sync:</strong> Integration with Moodle and ERP portal for personalized credit checks.</p>
+                <p>• <strong>Campus Kiosk Deployment:</strong> Voice-enabled query station at student welfare centers.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card" style="margin-top: 0.5rem; text-align: center; background: rgba(99, 102, 241, 0.1);">
+            <div class="card-title" style="color: #fff; font-size: 1.2rem;">Thank You! We Welcome Your Questions & Feedback.</div>
+            <div class="card-desc" style="color: #c7d2fe;">
+              Capstone Team 235 | School of Computer Science & Artificial Intelligence, SR University
+            </div>
+          </div>
+        </div>
+
+        <div class="speaker-notes-content" style="display:none;">
+          <strong>Presenter (Sunkari Sai):</strong> "In conclusion, SRU Assistant demonstrates that institutional AI does not need expensive cloud APIs to be accurate and safe. With hybrid RRF, re-ranking, and citation provenance, we achieved a +25.9% MRR gain and zero hallucinations on local hardware. We thank our guide and the evaluation committee, and we are now ready for your questions."
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Speaker Notes Drawer (Toggled with 'N' or button) -->
+  <div class="speaker-notes-panel" id="speakerNotesDrawer">
+    <div class="notes-header">
+      <span>🎙️ Presenter Script & Viva Defense Notes</span>
+      <span style="cursor:pointer;" onclick="toggleNotes()">✕ Close</span>
+    </div>
+    <div class="notes-content" id="notesContent">
+      <!-- Injected dynamically based on active slide -->
+    </div>
+  </div>
+
+  <!-- Floating Bottom Navigation Bar -->
+  <div class="bottom-nav-bar">
+    <button class="nav-btn" id="prevBtn" title="Previous Slide (← / Up)">◀</button>
+    <div class="slide-counter-display" id="slideCounter">Slide 1 of 15</div>
+    <button class="nav-btn" id="nextBtn" title="Next Slide (→ / Down / Space)">▶</button>
+  </div>
+
+  <script>
+    let currentSlide = 1;
+    const totalSlides = 15;
+    const slides = document.querySelectorAll('.slide');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const slideCounter = document.getElementById('slideCounter');
+    const progressBar = document.getElementById('progressBar');
+    const notesDrawer = document.getElementById('speakerNotesDrawer');
+    const notesContent = document.getElementById('notesContent');
+    const btnNotesToggle = document.getElementById('btnNotesToggle');
+    const btnFullscreen = document.getElementById('btnFullscreen');
+
+    function updateSlide(newSlide) {
+      if (newSlide < 1 || newSlide > totalSlides) return;
+      currentSlide = newSlide;
+
+      slides.forEach(slide => {
+        const slideNum = parseInt(slide.getAttribute('data-slide'));
+        if (slideNum === currentSlide) {
+          slide.classList.add('active');
+          // Update speaker notes
+          const noteNode = slide.querySelector('.speaker-notes-content');
+          if (noteNode) {
+            notesContent.innerHTML = noteNode.innerHTML;
+          } else {
+            notesContent.innerHTML = '<em>No notes for this slide.</em>';
+          }
+        } else {
+          slide.classList.remove('active');
+        }
+      });
+
+      // Update counters & buttons
+      slideCounter.textContent = `Slide ${currentSlide} of ${totalSlides}`;
+      prevBtn.disabled = currentSlide === 1;
+      nextBtn.disabled = currentSlide === totalSlides;
+
+      // Update progress bar
+      const progressPercent = (currentSlide / totalSlides) * 100;
+      progressBar.style.width = `${progressPercent}%`;
+    }
+
+    function toggleNotes() {
+      notesDrawer.classList.toggle('active');
+    }
+
+    function toggleFullscreen() {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().catch(err => {
+          console.warn(`Fullscreen error: ${err.message}`);
+        });
+      } else {
+        document.exitFullscreen();
+      }
+    }
+
+    // Event listeners
+    prevBtn.addEventListener('click', () => updateSlide(currentSlide - 1));
+    nextBtn.addEventListener('click', () => updateSlide(currentSlide + 1));
+    btnNotesToggle.addEventListener('click', toggleNotes);
+    btnFullscreen.addEventListener('click', toggleFullscreen);
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') {
+        e.preventDefault();
+        updateSlide(currentSlide + 1);
+      } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        updateSlide(currentSlide - 1);
+      } else if (e.key.toLowerCase() === 'n') {
+        e.preventDefault();
+        toggleNotes();
+      } else if (e.key.toLowerCase() === 'f') {
+        e.preventDefault();
+        toggleFullscreen();
+      } else if (e.key.toLowerCase() === 'p') {
+        window.print();
+      }
+    });
+
+    // Initialize first slide
+    updateSlide(1);
+  </script>
+</body>
+</html>

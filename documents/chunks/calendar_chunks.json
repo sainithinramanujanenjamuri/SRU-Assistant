@@ -1,0 +1,71 @@
+{
+  "document_id": "doc_calendar_2026_27",
+  "chunks": [
+    {
+      "chunk_id": "doc_calendar_2026_27_chunk_0000",
+      "document_id": "doc_calendar_2026_27",
+      "chunk_index": 0,
+      "text": "### Academic Calendar 2026-27\n\nCommencement of Classwork: 10 August 2026.\n\nMid-Semester Examination I: 12 September 2026 to 16 September 2026.\n\nMid-Semester Examination II: 10 November 2026 to 14 November 2026.",
+      "token_count": 44,
+      "char_count": 210,
+      "word_count": 30,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "doc_calendar_2026_27",
+        "document_name": "calendar.txt",
+        "document_type": ".txt",
+        "department": null,
+        "program": null,
+        "academic_year": "2026-27",
+        "semester": null,
+        "category": "academic_calendar",
+        "regulations": [],
+        "section_path": "Academic Calendar 2026-27",
+        "heading_hierarchy": [
+          "Academic Calendar 2026-27"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [
+          "10 August 2026",
+          "10 November 2026",
+          "10 November 2026 to 14 November 2026",
+          "12 September 2026",
+          "12 September 2026 to 16 September 2026",
+          "14 November 2026",
+          "16 September 2026"
+        ],
+        "chunk_regulations": [],
+        "chunk_examinations": [
+          "Mid-Semester Examination I",
+          "Mid-Semester Examination II"
+        ]
+      },
+      "provenance": {
+        "document_id": "doc_calendar_2026_27",
+        "source_file": "calendar.txt",
+        "page_numbers": [],
+        "line_numbers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "element_ids": [
+          "doc_calendar_2026_27_e1",
+          "doc_calendar_2026_27_e2",
+          "doc_calendar_2026_27_e3",
+          "doc_calendar_2026_27_e4"
+        ]
+      },
+      "table_metadata": null
+    }
+  ],
+  "total_chunks": 0,
+  "avg_token_count": 0.0,
+  "min_token_count": 0,
+  "max_token_count": 0,
+  "table_chunks_count": 0,
+  "duplicate_reports": [],
+  "generated_timestamp": "2026-09-16T09:22:11.453164+00:00"
+}

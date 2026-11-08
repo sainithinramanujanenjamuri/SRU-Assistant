@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRU Assistant — University Academic Query Resolution</title>
+    <meta name="description" content="A Grounded Retrieval-Augmented Generation (RAG) Framework for SR University Academic Inquiries">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Sidebar: Knowledge Base & Specs -->
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-logo">
+                    <span class="logo-shield">🎓</span>
+                </div>
+                <div class="brand-info">
+                    <h1>SRU Assistant</h1>
+                    <span class="badge-tag">Academic RAG v1.0</span>
+                </div>
+            </div>
+
+            <div class="status-card">
+                <div class="status-indicator">
+                    <span class="pulse-dot"></span>
+                    <span class="status-text" id="system-status">Connecting to RAG Core...</span>
+                </div>
+                <div class="metric-mini" id="system-metrics">
+                    <div class="metric-col">
+                        <span class="lbl">Engine</span>
+                        <span class="val" id="engine-val">Hybrid RRF</span>
+                    </div>
+                    <div class="metric-col">
+                        <span class="lbl">Chunks</span>
+                        <span class="val" id="chunks-val">—</span>
+                    </div>
+                    <div class="metric-col">
+                        <span class="lbl">Hallucination</span>
+                        <span class="val accent-green">0.0%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Retrieval Mode Selector -->
+            <div class="nav-section">
+                <h3>RETRIEVAL PIPELINE</h3>
+                <div class="mode-options">
+                    <label class="mode-btn active" data-mode="enhanced">
+                        <input type="radio" name="mode" value="enhanced" checked>
+                        <span class="mode-title">⚡ Enhanced RAG</span>
+                        <span class="mode-desc">Hybrid (Dense + BM25) + Re-rank</span>
+                    </label>
+                    <label class="mode-btn" data-mode="hybrid">
+                        <input type="radio" name="mode" value="hybrid">
+                        <span class="mode-title">🔄 Hybrid RAG</span>
+                        <span class="mode-desc">Reciprocal Rank Fusion</span>
+                    </label>
+                    <label class="mode-btn" data-mode="dense">
+                        <input type="radio" name="mode" value="dense">
+                        <span class="mode-title">🧠 Dense Vector</span>
+                        <span class="mode-desc">Semantic embeddings only</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Institutional Document Repository -->
+            <div class="nav-section flex-grow">
+                <div class="section-header">
+                    <h3>INDEXED DOCUMENTS</h3>
+                    <span class="doc-count" id="doc-count">0</span>
+                </div>
+                <div class="upload-box-wrapper" style="margin-bottom: 0.75rem;">
+                    <input type="file" id="doc-upload-input" accept=".pdf,.docx,.txt" style="display: none;">
+                    <button type="button" id="upload-trigger-btn" class="btn-ghost" style="width: 100%; justify-content: center; gap: 0.5rem; font-size: 0.8rem; padding: 0.45rem; border: 1px dashed var(--border-color); border-radius: var(--radius-sm);">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                        Upload Official Document
+                    </button>
+                    <div id="upload-status" style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.35rem; display: none; text-align: center;"></div>
+                </div>
+                <div class="document-list" id="document-list">
+                    <div class="loading-shimmer">Scanning indices...</div>
+                </div>
+            </div>
+
+            <!-- Footer / Capstone Team Info -->
+            <div class="sidebar-footer">
+                <div class="team-tag">Capstone Project Team 235</div>
+                <div class="school-tag">School of CS & AI • SR University</div>
+            </div>
+        </aside>
+
+        <!-- Main Chat & Resolution Canvas -->
+        <main class="chat-viewport">
+            <header class="chat-header">
+                <div class="header-details">
+                    <h2>Academic Query Resolution</h2>
+                    <p class="subtitle">Strictly grounded in official SR University syllabi, calendars & regulations.</p>
+                </div>
+                <div class="header-actions">
+                    <a href="/presentation.html" target="_blank" class="btn-ghost" style="color: #818cf8; font-weight: 600; border-color: rgba(99, 102, 241, 0.4);" title="Open Capstone Viva Presentation Slides">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                        Viva Slides
+                    </a>
+                    <button id="clear-btn" class="btn-ghost" title="Clear conversation">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        Clear
+                    </button>
+                    <a href="/docs" target="_blank" class="btn-ghost" title="FastAPI Swagger Documentation">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                        API Docs
+                    </a>
+                </div>
+            </header>
+
+            <!-- Chat Stream -->
+            <div class="messages-container" id="messages-container">
+                <!-- Welcome Card -->
+                <div class="welcome-card" id="welcome-card">
+                    <div class="welcome-hero">
+                        <div class="hero-badge">Verified Institutional Knowledge</div>
+                        <h2>Ask any academic question</h2>
+                        <p>SRU Assistant retrieves official institutional evidence and synthesizes answers accompanied by verifiable document citations.</p>
+                    </div>
+
+                    <div class="sample-queries-grid">
+                        <button class="sample-btn" data-query="What is the minimum attendance requirement and condonation criteria under R23 regulations?">
+                            <span class="icon">⚖️</span>
+                            <div class="btn-text">
+                                <strong>R23 Regulations</strong>
+                                <span>Attendance and condonation thresholds</span>
+                            </div>
+                        </button>
+                        <button class="sample-btn" data-query="What is the course code and credits for Deep Learning in Semester VII?">
+                            <span class="icon">📘</span>
+                            <div class="btn-text">
+                                <strong>Curriculum & Credits</strong>
+                                <span>Semester VII courses & syllabi</span>
+                            </div>
+                        </button>
+                        <button class="sample-btn" data-query="What are the details of Capstone Project Team 235?">
+                            <span class="icon">🎓</span>
+                            <div class="btn-text">
+                                <strong>Capstone Project</strong>
+                                <span>Team 235 title & approval details</span>
+                            </div>
+                        </button>
+                        <button class="sample-btn" data-query="When is Mid-Semester Examination I scheduled for 2026-27?">
+                            <span class="icon">📅</span>
+                            <div class="btn-text">
+                                <strong>Academic Calendar</strong>
+                                <span>Examination schedules & holidays</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Bar -->
+            <footer class="input-area">
+                <form id="query-form" class="input-form">
+                    <div class="input-wrapper">
+                        <input 
+                            type="text" 
+                            id="query-input" 
+                            placeholder="Ask an academic question (e.g. syllabus topics, examination dates, regulations)..." 
+                            autocomplete="off"
+                            required
+                        >
+                        <button type="submit" id="send-btn" class="send-button" aria-label="Send Query">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="input-footer-hints">
+                        <span>💡 "Retrieve first. Generate second. Cite the evidence."</span>
+                        <span class="pipeline-tag" id="current-pipeline-tag">Mode: Enhanced (RRF + Rerank)</span>
+                    </div>
+                </form>
+            </footer>
+        </main>
+
+        <!-- Citation Evidence Drawer Modal -->
+        <div class="modal-backdrop" id="modal-backdrop">
+            <div class="modal-card" id="modal-card">
+                <div class="modal-header">
+                    <div class="modal-title-group">
+                        <span class="modal-badge" id="modal-cite-id">Citation [1]</span>
+                        <h3 id="modal-doc-title">Document Source</h3>
+                    </div>
+                    <button class="modal-close" id="modal-close">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="meta-pills">
+                        <span class="pill" id="modal-page">Page: p. 1</span>
+                        <span class="pill" id="modal-section">Section: General</span>
+                        <span class="pill pill-green" id="modal-score">100% Verified</span>
+                    </div>
+
+                    <div class="modal-claim-box">
+                        <div class="subhead">CLAIM SUPPORTED IN ANSWER</div>
+                        <p id="modal-claim-text">—</p>
+                    </div>
+
+                    <div class="modal-evidence-box">
+                        <div class="subhead">OFFICIAL RETRIEVED TEXT PASSAGE</div>
+                        <div class="evidence-quote" id="modal-passage-text">—</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

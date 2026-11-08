@@ -1,0 +1,324 @@
+{
+  "document_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b",
+  "chunks": [
+    {
+      "chunk_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+      "document_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b",
+      "chunk_index": 0,
+      "text": "### SR UNIVERSITY\n\n### SCHOOL OF COMPUTER SCIENCE & ARTIFICIAL INTELLIGENCE\n\n### B.TECH COMPUTER SCIENCE & ENGINEERING - SEMESTER VII (R23)\n\n### 1. Course Structure: Semester VII\n\nThe seventh semester of B.Tech CSE comprises core courses, professional electives, and capstone project work:\n\n- Course 23CS401: Deep Learning & Neural Architectures (Credits: 3 | L-T-P: 3-0-0)\n\n- Course 23CS402: Cloud Computing & Distributed Systems (Credits: 3 | L-T-P: 3-0-0)\n\n- Course 23CS403: Capstone Project Phase-I (Credits: 4 | L-T-P: 0-0-8)\n\n- Course 23CS411: Professional Elective V - Natural Language Processing & RAG Systems (Credits: 3 | L-T-P: 3-0-0)",
+      "token_count": 170,
+      "char_count": 645,
+      "word_count": 97,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b",
+        "document_name": "sru_btech_cse_syllabus_sem7.txt",
+        "document_type": ".txt",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester VII",
+        "category": "syllabus",
+        "regulations": [
+          "R23"
+        ],
+        "section_path": "B.TECH COMPUTER SCIENCE & ENGINEERING - SEMESTER VII (R23) > 1. Course Structure: Semester VII",
+        "heading_hierarchy": [
+          "B.TECH COMPUTER SCIENCE & ENGINEERING - SEMESTER VII (R23)",
+          "1. Course Structure: Semester VII"
+        ],
+        "chunk_course_codes": [
+          "23CS401",
+          "23CS402",
+          "23CS403",
+          "23CS411"
+        ],
+        "chunk_dates": [],
+        "chunk_regulations": [
+          "R23"
+        ],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b",
+        "source_file": "sru_btech_cse_syllabus_sem7.txt",
+        "page_numbers": [],
+        "line_numbers": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "element_ids": [
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0001",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0002",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0003",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0004",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0005",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0006",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0007",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0008",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0009"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0001",
+      "document_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b",
+      "chunk_index": 1,
+      "text": "### 2. Detailed Course Syllabi\n\n### 23CS401: Deep Learning & Neural Architectures\n\n- Unit I: Feedforward Neural Networks, Gradient Descent, Backpropagation, Optimization Algorithms (Adam, RMSProp).\n\n- Unit II: Convolutional Neural Networks (CNNs), ResNet, Object Detection architectures.\n\n- Unit III: Recurrent Neural Networks (RNNs), LSTMs, GRUs, Sequence-to-Sequence models.\n\n- Unit IV: Attention Mechanisms, Transformer Architecture, Self-Attention, Multi-Head Attention, Vision Transformers.\n\n- Unit V: Generative Models: Autoencoders, VAEs, GANs, Diffusion Models.\n\nTextbooks:\n\n1. Ian Goodfellow, Yoshua Bengio, Aaron Courville, \"Deep Learning\", MIT Press.",
+      "token_count": 137,
+      "char_count": 661,
+      "word_count": 81,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b",
+        "document_name": "sru_btech_cse_syllabus_sem7.txt",
+        "document_type": ".txt",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester VII",
+        "category": "syllabus",
+        "regulations": [
+          "R23"
+        ],
+        "section_path": "B.TECH COMPUTER SCIENCE & ENGINEERING - SEMESTER VII (R23) > 2. Detailed Course Syllabi > 23CS401: Deep Learning & Neural Architectures",
+        "heading_hierarchy": [
+          "B.TECH COMPUTER SCIENCE & ENGINEERING - SEMESTER VII (R23)",
+          "2. Detailed Course Syllabi",
+          "23CS401: Deep Learning & Neural Architectures"
+        ],
+        "chunk_course_codes": [
+          "23CS401"
+        ],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b",
+        "source_file": "sru_btech_cse_syllabus_sem7.txt",
+        "page_numbers": [],
+        "line_numbers": [
+          12,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "element_ids": [
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0010",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0011",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0012",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0013",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0014",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0015",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0016",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0017",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0018"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0002",
+      "document_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b",
+      "chunk_index": 2,
+      "text": "### 23CS402: Cloud Computing & Distributed Systems\n\n- Unit I: Virtualization and Containerization, Hypervisors, Docker container architecture.\n\n- Unit II: Cloud Service Models (IaaS, PaaS, SaaS), Deployment Models (Public, Private, Hybrid).\n\n- Unit III: Cloud Infrastructure Orchestration: Kubernetes, Pods, Services, Deployments.\n\n- Unit IV: Serverless Computing, Microservices architecture, API Gateways, Load Balancing.\n\n- Unit V: Cloud Security, IAM policies, Encryption at rest and in transit, Disaster Recovery.",
+      "token_count": 101,
+      "char_count": 517,
+      "word_count": 67,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b",
+        "document_name": "sru_btech_cse_syllabus_sem7.txt",
+        "document_type": ".txt",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester VII",
+        "category": "syllabus",
+        "regulations": [
+          "R23"
+        ],
+        "section_path": "B.TECH COMPUTER SCIENCE & ENGINEERING - SEMESTER VII (R23) > 2. Detailed Course Syllabi > 23CS402: Cloud Computing & Distributed Systems",
+        "heading_hierarchy": [
+          "B.TECH COMPUTER SCIENCE & ENGINEERING - SEMESTER VII (R23)",
+          "2. Detailed Course Syllabi",
+          "23CS402: Cloud Computing & Distributed Systems"
+        ],
+        "chunk_course_codes": [
+          "23CS402"
+        ],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b",
+        "source_file": "sru_btech_cse_syllabus_sem7.txt",
+        "page_numbers": [],
+        "line_numbers": [
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "element_ids": [
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0019",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0020",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0021",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0022",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0023",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0024"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0003",
+      "document_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b",
+      "chunk_index": 3,
+      "text": "### 23CS403: Capstone Project Phase-I\n\n- Objective: Formulate, design, and execute an original engineering project addressing real-world institutional or industry challenges.\n\n- Deliverables:\n\n1. Title and Abstract Approval (Submission Form signed by Project Guide).\n\n2. Literature Review and Feasibility Analysis.\n\n3. System Architecture and Component Specifications.\n\n4. Working Prototype and Evaluation Benchmark.\n\n- Team Allocation: Team 235 - Project Title: \"SRU Assistant: A RAG Framework for University Academic Query Resolution\".\n\n- Evaluation: Guide Evaluation (30 Marks), Department Evaluation Committee Review (30 Marks), End-Semester Viva-Voce (40 Marks). Total: 100 Marks.",
+      "token_count": 133,
+      "char_count": 685,
+      "word_count": 89,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b",
+        "document_name": "sru_btech_cse_syllabus_sem7.txt",
+        "document_type": ".txt",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester VII",
+        "category": "syllabus",
+        "regulations": [
+          "R23"
+        ],
+        "section_path": "B.TECH COMPUTER SCIENCE & ENGINEERING - SEMESTER VII (R23) > 2. Detailed Course Syllabi > 23CS403: Capstone Project Phase-I",
+        "heading_hierarchy": [
+          "B.TECH COMPUTER SCIENCE & ENGINEERING - SEMESTER VII (R23)",
+          "2. Detailed Course Syllabi",
+          "23CS403: Capstone Project Phase-I"
+        ],
+        "chunk_course_codes": [
+          "23CS403"
+        ],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b",
+        "source_file": "sru_btech_cse_syllabus_sem7.txt",
+        "page_numbers": [],
+        "line_numbers": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "element_ids": [
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0025",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0026",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0027",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0028",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0029",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0030",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0031",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0032",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0033"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0004",
+      "document_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b",
+      "chunk_index": 4,
+      "text": "### 23CS411: Natural Language Processing & RAG Systems\n\n- Unit I: Text Representation, Tokenization, TF-IDF, Word2Vec, GloVe, Subword Tokenization.\n\n- Unit II: Transformer-based Language Models, BERT, RoBERTa, GPT models, Fine-tuning strategies.\n\n- Unit III: Dense Passage Retrieval, Vector Databases, SQLite, FAISS, Cosine Similarity, Approximate Nearest Neighbors.\n\n- Unit IV: Retrieval Augmented Generation (RAG): Dense and Lexical Retrieval, BM25, Reciprocal Rank Fusion (RRF), Cross-Encoder Re-ranking.\n\n- Unit V: Grounded Generation, Hallucination Prevention, Citation Construction, Evaluation Metrics (Faithfulness, Answer Relevance).",
+      "token_count": 129,
+      "char_count": 641,
+      "word_count": 78,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b",
+        "document_name": "sru_btech_cse_syllabus_sem7.txt",
+        "document_type": ".txt",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester VII",
+        "category": "syllabus",
+        "regulations": [
+          "R23"
+        ],
+        "section_path": "B.TECH COMPUTER SCIENCE & ENGINEERING - SEMESTER VII (R23) > 2. Detailed Course Syllabi > 23CS411: Natural Language Processing & RAG Systems",
+        "heading_hierarchy": [
+          "B.TECH COMPUTER SCIENCE & ENGINEERING - SEMESTER VII (R23)",
+          "2. Detailed Course Syllabi",
+          "23CS411: Natural Language Processing & RAG Systems"
+        ],
+        "chunk_course_codes": [
+          "23CS411"
+        ],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b",
+        "source_file": "sru_btech_cse_syllabus_sem7.txt",
+        "page_numbers": [],
+        "line_numbers": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45
+        ],
+        "element_ids": [
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0034",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0035",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0036",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0037",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0038",
+          "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_elem_0039"
+        ]
+      },
+      "table_metadata": null
+    }
+  ],
+  "total_chunks": 5,
+  "avg_token_count": 134.0,
+  "min_token_count": 101,
+  "max_token_count": 170,
+  "table_chunks_count": 0,
+  "duplicate_reports": [],
+  "generated_timestamp": "2026-10-06T15:05:12.575784+00:00"
+}

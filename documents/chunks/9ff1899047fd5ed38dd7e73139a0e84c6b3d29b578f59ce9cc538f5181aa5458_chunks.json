@@ -1,0 +1,239 @@
+{
+  "document_id": "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458",
+  "chunks": [
+    {
+      "chunk_id": "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000",
+      "document_id": "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458",
+      "chunk_index": 0,
+      "text": "### SR UNIVERSITY\n\n### ACADEMIC CALENDAR FOR ACADEMIC YEAR 2026-27\n\n### B.Tech VII & VIII Semesters (Fourth Year)\n\n### 1. VII Semester (Odd Semester) Schedule\n\n- Commencement of Classwork: 10 August 2026\n\n- First Spell of Instructions: 10 August 2026 to 03 October 2026 (8 Weeks)\n\n- Mid-Semester Examination I: 05 October 2026 to 10 October 2026 (1 Week)\n\n- Second Spell of Instructions: 12 October 2026 to 28 November 2026 (7 Weeks)\n\n- Mid-Semester Examination II: 30 November 2026 to 05 December 2026 (1 Week)\n\n- Practical Examinations and Preparation Holidays: 07 December 2026 to 15 December 2026\n\n- Semester End Theory Examinations (SEE): 16 December 2026 to 30 December 2026\n\n- Semester Break / Winter Vacation: 31 December 2026 to 17 January 2027",
+      "token_count": 164,
+      "char_count": 753,
+      "word_count": 125,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458",
+        "document_name": "sru_academic_calendar_2026_27.txt",
+        "document_type": ".txt",
+        "department": null,
+        "program": "B.Tech",
+        "academic_year": "2026-27",
+        "semester": "Even Semester",
+        "category": "academic_calendar",
+        "regulations": [],
+        "section_path": "B.Tech VII & VIII Semesters (Fourth Year) > 1. VII Semester (Odd Semester) Schedule",
+        "heading_hierarchy": [
+          "B.Tech VII & VIII Semesters (Fourth Year)",
+          "1. VII Semester (Odd Semester) Schedule"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [
+          "03 October 2026",
+          "05 December 2026",
+          "05 October 2026",
+          "05 October 2026 to 10 October 2026",
+          "07 December 2026",
+          "07 December 2026 to 15 December 2026",
+          "10 August 2026",
+          "10 August 2026 to 03 October 2026",
+          "10 October 2026",
+          "12 October 2026",
+          "12 October 2026 to 28 November 2026",
+          "15 December 2026",
+          "16 December 2026",
+          "16 December 2026 to 30 December 2026",
+          "17 January 2027",
+          "28 November 2026",
+          "30 December 2026",
+          "30 November 2026",
+          "30 November 2026 to 05 December 2026",
+          "31 December 2026",
+          "31 December 2026 to 17 January 2027"
+        ],
+        "chunk_regulations": [],
+        "chunk_examinations": [
+          "Mid-Semester Examination I",
+          "Mid-Semester Examination II",
+          "Practical Examinations"
+        ]
+      },
+      "provenance": {
+        "document_id": "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458",
+        "source_file": "sru_academic_calendar_2026_27.txt",
+        "page_numbers": [],
+        "line_numbers": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "element_ids": [
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0001",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0002",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0003",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0004",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0005",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0006",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0007",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0008",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0009",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0010",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0011",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0012"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0001",
+      "document_id": "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458",
+      "chunk_index": 1,
+      "text": "### 2. VIII Semester (Even Semester) Schedule\n\n- Commencement of Classwork: 18 January 2027\n\n- First Spell of Instructions: 18 January 2027 to 13 March 2027\n\n- Mid-Semester Examination I: 15 March 2027 to 20 March 2027\n\n- Second Spell of Instructions: 22 March 2027 to 08 May 2027\n\n- Mid-Semester Examination II: 10 May 2027 to 15 May 2027\n\n- Project Viva-Voce and End Semester Examinations: 17 May 2027 to 31 May 2027\n\n- Announcement of Final Results: 10 June 2027",
+      "token_count": 100,
+      "char_count": 465,
+      "word_count": 82,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458",
+        "document_name": "sru_academic_calendar_2026_27.txt",
+        "document_type": ".txt",
+        "department": null,
+        "program": "B.Tech",
+        "academic_year": "2026-27",
+        "semester": "Even Semester",
+        "category": "academic_calendar",
+        "regulations": [],
+        "section_path": "B.Tech VII & VIII Semesters (Fourth Year) > 2. VIII Semester (Even Semester) Schedule",
+        "heading_hierarchy": [
+          "B.Tech VII & VIII Semesters (Fourth Year)",
+          "2. VIII Semester (Even Semester) Schedule"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [
+          "08 May 2027",
+          "10 June 2027",
+          "10 May 2027",
+          "10 May 2027 to 15 May 2027",
+          "13 March 2027",
+          "15 March 2027",
+          "15 March 2027 to 20 March 2027",
+          "15 May 2027",
+          "17 May 2027",
+          "17 May 2027 to 31 May 2027",
+          "18 January 2027",
+          "18 January 2027 to 13 March 2027",
+          "20 March 2027",
+          "22 March 2027",
+          "22 March 2027 to 08 May 2027",
+          "31 May 2027"
+        ],
+        "chunk_regulations": [],
+        "chunk_examinations": [
+          "End Semester Examinations",
+          "Mid-Semester Examination I",
+          "Mid-Semester Examination II"
+        ]
+      },
+      "provenance": {
+        "document_id": "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458",
+        "source_file": "sru_academic_calendar_2026_27.txt",
+        "page_numbers": [],
+        "line_numbers": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ],
+        "element_ids": [
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0013",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0014",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0015",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0016",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0017",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0018",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0019",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0020"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0002",
+      "document_id": "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458",
+      "chunk_index": 2,
+      "text": "### 3. Important Deadlines\n\n- Last date for adding/dropping courses: 22 August 2026\n\n- Last date for payment of Semester End Exam Fees: 15 November 2026\n\n- Capstone Project Phase-I Interim Review (Team 235): 20 October 2026\n\n- Capstone Project Phase-I Final Evaluation: 12 December 2026",
+      "token_count": 61,
+      "char_count": 286,
+      "word_count": 46,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458",
+        "document_name": "sru_academic_calendar_2026_27.txt",
+        "document_type": ".txt",
+        "department": null,
+        "program": "B.Tech",
+        "academic_year": "2026-27",
+        "semester": "Even Semester",
+        "category": "academic_calendar",
+        "regulations": [],
+        "section_path": "B.Tech VII & VIII Semesters (Fourth Year) > 3. Important Deadlines",
+        "heading_hierarchy": [
+          "B.Tech VII & VIII Semesters (Fourth Year)",
+          "3. Important Deadlines"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [
+          "12 December 2026",
+          "15 November 2026",
+          "20 October 2026",
+          "22 August 2026"
+        ],
+        "chunk_regulations": [],
+        "chunk_examinations": [
+          "End Semester Examinations"
+        ]
+      },
+      "provenance": {
+        "document_id": "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458",
+        "source_file": "sru_academic_calendar_2026_27.txt",
+        "page_numbers": [],
+        "line_numbers": [
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "element_ids": [
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0021",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0022",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0023",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0024",
+          "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_elem_0025"
+        ]
+      },
+      "table_metadata": null
+    }
+  ],
+  "total_chunks": 3,
+  "avg_token_count": 108.33,
+  "min_token_count": 61,
+  "max_token_count": 164,
+  "table_chunks_count": 0,
+  "duplicate_reports": [],
+  "generated_timestamp": "2026-11-05T00:11:31.375182+00:00"
+}

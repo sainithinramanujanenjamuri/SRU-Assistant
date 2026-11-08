@@ -1,0 +1,106 @@
+{
+  "document_id": "doc_syllabus_23cse302t",
+  "chunks": [
+    {
+      "chunk_id": "doc_syllabus_23cse302t_chunk_0000",
+      "document_id": "doc_syllabus_23cse302t",
+      "chunk_index": 0,
+      "text": "### Course Overview\n\nThis course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.",
+      "token_count": 23,
+      "char_count": 132,
+      "word_count": 18,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "doc_syllabus_23cse302t",
+        "document_name": "syllabus.pdf",
+        "document_type": ".pdf",
+        "department": "Computer Science and Engineering",
+        "program": "B.Tech",
+        "academic_year": "2026-27",
+        "semester": "Semester VII",
+        "category": "syllabus",
+        "regulations": [
+          "R23"
+        ],
+        "section_path": "Course Overview",
+        "heading_hierarchy": [
+          "Course Overview"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [
+          "R23"
+        ],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "doc_syllabus_23cse302t",
+        "source_file": "syllabus.pdf",
+        "page_numbers": [
+          1
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "doc_syllabus_23cse302t_e1",
+          "doc_syllabus_23cse302t_e2"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "doc_syllabus_23cse302t_chunk_0001",
+      "document_id": "doc_syllabus_23cse302t",
+      "chunk_index": 1,
+      "text": "### Learning Objectives\n\nStudents will learn tree traversals, graph algorithms, and asymptotic complexity analysis for course 23CSE302T.",
+      "token_count": 22,
+      "char_count": 136,
+      "word_count": 17,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "doc_syllabus_23cse302t",
+        "document_name": "syllabus.pdf",
+        "document_type": ".pdf",
+        "department": "Computer Science and Engineering",
+        "program": "B.Tech",
+        "academic_year": "2026-27",
+        "semester": "Semester VII",
+        "category": "syllabus",
+        "regulations": [
+          "R23"
+        ],
+        "section_path": "Learning Objectives",
+        "heading_hierarchy": [
+          "Learning Objectives"
+        ],
+        "chunk_course_codes": [
+          "23CSE302T"
+        ],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "doc_syllabus_23cse302t",
+        "source_file": "syllabus.pdf",
+        "page_numbers": [
+          1
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "doc_syllabus_23cse302t_e3",
+          "doc_syllabus_23cse302t_e4"
+        ]
+      },
+      "table_metadata": null
+    }
+  ],
+  "total_chunks": 0,
+  "avg_token_count": 0.0,
+  "min_token_count": 0,
+  "max_token_count": 0,
+  "table_chunks_count": 0,
+  "duplicate_reports": [],
+  "generated_timestamp": "2026-09-16T09:22:11.453164+00:00"
+}
