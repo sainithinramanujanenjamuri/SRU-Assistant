@@ -4,218 +4,468 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SRU Assistant — University Academic Query Resolution</title>
-    <meta name="description" content="A Grounded Retrieval-Augmented Generation (RAG) Framework for SR University Academic Inquiries">
+    <meta name="description" content="A Grounded Retrieval-Augmented Generation (RAG) Academic Assistant for SR University">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
     <div class="app-layout">
-        <!-- Sidebar: Knowledge Base & Specs -->
-        <aside class="sidebar">
+        <!-- Mobile Sidebar Backdrop -->
+        <div class="sidebar-overlay" id="sidebar-overlay" aria-hidden="true"></div>
+
+        <!-- Sidebar: Academic Navigation & Institutional Identity -->
+        <aside class="sidebar" id="app-sidebar" aria-label="Main Navigation">
+            <!-- Brand Identity -->
             <div class="brand">
-                <div class="brand-logo">
-                    <span class="logo-shield">🎓</span>
+                <div class="brand-logo" aria-hidden="true">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                        <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                    </svg>
                 </div>
                 <div class="brand-info">
                     <h1>SRU Assistant</h1>
-                    <span class="badge-tag">Academic RAG v1.0</span>
+                    <span class="badge-tag">Academic Assistant</span>
+                </div>
+                <button class="sidebar-close-btn" id="sidebar-close-btn" aria-label="Close navigation sidebar">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Primary Navigation Actions -->
+            <div class="sidebar-actions">
+                <button type="button" class="btn-new-chat" id="new-chat-btn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                    </svg>
+                    <span>New Academic Chat</span>
+                </button>
+            </div>
+
+            <!-- View Navigation Switcher -->
+            <nav class="nav-views" aria-label="Application Views">
+                <button type="button" class="nav-tab active" id="tab-student-view" data-target="student-view">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    <span>Student Assistant</span>
+                </button>
+                <button type="button" class="nav-tab" id="tab-admin-view" data-target="admin-view">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                    </svg>
+                    <span>System & Admin</span>
+                </button>
+            </nav>
+
+            <!-- Recent Academic Queries -->
+            <div class="sidebar-section flex-grow">
+                <div class="section-title-row">
+                    <span class="section-label">RECENT INQUIRIES</span>
+                    <button type="button" class="btn-clear-history" id="clear-history-btn" title="Clear query history">Clear</button>
+                </div>
+                <div class="recent-queries-list" id="recent-queries-list">
+                    <div class="empty-history-hint">No queries asked yet this session.</div>
                 </div>
             </div>
 
-            <div class="status-card">
-                <div class="status-indicator">
-                    <span class="pulse-dot"></span>
-                    <span class="status-text" id="system-status">Connecting to RAG Core...</span>
-                </div>
-                <div class="metric-mini" id="system-metrics">
-                    <div class="metric-col">
-                        <span class="lbl">Engine</span>
-                        <span class="val" id="engine-val">Hybrid RRF</span>
-                    </div>
-                    <div class="metric-col">
-                        <span class="lbl">Chunks</span>
-                        <span class="val" id="chunks-val">—</span>
-                    </div>
-                    <div class="metric-col">
-                        <span class="lbl">Hallucination</span>
-                        <span class="val accent-green">0.0%</span>
-                    </div>
+            <!-- Institutional Knowledge Status Summary (Quiet Badge) -->
+            <div class="knowledge-status-pill">
+                <span class="status-indicator-dot" id="system-status-dot"></span>
+                <div class="status-meta">
+                    <span class="status-name" id="system-status">Checking RAG status...</span>
+                    <span class="status-sub"><span id="chunks-val">22</span> indexed knowledge chunks</span>
                 </div>
             </div>
 
-            <!-- Retrieval Mode Selector -->
-            <div class="nav-section">
-                <h3>RETRIEVAL PIPELINE</h3>
-                <div class="mode-options">
-                    <label class="mode-btn active" data-mode="enhanced">
-                        <input type="radio" name="mode" value="enhanced" checked>
-                        <span class="mode-title">⚡ Enhanced RAG</span>
-                        <span class="mode-desc">Hybrid (Dense + BM25) + Re-rank</span>
-                    </label>
-                    <label class="mode-btn" data-mode="hybrid">
-                        <input type="radio" name="mode" value="hybrid">
-                        <span class="mode-title">🔄 Hybrid RAG</span>
-                        <span class="mode-desc">Reciprocal Rank Fusion</span>
-                    </label>
-                    <label class="mode-btn" data-mode="dense">
-                        <input type="radio" name="mode" value="dense">
-                        <span class="mode-title">🧠 Dense Vector</span>
-                        <span class="mode-desc">Semantic embeddings only</span>
-                    </label>
-                </div>
-            </div>
-
-            <!-- Institutional Document Repository -->
-            <div class="nav-section flex-grow">
-                <div class="section-header">
-                    <h3>INDEXED DOCUMENTS</h3>
-                    <span class="doc-count" id="doc-count">0</span>
-                </div>
-                <div class="upload-box-wrapper" style="margin-bottom: 0.75rem;">
-                    <input type="file" id="doc-upload-input" accept=".pdf,.docx,.txt" style="display: none;">
-                    <button type="button" id="upload-trigger-btn" class="btn-ghost" style="width: 100%; justify-content: center; gap: 0.5rem; font-size: 0.8rem; padding: 0.45rem; border: 1px dashed var(--border-color); border-radius: var(--radius-sm);">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
-                        Upload Official Document
-                    </button>
-                    <div id="upload-status" style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.35rem; display: none; text-align: center;"></div>
-                </div>
-                <div class="document-list" id="document-list">
-                    <div class="loading-shimmer">Scanning indices...</div>
-                </div>
-            </div>
-
-            <!-- Footer / Capstone Team Info -->
+            <!-- Sidebar Footer -->
             <div class="sidebar-footer">
-                <div class="team-tag">Capstone Project Team 235</div>
-                <div class="school-tag">School of CS & AI • SR University</div>
+                <div class="institution-name">SR UNIVERSITY</div>
+                <div class="school-name">School of Computer Science & AI</div>
+                <div class="project-tag">Academic Query Resolution System</div>
             </div>
         </aside>
 
-        <!-- Main Chat & Resolution Canvas -->
-        <main class="chat-viewport">
-            <header class="chat-header">
-                <div class="header-details">
-                    <h2>Academic Query Resolution</h2>
-                    <p class="subtitle">Strictly grounded in official SR University syllabi, calendars & regulations.</p>
-                </div>
-                <div class="header-actions">
-                    <a href="/presentation.html" target="_blank" class="btn-ghost" style="color: #818cf8; font-weight: 600; border-color: rgba(99, 102, 241, 0.4);" title="Open Capstone Viva Presentation Slides">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
-                        Viva Slides
-                    </a>
-                    <button id="clear-btn" class="btn-ghost" title="Clear conversation">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
-                        Clear
+        <!-- Main Viewport Container -->
+        <div class="main-viewport">
+            <!-- Universal Top Header -->
+            <header class="app-header">
+                <div class="header-left">
+                    <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open navigation sidebar">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
                     </button>
-                    <a href="/docs" target="_blank" class="btn-ghost" title="FastAPI Swagger Documentation">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-                        API Docs
+                    <div class="header-context">
+                        <h2 class="view-title" id="current-view-title">Academic Assistant</h2>
+                        <div class="pipeline-badge" id="current-pipeline-tag">
+                            <span class="dot"></span>
+                            <span class="text">Mode: Enhanced (RRF + Rerank)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header-actions">
+                    <button type="button" id="clear-btn" class="header-action-btn" title="Clear current conversation">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="3 6 5 6 21 6"></polyline>
+                            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                        </svg>
+                        <span>Clear Chat</span>
+                    </button>
+                    <a href="/docs" target="_blank" rel="noopener noreferrer" class="header-action-btn" title="View OpenAPI / Swagger Documentation">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                        </svg>
+                        <span>API Docs</span>
                     </a>
                 </div>
             </header>
 
-            <!-- Chat Stream -->
-            <div class="messages-container" id="messages-container">
-                <!-- Welcome Card -->
-                <div class="welcome-card" id="welcome-card">
-                    <div class="welcome-hero">
-                        <div class="hero-badge">Verified Institutional Knowledge</div>
-                        <h2>Ask any academic question</h2>
-                        <p>SRU Assistant retrieves official institutional evidence and synthesizes answers accompanied by verifiable document citations.</p>
-                    </div>
+            <!-- VIEW 1: STUDENT EXPERIENCE (DEFAULT) -->
+            <section class="view-panel active" id="view-student">
+                <!-- Messages & Conversation Container -->
+                <div class="messages-container" id="messages-container" role="log" aria-live="polite">
+                    <!-- Academic Welcome Screen -->
+                    <div class="welcome-card" id="welcome-card">
+                        <div class="welcome-badge">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                            <span>Official Academic Knowledge Base</span>
+                        </div>
+                        <h2 class="welcome-heading">How can I help with your academics?</h2>
+                        <p class="welcome-subtitle">Ask questions about SR University syllabi, academic regulations, examination schedules, and official documents.</p>
 
-                    <div class="sample-queries-grid">
-                        <button class="sample-btn" data-query="What is the minimum attendance requirement and condonation criteria under R23 regulations?">
-                            <span class="icon">⚖️</span>
-                            <div class="btn-text">
-                                <strong>R23 Regulations</strong>
-                                <span>Attendance and condonation thresholds</span>
-                            </div>
-                        </button>
-                        <button class="sample-btn" data-query="What is the course code and credits for Deep Learning in Semester VII?">
-                            <span class="icon">📘</span>
-                            <div class="btn-text">
-                                <strong>Curriculum & Credits</strong>
-                                <span>Semester VII courses & syllabi</span>
-                            </div>
-                        </button>
-                        <button class="sample-btn" data-query="What are the details of Capstone Project Team 235?">
-                            <span class="icon">🎓</span>
-                            <div class="btn-text">
-                                <strong>Capstone Project</strong>
-                                <span>Team 235 title & approval details</span>
-                            </div>
-                        </button>
-                        <button class="sample-btn" data-query="When is Mid-Semester Examination I scheduled for 2026-27?">
-                            <span class="icon">📅</span>
-                            <div class="btn-text">
-                                <strong>Academic Calendar</strong>
-                                <span>Examination schedules & holidays</span>
-                            </div>
-                        </button>
+                        <!-- Starter Question Cards -->
+                        <div class="starter-cards-grid">
+                            <button type="button" class="starter-card sample-btn" data-query="When is Mid-Semester Examination I scheduled for 2026-27?">
+                                <div class="card-icon calendar-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="card-title">Exam Schedule</h3>
+                                    <p class="card-desc">Find examination dates and academic calendar information.</p>
+                                </div>
+                            </button>
+
+                            <button type="button" class="starter-card sample-btn" data-query="What is the minimum attendance requirement and condonation criteria under R23 regulations?">
+                                <div class="card-icon rules-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline points="12 6 12 12 16 14"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="card-title">Attendance Rules</h3>
+                                    <p class="card-desc">Understand attendance requirements and condonation policies.</p>
+                                </div>
+                            </button>
+
+                            <button type="button" class="starter-card sample-btn" data-query="What is the course code and credits for Deep Learning in Semester VII?">
+                                <div class="card-icon syllabus-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                                    </svg>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="card-title">Curriculum & Credits</h3>
+                                    <p class="card-desc">Explore semester-wise courses, syllabi, and credit requirements.</p>
+                                </div>
+                            </button>
+
+                            <button type="button" class="starter-card sample-btn" data-query="What are the rules regarding SGPA, CGPA calculation and promotion criteria under academic regulations?">
+                                <div class="card-icon policy-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                                    </svg>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="card-title">Academic Regulations</h3>
+                                    <p class="card-desc">Find official university regulations and academic policies.</p>
+                                </div>
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Input Bar -->
-            <footer class="input-area">
-                <form id="query-form" class="input-form">
-                    <div class="input-wrapper">
-                        <input 
-                            type="text" 
-                            id="query-input" 
-                            placeholder="Ask an academic question (e.g. syllabus topics, examination dates, regulations)..." 
-                            autocomplete="off"
-                            required
-                        >
-                        <button type="submit" id="send-btn" class="send-button" aria-label="Send Query">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="22" y1="2" x2="11" y2="13"></line>
-                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                <!-- Input Composer Anchor -->
+                <div class="composer-container">
+                    <form id="query-form" class="composer-form">
+                        <div class="composer-box">
+                            <textarea 
+                                id="query-input" 
+                                class="composer-textarea"
+                                placeholder="Ask anything about your academics..." 
+                                rows="1"
+                                required
+                                aria-label="Academic inquiry input"
+                            ></textarea>
+                            <button type="submit" id="send-btn" class="composer-send-btn" aria-label="Send academic query">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="composer-hint-row">
+                            <span class="hint-text">Grounded in verified SRU documents. Press <strong>Enter</strong> to send, <strong>Shift+Enter</strong> for newline.</span>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- VIEW 2: SYSTEM & ADMINISTRATIVE DASHBOARD -->
+            <section class="view-panel" id="view-admin">
+                <div class="admin-viewport">
+                    <div class="admin-header-row">
+                        <div>
+                            <h2 class="admin-title">System & Administrative Overview</h2>
+                            <p class="admin-subtitle">Inspect RAG pipeline telemetry, configure retrieval modes, and manage institutional document indexing.</p>
+                        </div>
+                        <button type="button" class="btn-return-chat" id="btn-return-chat">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="15 18 9 12 15 6"></polyline>
                             </svg>
+                            <span>Back to Student Chat</span>
                         </button>
                     </div>
-                    <div class="input-footer-hints">
-                        <span>💡 "Retrieve first. Generate second. Cite the evidence."</span>
-                        <span class="pipeline-tag" id="current-pipeline-tag">Mode: Enhanced (RRF + Rerank)</span>
+
+                    <!-- Grid Layout for System Controls -->
+                    <div class="admin-grid">
+                        <!-- Card 1: System Operational Metrics -->
+                        <div class="admin-card">
+                            <div class="card-heading-group">
+                                <div class="card-badge-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="card-section-title">Operational Health & Telemetry</h3>
+                                    <p class="card-section-desc">Active LLM runtime, vector store, and index synchronization.</p>
+                                </div>
+                            </div>
+
+                            <div class="telemetry-stats-grid">
+                                <div class="stat-box">
+                                    <span class="stat-label">LLM Provider</span>
+                                    <span class="stat-value" id="admin-llm-provider">Ollama</span>
+                                    <span class="stat-sub" id="admin-llm-model">qwen3.5:4b</span>
+                                </div>
+                                <div class="stat-box">
+                                    <span class="stat-label">Embedding Provider</span>
+                                    <span class="stat-value" id="admin-embed-provider">FastHash</span>
+                                    <span class="stat-sub">384-dimensional</span>
+                                </div>
+                                <div class="stat-box">
+                                    <span class="stat-label">Vector Store Records</span>
+                                    <span class="stat-value text-accent" id="admin-vector-records">22</span>
+                                    <span class="stat-sub">SQLite Vectors</span>
+                                </div>
+                                <div class="stat-box">
+                                    <span class="stat-label">BM25 Lexical Index</span>
+                                    <span class="stat-value text-success" id="admin-bm25-status">Synchronized</span>
+                                    <span class="stat-sub">Dual-Index Core</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: Retrieval Mode Configuration -->
+                        <div class="admin-card">
+                            <div class="card-heading-group">
+                                <div class="card-badge-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="23 4 23 10 17 10"></polyline>
+                                        <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="card-section-title">Active Retrieval Pipeline</h3>
+                                    <p class="card-section-desc">Select candidate chunk search strategy for academic inquiries.</p>
+                                </div>
+                            </div>
+
+                            <div class="retrieval-mode-options">
+                                <label class="mode-btn active" data-mode="enhanced">
+                                    <input type="radio" name="mode" value="enhanced" checked>
+                                    <div class="mode-info">
+                                        <div class="mode-top-row">
+                                            <span class="mode-title">Enhanced RAG (Recommended)</span>
+                                            <span class="mode-pill">RRF + Re-Ranker</span>
+                                        </div>
+                                        <p class="mode-desc">Hybrid fusion combining dense semantic embeddings and BM25 lexical ranking, refined by reciprocal scoring.</p>
+                                    </div>
+                                </label>
+
+                                <label class="mode-btn" data-mode="hybrid">
+                                    <input type="radio" name="mode" value="hybrid">
+                                    <div class="mode-info">
+                                        <div class="mode-top-row">
+                                            <span class="mode-title">Hybrid RAG</span>
+                                            <span class="mode-pill">RRF Dual Search</span>
+                                        </div>
+                                        <p class="mode-desc">Combines vector similarity and lexical BM25 matching via standard Reciprocal Rank Fusion without post-reranking.</p>
+                                    </div>
+                                </label>
+
+                                <label class="mode-btn" data-mode="dense">
+                                    <input type="radio" name="mode" value="dense">
+                                    <div class="mode-info">
+                                        <div class="mode-top-row">
+                                            <span class="mode-title">Dense Vector Search</span>
+                                            <span class="mode-pill">Semantic Only</span>
+                                        </div>
+                                        <p class="mode-desc">Retrieves purely based on Euclidean/cosine vector distance in the SQLite embedding store.</p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Card 3: Institutional Document Ingestion & Repository -->
+                        <div class="admin-card admin-card-full">
+                            <div class="card-heading-group">
+                                <div class="card-badge-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                        <line x1="12" y1="18" x2="12" y2="12"></line>
+                                        <line x1="9" y1="15" x2="15" y2="15"></line>
+                                    </svg>
+                                </div>
+                                <div class="header-flex-row">
+                                    <div>
+                                        <h3 class="card-section-title">Institutional Document Repository</h3>
+                                        <p class="card-section-desc">Manage verified university circulars, syllabi, regulations, and calendars.</p>
+                                    </div>
+                                    <div class="doc-counter-badge">
+                                        <span id="doc-count">0</span> Documents Indexed
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Document Upload Control Zone -->
+                            <div class="upload-zone-wrapper">
+                                <input type="file" id="doc-upload-input" accept=".pdf,.docx,.txt" style="display: none;">
+                                <div class="upload-dropzone" id="upload-dropzone">
+                                    <div class="dropzone-content">
+                                        <div class="dropzone-icon">
+                                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                                <polyline points="17 8 12 3 7 8"></polyline>
+                                                <line x1="12" y1="3" x2="12" y2="15"></line>
+                                            </svg>
+                                        </div>
+                                        <div class="dropzone-text">
+                                            <strong>Upload Official University Document</strong>
+                                            <span>Supports official PDF (.pdf), Word (.docx), and Plain Text (.txt) up to 25 MB</span>
+                                        </div>
+                                        <button type="button" id="upload-trigger-btn" class="btn-browse-file">
+                                            Select File
+                                        </button>
+                                    </div>
+                                </div>
+                                <div id="upload-status" class="upload-status-bar" style="display: none;"></div>
+                            </div>
+
+                            <!-- Document Catalog Table -->
+                            <div class="catalog-table-container">
+                                <table class="catalog-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>Document Name</th>
+                                            <th>Category</th>
+                                            <th>Chunks</th>
+                                            <th>Source Location</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="document-list">
+                                        <tr>
+                                            <td colspan="5" class="table-loading">Scanning document index...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
-                </form>
-            </footer>
-        </main>
+                </div>
+            </section>
+        </div>
 
         <!-- Citation Evidence Drawer Modal -->
-        <div class="modal-backdrop" id="modal-backdrop">
+        <div class="modal-backdrop" id="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-doc-title">
             <div class="modal-card" id="modal-card">
                 <div class="modal-header">
                     <div class="modal-title-group">
                         <span class="modal-badge" id="modal-cite-id">Citation [1]</span>
-                        <h3 id="modal-doc-title">Document Source</h3>
+                        <h3 class="modal-doc-title" id="modal-doc-title">Document Source</h3>
                     </div>
-                    <button class="modal-close" id="modal-close">&times;</button>
+                    <button class="modal-close" id="modal-close" aria-label="Close evidence preview">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <div class="meta-pills">
+                    <!-- Provenance Metadata Pills -->
+                    <div class="meta-pills-row">
                         <span class="pill" id="modal-page">Page: p. 1</span>
                         <span class="pill" id="modal-section">Section: General</span>
-                        <span class="pill pill-green" id="modal-score">100% Verified</span>
+                        <span class="pill pill-green" id="modal-score">100% Verified Grounding</span>
                     </div>
 
-                    <div class="modal-claim-box">
-                        <div class="subhead">CLAIM SUPPORTED IN ANSWER</div>
-                        <p id="modal-claim-text">—</p>
+                    <!-- Extracted Claim Box -->
+                    <div class="modal-section-card">
+                        <div class="subhead-label">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="16" x2="12" y2="12"></line>
+                                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                            </svg>
+                            CLAIM SUPPORTED IN ANSWER
+                        </div>
+                        <p class="claim-text" id="modal-claim-text">—</p>
                     </div>
 
-                    <div class="modal-evidence-box">
-                        <div class="subhead">OFFICIAL RETRIEVED TEXT PASSAGE</div>
+                    <!-- Retrieved Institutional Evidence Excerpt -->
+                    <div class="modal-section-card">
+                        <div class="subhead-label">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                            </svg>
+                            OFFICIAL RETRIEVED TEXT PASSAGE
+                        </div>
                         <div class="evidence-quote" id="modal-passage-text">—</div>
                     </div>
+                </div>
+                <div class="modal-footer">
+                    <span class="modal-footer-note">Verified against SRU Assistant SQLite vector & BM25 index stores.</span>
+                    <button type="button" class="btn-modal-done" id="modal-done-btn">Done</button>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Application JavaScript -->
     <script src="/static/app.js"></script>
 </body>
 </html>
