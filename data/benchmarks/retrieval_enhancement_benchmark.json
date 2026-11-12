@@ -1,0 +1,372 @@
+{
+  "dataset_version": "1.0.0",
+  "dataset_hash": "e4e91c98257a364fc35cebf8aed77bc109d5e9fac46ea6d4ee06f73613950f9f",
+  "dataset_query_count": 7,
+  "timestamp": "2026-11-05T03:08:37.955305+00:00",
+  "top_k_values": [
+    3,
+    5,
+    10,
+    15
+  ],
+  "ablations": {
+    "dense_only": {
+      "k_3": {
+        "k": 3,
+        "recall_at_1": 0.5714,
+        "recall_at_3": 0.7143,
+        "recall_at_5": 0.7143,
+        "mrr": 0.619,
+        "latency_ms": {
+          "mean": 0.85,
+          "median": 0.7,
+          "p95": 0.97
+        }
+      },
+      "k_5": {
+        "k": 5,
+        "recall_at_1": 0.5714,
+        "recall_at_3": 0.7143,
+        "recall_at_5": 1.0,
+        "mrr": 0.6905,
+        "latency_ms": {
+          "mean": 0.73,
+          "median": 0.68,
+          "p95": 0.92
+        }
+      },
+      "k_10": {
+        "k": 10,
+        "recall_at_1": 0.5714,
+        "recall_at_3": 0.7143,
+        "recall_at_5": 1.0,
+        "mrr": 0.6905,
+        "latency_ms": {
+          "mean": 0.71,
+          "median": 0.7,
+          "p95": 0.77
+        }
+      },
+      "k_15": {
+        "k": 15,
+        "recall_at_1": 0.5714,
+        "recall_at_3": 0.7143,
+        "recall_at_5": 1.0,
+        "mrr": 0.6905,
+        "latency_ms": {
+          "mean": 0.74,
+          "median": 0.73,
+          "p95": 0.89
+        }
+      }
+    },
+    "bm25_only": {
+      "k_3": {
+        "k": 3,
+        "recall_at_1": 0.7143,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.8571,
+        "latency_ms": {
+          "mean": 0.07,
+          "median": 0.07,
+          "p95": 0.09
+        }
+      },
+      "k_5": {
+        "k": 5,
+        "recall_at_1": 0.7143,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.8571,
+        "latency_ms": {
+          "mean": 0.07,
+          "median": 0.08,
+          "p95": 0.09
+        }
+      },
+      "k_10": {
+        "k": 10,
+        "recall_at_1": 0.7143,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.8571,
+        "latency_ms": {
+          "mean": 0.08,
+          "median": 0.1,
+          "p95": 0.1
+        }
+      },
+      "k_15": {
+        "k": 15,
+        "recall_at_1": 0.7143,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.8571,
+        "latency_ms": {
+          "mean": 0.09,
+          "median": 0.1,
+          "p95": 0.13
+        }
+      }
+    },
+    "hybrid_rrf": {
+      "k_3": {
+        "k": 3,
+        "recall_at_1": 0.7143,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.8095,
+        "latency_ms": {
+          "mean": 1.07,
+          "median": 1.0,
+          "p95": 1.4
+        }
+      },
+      "k_5": {
+        "k": 5,
+        "recall_at_1": 0.7143,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.8095,
+        "latency_ms": {
+          "mean": 1.16,
+          "median": 1.03,
+          "p95": 1.57
+        }
+      },
+      "k_10": {
+        "k": 10,
+        "recall_at_1": 0.7143,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.8095,
+        "latency_ms": {
+          "mean": 1.01,
+          "median": 1.01,
+          "p95": 1.14
+        }
+      },
+      "k_15": {
+        "k": 15,
+        "recall_at_1": 0.7143,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.8095,
+        "latency_ms": {
+          "mean": 1.06,
+          "median": 1.04,
+          "p95": 1.2
+        }
+      }
+    },
+    "hybrid_plus_filter": {
+      "k_3": {
+        "k": 3,
+        "recall_at_1": 0.4286,
+        "recall_at_3": 0.7143,
+        "recall_at_5": 0.7143,
+        "mrr": 0.5476,
+        "latency_ms": {
+          "mean": 1.62,
+          "median": 1.53,
+          "p95": 2.12
+        }
+      },
+      "k_5": {
+        "k": 5,
+        "recall_at_1": 0.4286,
+        "recall_at_3": 0.7143,
+        "recall_at_5": 0.8571,
+        "mrr": 0.5833,
+        "latency_ms": {
+          "mean": 1.45,
+          "median": 1.49,
+          "p95": 1.65
+        }
+      },
+      "k_10": {
+        "k": 10,
+        "recall_at_1": 0.4286,
+        "recall_at_3": 0.7143,
+        "recall_at_5": 0.8571,
+        "mrr": 0.6071,
+        "latency_ms": {
+          "mean": 1.52,
+          "median": 1.55,
+          "p95": 1.87
+        }
+      },
+      "k_15": {
+        "k": 15,
+        "recall_at_1": 0.4286,
+        "recall_at_3": 0.7143,
+        "recall_at_5": 0.8571,
+        "mrr": 0.6071,
+        "latency_ms": {
+          "mean": 1.76,
+          "median": 1.69,
+          "p95": 2.2
+        }
+      }
+    },
+    "hybrid_plus_rerank": {
+      "k_3": {
+        "k": 3,
+        "recall_at_1": 0.4286,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.6905,
+        "latency_ms": {
+          "mean": 7.35,
+          "median": 7.25,
+          "p95": 8.21
+        }
+      },
+      "k_5": {
+        "k": 5,
+        "recall_at_1": 0.4286,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.6905,
+        "latency_ms": {
+          "mean": 7.28,
+          "median": 7.29,
+          "p95": 7.72
+        }
+      },
+      "k_10": {
+        "k": 10,
+        "recall_at_1": 0.4286,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.6905,
+        "latency_ms": {
+          "mean": 7.21,
+          "median": 7.14,
+          "p95": 7.85
+        }
+      },
+      "k_15": {
+        "k": 15,
+        "recall_at_1": 0.4286,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.6905,
+        "latency_ms": {
+          "mean": 7.24,
+          "median": 6.84,
+          "p95": 10.5
+        }
+      }
+    },
+    "hybrid_filter_rerank": {
+      "k_3": {
+        "k": 3,
+        "recall_at_1": 0.4286,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.7143,
+        "latency_ms": {
+          "mean": 7.2,
+          "median": 7.18,
+          "p95": 7.86
+        }
+      },
+      "k_5": {
+        "k": 5,
+        "recall_at_1": 0.4286,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.7143,
+        "latency_ms": {
+          "mean": 8.2,
+          "median": 7.89,
+          "p95": 9.78
+        }
+      },
+      "k_10": {
+        "k": 10,
+        "recall_at_1": 0.4286,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.7143,
+        "latency_ms": {
+          "mean": 7.2,
+          "median": 7.13,
+          "p95": 7.97
+        }
+      },
+      "k_15": {
+        "k": 15,
+        "recall_at_1": 0.4286,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.7143,
+        "latency_ms": {
+          "mean": 7.35,
+          "median": 7.3,
+          "p95": 9.44
+        }
+      }
+    }
+  },
+  "category_breakdown": {
+    "course_code": {
+      "dense_only": 1.0,
+      "bm25_only": 1.0,
+      "hybrid_rrf": 1.0,
+      "hybrid_plus_filter": 1.0,
+      "hybrid_plus_rerank": 1.0,
+      "hybrid_filter_rerank": 1.0
+    },
+    "academic_date": {
+      "dense_only": 1.0,
+      "bm25_only": 1.0,
+      "hybrid_rrf": 1.0,
+      "hybrid_plus_filter": 1.0,
+      "hybrid_plus_rerank": 1.0,
+      "hybrid_filter_rerank": 1.0
+    },
+    "regulation": {
+      "dense_only": 1.0,
+      "bm25_only": 1.0,
+      "hybrid_rrf": 1.0,
+      "hybrid_plus_filter": 1.0,
+      "hybrid_plus_rerank": 1.0,
+      "hybrid_filter_rerank": 1.0
+    },
+    "semantic_paraphrased": {
+      "dense_only": 1.0,
+      "bm25_only": 1.0,
+      "hybrid_rrf": 1.0,
+      "hybrid_plus_filter": 1.0,
+      "hybrid_plus_rerank": 1.0,
+      "hybrid_filter_rerank": 1.0
+    },
+    "department_semester": {
+      "dense_only": 1.0,
+      "bm25_only": 1.0,
+      "hybrid_rrf": 1.0,
+      "hybrid_plus_filter": 1.0,
+      "hybrid_plus_rerank": 1.0,
+      "hybrid_filter_rerank": 1.0
+    },
+    "university_calendar": {
+      "dense_only": 1.0,
+      "bm25_only": 1.0,
+      "hybrid_rrf": 1.0,
+      "hybrid_plus_filter": 1.0,
+      "hybrid_plus_rerank": 1.0,
+      "hybrid_filter_rerank": 1.0
+    },
+    "exact_academic_term": {
+      "dense_only": 1.0,
+      "bm25_only": 1.0,
+      "hybrid_rrf": 1.0,
+      "hybrid_plus_filter": 0.0,
+      "hybrid_plus_rerank": 1.0,
+      "hybrid_filter_rerank": 1.0
+    }
+  }
+}

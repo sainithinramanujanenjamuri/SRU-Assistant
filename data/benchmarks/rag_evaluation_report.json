@@ -1,0 +1,4487 @@
+{
+  "report_id": "eval_report_dd9883ca51bd",
+  "generated_at": "2026-10-06T15:06:41.405581+00:00",
+  "dataset_version": "1.0.0",
+  "dataset_hash": "94e21924062ac694ccc2caf51e2ac0810048df94d398dccd2bbdd660faf941ce",
+  "total_queries": 16,
+  "category_distribution": {
+    "direct_factual": 2,
+    "date_based": 2,
+    "course_related": 2,
+    "regulation": 1,
+    "department_specific": 1,
+    "multi_document": 1,
+    "paraphrased": 2,
+    "ambiguous": 2,
+    "out_of_knowledge_base": 2,
+    "version_sensitive": 1
+  },
+  "experiments": {
+    "A": {
+      "experiment_id": "A",
+      "name": "Experiment A: Vector RAG",
+      "description": "Baseline dense semantic vector retrieval without reranking or grounding remediation",
+      "retrieval_mode": "dense",
+      "reranking_enabled": false,
+      "grounding_validation_enabled": false,
+      "citation_verification_enabled": false,
+      "total_queries": 16,
+      "aggregate_retrieval": {
+        "recall_at_k": {
+          "1": 0.3438,
+          "3": 0.7188,
+          "5": 0.7188
+        },
+        "precision_at_k": {
+          "1": 0.375,
+          "3": 0.2708,
+          "5": 0.1625
+        },
+        "mrr": 0.5625,
+        "ndcg_at_k": {
+          "3": 0.5718,
+          "5": 0.5718
+        },
+        "latency_ms": {}
+      },
+      "aggregate_generation": {
+        "groundedness": 1.0,
+        "answer_relevance": 0.5246,
+        "context_relevance": 0.1625,
+        "correctness": 0.3888,
+        "completeness": 0.775,
+        "unsupported_claim_rate": 0.0
+      },
+      "aggregate_citation": {
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "citation_completeness": 1.0,
+        "evidence_support": 1.0
+      },
+      "aggregate_latency_ms": {
+        "retrieval": {
+          "mean": 0.3,
+          "median": 0.27,
+          "p95": 0.64
+        },
+        "context": {
+          "mean": 0.2,
+          "median": 0.2,
+          "p95": 0.33
+        },
+        "conflict": {
+          "mean": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "generation": {
+          "mean": 0.17,
+          "median": 0.15,
+          "p95": 0.32
+        },
+        "grounding": {
+          "mean": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "citation": {
+          "mean": 3.04,
+          "median": 2.98,
+          "p95": 4.84
+        },
+        "total": {
+          "mean": 3.73,
+          "median": 3.73,
+          "p95": 6.15
+        }
+      },
+      "category_metrics": {
+        "direct_factual": {
+          "count": 2,
+          "recall_at_5": 1.0,
+          "mrr": 0.6666,
+          "groundedness": 1.0,
+          "answer_relevance": 0.7947,
+          "correctness": 0.3113,
+          "unsupported_claim_rate": 0.0
+        },
+        "date_based": {
+          "count": 2,
+          "recall_at_5": 1.0,
+          "mrr": 0.75,
+          "groundedness": 1.0,
+          "answer_relevance": 0.45,
+          "correctness": 0.3379,
+          "unsupported_claim_rate": 0.0
+        },
+        "course_related": {
+          "count": 2,
+          "recall_at_5": 1.0,
+          "mrr": 0.6666,
+          "groundedness": 1.0,
+          "answer_relevance": 0.5834,
+          "correctness": 0.4881,
+          "unsupported_claim_rate": 0.0
+        },
+        "regulation": {
+          "count": 1,
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "groundedness": 1.0,
+          "answer_relevance": 0.8571,
+          "correctness": 0.5085,
+          "unsupported_claim_rate": 0.0
+        },
+        "department_specific": {
+          "count": 1,
+          "recall_at_5": 0.5,
+          "mrr": 0.5,
+          "groundedness": 1.0,
+          "answer_relevance": 0.5714,
+          "correctness": 0.3889,
+          "unsupported_claim_rate": 0.0
+        },
+        "multi_document": {
+          "count": 1,
+          "recall_at_5": 0.5,
+          "mrr": 0.5,
+          "groundedness": 1.0,
+          "answer_relevance": 0.4286,
+          "correctness": 0.32,
+          "unsupported_claim_rate": 0.0
+        },
+        "paraphrased": {
+          "count": 2,
+          "recall_at_5": 0.5,
+          "mrr": 0.5,
+          "groundedness": 1.0,
+          "answer_relevance": 0.4405,
+          "correctness": 0.3069,
+          "unsupported_claim_rate": 0.0
+        },
+        "ambiguous": {
+          "count": 2,
+          "recall_at_5": 0.75,
+          "mrr": 0.75,
+          "groundedness": 1.0,
+          "answer_relevance": 0.25,
+          "correctness": 0.395,
+          "unsupported_claim_rate": 0.0
+        },
+        "out_of_knowledge_base": {
+          "count": 2,
+          "recall_at_5": 0.0,
+          "mrr": 0.0,
+          "groundedness": 1.0,
+          "answer_relevance": 0.5,
+          "correctness": 0.5,
+          "unsupported_claim_rate": 0.0
+        },
+        "version_sensitive": {
+          "count": 1,
+          "recall_at_5": 1.0,
+          "mrr": 0.3333,
+          "groundedness": 1.0,
+          "answer_relevance": 0.5,
+          "correctness": 0.3243,
+          "unsupported_claim_rate": 0.0
+        }
+      },
+      "query_results": [
+        {
+          "query_id": "q01_direct_course_code",
+          "query": "What course code is assigned to the fundamental algorithms and data structures course?",
+          "category": "direct_factual",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The system ingests institutional documents such as course structures, semester calendars, and exam guidelines, converts them into vector embeddings, and stores them in a searchable vector database.\n- Every registered student must secure a minimum of 75% aggregate attendance in all registered theory and laboratory courses in a semester to be permitted to sit for the Semester End Examinations (SEE).\n- Students will learn tree traversals, graph algorithms, and asymptotic complexity analysis for course 23CSE302T.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "doc_syllabus_23cse302t_chunk_0001",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.3333,
+            "ndcg_at_k": {
+              "3": 0.5,
+              "5": 0.5
+            },
+            "latency_ms": {
+              "mean": 0.64
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.7143,
+            "context_relevance": 0.2,
+            "correctness": 0.3409,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.64,
+            "context_ms": 0.33,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.32,
+            "grounding_ms": 0.0,
+            "citation_ms": 4.84,
+            "total_ms": 6.15
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q02_direct_regulation",
+          "query": "What academic regulation applies to B.Tech Computer Science course structure?",
+          "category": "direct_factual",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The B.Tech Degree Program at SR University is designed as a four-year (eight semester) full-time undergraduate engineering curriculum under Regulation R23.\n- Course Structure: Semester VII\" page=\"p.\n- SRU Assistant addresses this by combining a RAG pipeline with the university's own academic documents to deliver accurate, source-grounded answers to natural language queries.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 0.34
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.875,
+            "context_relevance": 0.2,
+            "correctness": 0.2817,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.34,
+            "context_ms": 0.21,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.18,
+            "grounding_ms": 0.0,
+            "citation_ms": 4.09,
+            "total_ms": 4.84
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q03_date_mid1",
+          "query": "When is Mid-Semester Examination I scheduled in the academic calendar?",
+          "category": "date_based",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- - Mid-Semester Examination I: 15 Marks (conducted at end of first spell).\n- Mid-Semester Examination I: 12 September 2026 to 16 September 2026.\n- - Mid-Semester Examination I: 05 October 2026 to 10 October 2026 (1 Week)\n- - Mid-Semester Examination II: 15 Marks (conducted at end of second spell).",
+          "retrieved_chunk_ids": [
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002",
+            "doc_calendar_2026_27_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0001"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.5,
+            "ndcg_at_k": {
+              "3": 0.6309297535714575,
+              "5": 0.6309297535714575
+            },
+            "latency_ms": {
+              "mean": 0.28
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5,
+            "context_relevance": 0.2,
+            "correctness": 0.3902,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.28,
+            "context_ms": 0.21,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.21,
+            "grounding_ms": 0.0,
+            "citation_ms": 3.84,
+            "total_ms": 4.55
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q04_date_commencement",
+          "query": "When does classwork commence for the 2026-27 academic session?",
+          "category": "date_based",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Commencement of Classwork: 10 August 2026.\n- - Commencement of Classwork: 10 August 2026\n- A student is required to complete a total of 160 academic credits to be eligible for the award of the B.Tech degree.\n- SRU Assistant addresses this by combining a RAG pipeline with the university's own academic documents to deliver accurate, source-grounded answers to natural language queries.",
+          "retrieved_chunk_ids": [
+            "doc_calendar_2026_27_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0002",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 0.25
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.4,
+            "context_relevance": 0.2,
+            "correctness": 0.2857,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.25,
+            "context_ms": 0.18,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.15,
+            "grounding_ms": 0.0,
+            "citation_ms": 3.44,
+            "total_ms": 4.04
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q05_course_topics",
+          "query": "What topics are covered in course 23CSE302T?",
+          "category": "course_related",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Students will learn tree traversals, graph algorithms, and asymptotic complexity analysis for course 23CSE302T.\n- Course Structure: Semester VII\" page=\"p.\n- SGPA = Sum(Course_Credits * Grade_Points) / Sum(Course_Credits) for that semester.\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "doc_syllabus_23cse302t_chunk_0001",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0003",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0001"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.3333,
+            "ndcg_at_k": {
+              "3": 0.5,
+              "5": 0.5
+            },
+            "latency_ms": {
+              "mean": 0.52
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5,
+            "context_relevance": 0.2,
+            "correctness": 0.5,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.52,
+            "context_ms": 0.22,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.16,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.84,
+            "total_ms": 3.77
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q06_course_overview",
+          "query": "What is the overview and scope of the B.Tech Computer Science curriculum?",
+          "category": "course_related",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The B.Tech Degree Program at SR University is designed as a four-year (eight semester) full-time undergraduate engineering curriculum under Regulation R23.\n- A student is required to complete a total of 160 academic credits to be eligible for the award of the B.Tech degree.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0005",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 0.27
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.6667,
+            "context_relevance": 0.2,
+            "correctness": 0.4762,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.27,
+            "context_ms": 0.18,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.14,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.27,
+            "total_ms": 2.87
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q07_regulation_r23",
+          "query": "What curriculum guidelines are defined under Regulation R23 for Computer Science?",
+          "category": "regulation",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The B.Tech Degree Program at SR University is designed as a four-year (eight semester) full-time undergraduate engineering curriculum under Regulation R23.\n- Re-evaluation and Recounting Guidelines\" page=\"p.\n- Attendance and Condonation Regulations\" page=\"p.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0005",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 0.27
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.8571,
+            "context_relevance": 0.2,
+            "correctness": 0.5085,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.27,
+            "context_ms": 0.17,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.15,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.87,
+            "total_ms": 3.48
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q08_dept_cse_vii",
+          "query": "What are the syllabus details for Computer Science and Engineering Semester VII?",
+          "category": "department_specific",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- VII Semester\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- Course Structure: Semester VII\" page=\"p.\n- Every registered student must secure a minimum of 75% aggregate attendance in all registered theory and laboratory courses in a semester to be permitted to sit for the Semester End Examinations (SEE).",
+          "retrieved_chunk_ids": [
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0000",
+            "doc_syllabus_23cse302t_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0003"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 0.5,
+              "5": 0.5
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.5,
+            "ndcg_at_k": {
+              "3": 0.38685280723454163,
+              "5": 0.38685280723454163
+            },
+            "latency_ms": {
+              "mean": 0.27
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5714,
+            "context_relevance": 0.2,
+            "correctness": 0.3889,
+            "completeness": 0.5,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.27,
+            "context_ms": 0.17,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.15,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.67,
+            "total_ms": 3.27
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q09_multi_doc_course_and_exam",
+          "query": "What are the learning objectives of 23CSE302T and when is Mid-Semester Examination I scheduled?",
+          "category": "multi_document",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- - Mid-Semester Examination I: 15 Marks (conducted at end of first spell).\n- Mid-Semester Examination I: 12 September 2026 to 16 September 2026.\n- - Mid-Semester Examination I: 15 March 2027 to 20 March 2027\n- - Mid-Semester Examination II: 15 Marks (conducted at end of second spell).",
+          "retrieved_chunk_ids": [
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002",
+            "doc_calendar_2026_27_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0005",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0001"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 0.5,
+              "5": 0.5
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.5,
+            "ndcg_at_k": {
+              "3": 0.38685280723454163,
+              "5": 0.38685280723454163
+            },
+            "latency_ms": {
+              "mean": 0.28
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.4286,
+            "context_relevance": 0.2,
+            "correctness": 0.32,
+            "completeness": 0.4,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.28,
+            "context_ms": 0.19,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.19,
+            "grounding_ms": 0.0,
+            "citation_ms": 3.04,
+            "total_ms": 3.7
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q10_paraphrased_graphs",
+          "query": "What will students master regarding graph algorithms and asymptotic analysis?",
+          "category": "paraphrased",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Students will learn tree traversals, graph algorithms, and asymptotic complexity analysis for course 23CSE302T.\n- Students securing aggregate attendance below 65% in a semester are not eligible for condonation under any circumstances.\n- Literature Review and Feasibility Analysis.\n- Such students shall be detained and must repeat the semester in subsequent academic years.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0001",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0003",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0004"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 0.26
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.7143,
+            "context_relevance": 0.2,
+            "correctness": 0.4516,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.26,
+            "context_ms": 0.17,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.14,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.77,
+            "total_ms": 3.35
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q11_paraphrased_mid_exam",
+          "query": "When are the initial mid-term tests going to take place?",
+          "category": "paraphrased",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- - Mid-Semester Examination I: 15 Marks (conducted at end of first spell).\n- - Mid-Semester Examination II: 15 Marks (conducted at end of second spell).\n- - Continuous Assignments / Quizzes / Tutorial Tests: 10 Marks.",
+          "retrieved_chunk_ids": [
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0004",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "mrr": 0.0,
+            "ndcg_at_k": {
+              "3": 0.0,
+              "5": 0.0
+            },
+            "latency_ms": {
+              "mean": 0.23
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.1667,
+            "context_relevance": 0.0,
+            "correctness": 0.1622,
+            "completeness": 0.5,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.23,
+            "context_ms": 0.22,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.19,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.7,
+            "total_ms": 3.35
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q12_ambiguous_mid_exam",
+          "query": "When are the mid exams?",
+          "category": "ambiguous",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Mid-Semester Examination I: 12 September 2026 to 16 September 2026.\n- - Mid-Semester Examination I: 15 Marks (conducted at end of first spell).\n- Mid-Semester Examination II: 10 November 2026 to 14 November 2026.\n- - Mid-Semester Examination II: 15 Marks (conducted at end of second spell).",
+          "retrieved_chunk_ids": [
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "doc_calendar_2026_27_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0005",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.5,
+            "ndcg_at_k": {
+              "3": 0.6309297535714575,
+              "5": 0.6309297535714575
+            },
+            "latency_ms": {
+              "mean": 0.21
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.0,
+            "context_relevance": 0.2,
+            "correctness": 0.5455,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.21,
+            "context_ms": 0.21,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.15,
+            "grounding_ms": 0.0,
+            "citation_ms": 3.23,
+            "total_ms": 3.81
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q13_ambiguous_syllabus",
+          "query": "Tell me about the course syllabus.",
+          "category": "ambiguous",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The performance of a student in each semester course is evaluated for a maximum of 100 marks:\n- The system ingests institutional documents such as course structures, semester calendars, and exam guidelines, converts them into vector embeddings, and stores them in a searchable vector database.\n- Every registered student must secure a minimum of 75% aggregate attendance in all registered theory and laboratory courses in a semester to be permitted to sit for the Semester End Examinations (SEE).",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0005",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.5,
+              "3": 0.5,
+              "5": 0.5
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 0.6131471927654584,
+              "5": 0.6131471927654584
+            },
+            "latency_ms": {
+              "mean": 0.21
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5,
+            "context_relevance": 0.2,
+            "correctness": 0.2444,
+            "completeness": 0.6667,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.21,
+            "context_ms": 0.2,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.16,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.91,
+            "total_ms": 3.49
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q14_out_of_kb_hostel_fees",
+          "query": "What is the hostel accommodation fee structure for SR University?",
+          "category": "out_of_knowledge_base",
+          "is_answerable": false,
+          "expected_behavior": "insufficient_evidence",
+          "actual_answer": "Based on the official SR University documentation:\n- SRU Assistant addresses this by combining a RAG pipeline with the university's own academic documents to deliver accurate, source-grounded answers to natural language queries.\n- The B.Tech Degree Program at SR University is designed as a four-year (eight semester) full-time undergraduate engineering curriculum under Regulation R23.\n- - Team Allocation: Team 235 - Project Title: \"SRU Assistant: A RAG Framework for University Academic Query Resolution\".\n- A candidate may apply for re-evaluation or recounting of their Semester End Examination theory answer script within 10 days of the online publication of provisional results by submitting the prescribed fee at the Controller of Examinations office.",
+          "retrieved_chunk_ids": [
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0005",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0003"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "mrr": 0.0,
+            "ndcg_at_k": {
+              "3": 0.0,
+              "5": 0.0
+            },
+            "latency_ms": {
+              "mean": 0.25
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.0,
+            "context_relevance": 0.0,
+            "correctness": 0.0,
+            "completeness": 0.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.25,
+            "context_ms": 0.2,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.19,
+            "grounding_ms": 0.0,
+            "citation_ms": 3.97,
+            "total_ms": 4.62
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q15_out_of_kb_external_fact",
+          "query": "What is the capital of Australia?",
+          "category": "out_of_knowledge_base",
+          "is_answerable": false,
+          "expected_behavior": "insufficient_evidence",
+          "actual_answer": "I couldn't find sufficient information in the available SR University documents to answer this accurately.",
+          "retrieved_chunk_ids": [
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0005",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "mrr": 0.0,
+            "ndcg_at_k": {
+              "3": 0.0,
+              "5": 0.0
+            },
+            "latency_ms": {
+              "mean": 0.22
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 1.0,
+            "context_relevance": 0.0,
+            "correctness": 1.0,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.22,
+            "context_ms": 0.2,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.11,
+            "grounding_ms": 0.0,
+            "citation_ms": 0.0,
+            "total_ms": 0.54
+          },
+          "passed_grounding": false,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q16_version_academic_year",
+          "query": "What is the complete examination schedule for the 2026-27 academic session?",
+          "category": "version_sensitive",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- A student is required to complete a total of 160 academic credits to be eligible for the award of the B.Tech degree.\n- - Mid-Semester Examination I: 05 October 2026 to 10 October 2026 (1 Week)\n- Mid-Semester Examination I: 12 September 2026 to 16 September 2026.\n- SRU Assistant addresses this by combining a RAG pipeline with the university's own academic documents to deliver accurate, source-grounded answers to natural language queries.",
+          "retrieved_chunk_ids": [
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000",
+            "doc_calendar_2026_27_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0005",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.3333,
+            "ndcg_at_k": {
+              "3": 0.5,
+              "5": 0.5
+            },
+            "latency_ms": {
+              "mean": 0.25
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5,
+            "context_relevance": 0.2,
+            "correctness": 0.3243,
+            "completeness": 0.3333,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.25,
+            "context_ms": 0.18,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.15,
+            "grounding_ms": 0.0,
+            "citation_ms": 3.19,
+            "total_ms": 3.79
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        }
+      ]
+    },
+    "B": {
+      "experiment_id": "B",
+      "name": "Experiment B: Hybrid RAG",
+      "description": "Hybrid dense + BM25 lexical retrieval using Reciprocal Rank Fusion",
+      "retrieval_mode": "hybrid",
+      "reranking_enabled": false,
+      "grounding_validation_enabled": false,
+      "citation_verification_enabled": false,
+      "total_queries": 16,
+      "aggregate_retrieval": {
+        "recall_at_k": {
+          "1": 0.4688,
+          "3": 0.7188,
+          "5": 0.8125
+        },
+        "precision_at_k": {
+          "1": 0.5,
+          "3": 0.2708,
+          "5": 0.1875
+        },
+        "mrr": 0.6719,
+        "ndcg_at_k": {
+          "3": 0.6425,
+          "5": 0.6859
+        },
+        "latency_ms": {}
+      },
+      "aggregate_generation": {
+        "groundedness": 1.0,
+        "answer_relevance": 0.5321,
+        "context_relevance": 0.1875,
+        "correctness": 0.4061,
+        "completeness": 0.7812,
+        "unsupported_claim_rate": 0.0
+      },
+      "aggregate_citation": {
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "citation_completeness": 1.0,
+        "evidence_support": 1.0
+      },
+      "aggregate_latency_ms": {
+        "retrieval": {
+          "mean": 0.37,
+          "median": 0.38,
+          "p95": 0.46
+        },
+        "context": {
+          "mean": 0.18,
+          "median": 0.18,
+          "p95": 0.2
+        },
+        "conflict": {
+          "mean": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "generation": {
+          "mean": 0.15,
+          "median": 0.15,
+          "p95": 0.2
+        },
+        "grounding": {
+          "mean": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "citation": {
+          "mean": 2.67,
+          "median": 2.85,
+          "p95": 3.7
+        },
+        "total": {
+          "mean": 3.39,
+          "median": 3.62,
+          "p95": 4.45
+        }
+      },
+      "category_metrics": {
+        "direct_factual": {
+          "count": 2,
+          "recall_at_5": 1.0,
+          "mrr": 0.75,
+          "groundedness": 1.0,
+          "answer_relevance": 0.7947,
+          "correctness": 0.2551,
+          "unsupported_claim_rate": 0.0
+        },
+        "date_based": {
+          "count": 2,
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "groundedness": 1.0,
+          "answer_relevance": 0.45,
+          "correctness": 0.3334,
+          "unsupported_claim_rate": 0.0
+        },
+        "course_related": {
+          "count": 2,
+          "recall_at_5": 1.0,
+          "mrr": 0.75,
+          "groundedness": 1.0,
+          "answer_relevance": 0.5834,
+          "correctness": 0.4313,
+          "unsupported_claim_rate": 0.0
+        },
+        "regulation": {
+          "count": 1,
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "groundedness": 1.0,
+          "answer_relevance": 0.8571,
+          "correctness": 0.5085,
+          "unsupported_claim_rate": 0.0
+        },
+        "department_specific": {
+          "count": 1,
+          "recall_at_5": 0.5,
+          "mrr": 0.5,
+          "groundedness": 1.0,
+          "answer_relevance": 0.7143,
+          "correctness": 0.4516,
+          "unsupported_claim_rate": 0.0
+        },
+        "multi_document": {
+          "count": 1,
+          "recall_at_5": 1.0,
+          "mrr": 0.5,
+          "groundedness": 1.0,
+          "answer_relevance": 0.5714,
+          "correctness": 0.5806,
+          "unsupported_claim_rate": 0.0
+        },
+        "paraphrased": {
+          "count": 2,
+          "recall_at_5": 1.0,
+          "mrr": 0.625,
+          "groundedness": 1.0,
+          "answer_relevance": 0.3572,
+          "correctness": 0.3893,
+          "unsupported_claim_rate": 0.0
+        },
+        "ambiguous": {
+          "count": 2,
+          "recall_at_5": 0.75,
+          "mrr": 1.0,
+          "groundedness": 1.0,
+          "answer_relevance": 0.25,
+          "correctness": 0.4075,
+          "unsupported_claim_rate": 0.0
+        },
+        "out_of_knowledge_base": {
+          "count": 2,
+          "recall_at_5": 0.0,
+          "mrr": 0.0,
+          "groundedness": 1.0,
+          "answer_relevance": 0.5,
+          "correctness": 0.5,
+          "unsupported_claim_rate": 0.0
+        },
+        "version_sensitive": {
+          "count": 1,
+          "recall_at_5": 1.0,
+          "mrr": 0.5,
+          "groundedness": 1.0,
+          "answer_relevance": 0.5,
+          "correctness": 0.3243,
+          "unsupported_claim_rate": 0.0
+        }
+      },
+      "query_results": [
+        {
+          "query_id": "q01_direct_course_code",
+          "query": "What course code is assigned to the fundamental algorithms and data structures course?",
+          "category": "direct_factual",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The system ingests institutional documents such as course structures, semester calendars, and exam guidelines, converts them into vector embeddings, and stores them in a searchable vector database.\n- Course Structure: Semester VII\" page=\"p.\n- The performance of a student in each semester course is evaluated for a maximum of 100 marks:",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "doc_syllabus_23cse302t_chunk_0001",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.5,
+            "ndcg_at_k": {
+              "3": 0.6309297535714575,
+              "5": 0.6309297535714575
+            },
+            "latency_ms": {
+              "mean": 0.43
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.7143,
+            "context_relevance": 0.2,
+            "correctness": 0.2286,
+            "completeness": 0.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.43,
+            "context_ms": 0.19,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.16,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.34,
+            "total_ms": 3.14
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q02_direct_regulation",
+          "query": "What academic regulation applies to B.Tech Computer Science course structure?",
+          "category": "direct_factual",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The B.Tech Degree Program at SR University is designed as a four-year (eight semester) full-time undergraduate engineering curriculum under Regulation R23.\n- Course Structure: Semester VII\" page=\"p.\n- SRU Assistant addresses this by combining a RAG pipeline with the university's own academic documents to deliver accurate, source-grounded answers to natural language queries.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0005"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 0.46
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.875,
+            "context_relevance": 0.2,
+            "correctness": 0.2817,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.46,
+            "context_ms": 0.17,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.15,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.81,
+            "total_ms": 3.61
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q03_date_mid1",
+          "query": "When is Mid-Semester Examination I scheduled in the academic calendar?",
+          "category": "date_based",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Mid-Semester Examination I: 12 September 2026 to 16 September 2026.\n- - Mid-Semester Examination I: 15 Marks (conducted at end of first spell).\n- - Mid-Semester Examination I: 05 October 2026 to 10 October 2026 (1 Week)\n- Mid-Semester Examination II: 10 November 2026 to 14 November 2026.",
+          "retrieved_chunk_ids": [
+            "doc_calendar_2026_27_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0001",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 0.41
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5,
+            "context_relevance": 0.2,
+            "correctness": 0.381,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.41,
+            "context_ms": 0.2,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.2,
+            "grounding_ms": 0.0,
+            "citation_ms": 3.45,
+            "total_ms": 4.28
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q04_date_commencement",
+          "query": "When does classwork commence for the 2026-27 academic session?",
+          "category": "date_based",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Commencement of Classwork: 10 August 2026.\n- - Commencement of Classwork: 10 August 2026\n- A student is required to complete a total of 160 academic credits to be eligible for the award of the B.Tech degree.\n- SRU Assistant addresses this by combining a RAG pipeline with the university's own academic documents to deliver accurate, source-grounded answers to natural language queries.",
+          "retrieved_chunk_ids": [
+            "doc_calendar_2026_27_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0002",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 0.37
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.4,
+            "context_relevance": 0.2,
+            "correctness": 0.2857,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.37,
+            "context_ms": 0.18,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.14,
+            "grounding_ms": 0.0,
+            "citation_ms": 3.15,
+            "total_ms": 3.86
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q05_course_topics",
+          "query": "What topics are covered in course 23CSE302T?",
+          "category": "course_related",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Students will learn tree traversals, graph algorithms, and asymptotic complexity analysis for course 23CSE302T.\n- Course Structure: Semester VII\" page=\"p.\n- The performance of a student in each semester course is evaluated for a maximum of 100 marks:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "doc_syllabus_23cse302t_chunk_0001",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0001"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.5,
+            "ndcg_at_k": {
+              "3": 0.6309297535714575,
+              "5": 0.6309297535714575
+            },
+            "latency_ms": {
+              "mean": 0.33
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5,
+            "context_relevance": 0.2,
+            "correctness": 0.4516,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.33,
+            "context_ms": 0.17,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.14,
+            "grounding_ms": 0.0,
+            "citation_ms": 1.88,
+            "total_ms": 2.54
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q06_course_overview",
+          "query": "What is the overview and scope of the B.Tech Computer Science curriculum?",
+          "category": "course_related",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The B.Tech Degree Program at SR University is designed as a four-year (eight semester) full-time undergraduate engineering curriculum under Regulation R23.\n- The seventh semester of B.Tech CSE comprises core courses, professional electives, and capstone project work:\n- A student is required to complete a total of 160 academic credits to be eligible for the award of the B.Tech degree.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0005"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 0.35
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.6667,
+            "context_relevance": 0.2,
+            "correctness": 0.411,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.35,
+            "context_ms": 0.16,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.12,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.22,
+            "total_ms": 2.87
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q07_regulation_r23",
+          "query": "What curriculum guidelines are defined under Regulation R23 for Computer Science?",
+          "category": "regulation",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The B.Tech Degree Program at SR University is designed as a four-year (eight semester) full-time undergraduate engineering curriculum under Regulation R23.\n- Re-evaluation and Recounting Guidelines\" page=\"p.\n- Attendance and Condonation Regulations\" page=\"p.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0005",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 0.38
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.8571,
+            "context_relevance": 0.2,
+            "correctness": 0.5085,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.38,
+            "context_ms": 0.16,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.13,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.6,
+            "total_ms": 3.29
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q08_dept_cse_vii",
+          "query": "What are the syllabus details for Computer Science and Engineering Semester VII?",
+          "category": "department_specific",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- VII Semester\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- Course Structure: Semester VII\" page=\"p.\n- The B.Tech Degree Program at SR University is designed as a four-year (eight semester) full-time undergraduate engineering curriculum under Regulation R23.",
+          "retrieved_chunk_ids": [
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0000",
+            "doc_syllabus_23cse302t_chunk_0000",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0003"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 0.5,
+              "5": 0.5
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.5,
+            "ndcg_at_k": {
+              "3": 0.38685280723454163,
+              "5": 0.38685280723454163
+            },
+            "latency_ms": {
+              "mean": 0.4
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.7143,
+            "context_relevance": 0.2,
+            "correctness": 0.4516,
+            "completeness": 0.5,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.4,
+            "context_ms": 0.15,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.12,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.14,
+            "total_ms": 2.82
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q09_multi_doc_course_and_exam",
+          "query": "What are the learning objectives of 23CSE302T and when is Mid-Semester Examination I scheduled?",
+          "category": "multi_document",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- - Mid-Semester Examination I: 15 Marks (conducted at end of first spell).\n- Mid-Semester Examination I: 12 September 2026 to 16 September 2026.\n- - Mid-Semester Examination I: 15 March 2027 to 20 March 2027\n- Students will learn tree traversals, graph algorithms, and asymptotic complexity analysis for course 23CSE302T.",
+          "retrieved_chunk_ids": [
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002",
+            "doc_calendar_2026_27_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0001",
+            "doc_syllabus_23cse302t_chunk_0001",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 0.5,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.4
+            },
+            "mrr": 0.5,
+            "ndcg_at_k": {
+              "3": 0.38685280723454163,
+              "5": 0.6509209298071326
+            },
+            "latency_ms": {
+              "mean": 0.42
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5714,
+            "context_relevance": 0.4,
+            "correctness": 0.5806,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.42,
+            "context_ms": 0.17,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.17,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.89,
+            "total_ms": 3.67
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q10_paraphrased_graphs",
+          "query": "What will students master regarding graph algorithms and asymptotic analysis?",
+          "category": "paraphrased",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Students will learn tree traversals, graph algorithms, and asymptotic complexity analysis for course 23CSE302T.\n- Students securing aggregate attendance below 65% in a semester are not eligible for condonation under any circumstances.\n- Literature Review and Feasibility Analysis.\n- Students at SR University routinely struggle to find accurate, up-to-date information scattered across syllabi, academic calendars, exam schedules, and departmental notices, often relying on outdated PDFs or word-of-mouth.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0001",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0003",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "doc_syllabus_23cse302t_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 0.39
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.7143,
+            "context_relevance": 0.2,
+            "correctness": 0.3684,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.39,
+            "context_ms": 0.18,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.15,
+            "grounding_ms": 0.0,
+            "citation_ms": 3.3,
+            "total_ms": 4.04
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q11_paraphrased_mid_exam",
+          "query": "When are the initial mid-term tests going to take place?",
+          "category": "paraphrased",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- - Mid-Semester Examination I: 15 Marks (conducted at end of first spell).\n- - Mid-Semester Examination I: 15 March 2027 to 20 March 2027\n- Mid-Semester Examination I: 12 September 2026 to 16 September 2026.\n- - Mid-Semester Examination II: 15 Marks (conducted at end of second spell).",
+          "retrieved_chunk_ids": [
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0001",
+            "doc_calendar_2026_27_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.2
+            },
+            "mrr": 0.25,
+            "ndcg_at_k": {
+              "3": 0.0,
+              "5": 0.43067655807339306
+            },
+            "latency_ms": {
+              "mean": 0.34
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.0,
+            "context_relevance": 0.2,
+            "correctness": 0.4103,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.34,
+            "context_ms": 0.2,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.18,
+            "grounding_ms": 0.0,
+            "citation_ms": 3.54,
+            "total_ms": 4.28
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q12_ambiguous_mid_exam",
+          "query": "When are the mid exams?",
+          "category": "ambiguous",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Mid-Semester Examination I: 12 September 2026 to 16 September 2026.\n- - Mid-Semester Examination I: 15 Marks (conducted at end of first spell).\n- - Mid-Semester Examination I: 15 March 2027 to 20 March 2027\n- Mid-Semester Examination II: 10 November 2026 to 14 November 2026.",
+          "retrieved_chunk_ids": [
+            "doc_calendar_2026_27_chunk_0000",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0001",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0002"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 0.3
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.0,
+            "context_relevance": 0.2,
+            "correctness": 0.5217,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.3,
+            "context_ms": 0.18,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.14,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.98,
+            "total_ms": 3.63
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q13_ambiguous_syllabus",
+          "query": "Tell me about the course syllabus.",
+          "category": "ambiguous",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The performance of a student in each semester course is evaluated for a maximum of 100 marks:\n- Course Structure: Semester VII\" page=\"p.\n- The system ingests institutional documents such as course structures, semester calendars, and exam guidelines, converts them into vector embeddings, and stores them in a searchable vector database.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0001"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.5,
+              "3": 0.5,
+              "5": 0.5
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 0.6131471927654584,
+              "5": 0.6131471927654584
+            },
+            "latency_ms": {
+              "mean": 0.32
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5,
+            "context_relevance": 0.2,
+            "correctness": 0.2933,
+            "completeness": 0.6667,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.32,
+            "context_ms": 0.2,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.17,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.58,
+            "total_ms": 3.28
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q14_out_of_kb_hostel_fees",
+          "query": "What is the hostel accommodation fee structure for SR University?",
+          "category": "out_of_knowledge_base",
+          "is_answerable": false,
+          "expected_behavior": "insufficient_evidence",
+          "actual_answer": "Based on the official SR University documentation:\n- The B.Tech Degree Program at SR University is designed as a four-year (eight semester) full-time undergraduate engineering curriculum under Regulation R23.\n- SRU Assistant addresses this by combining a RAG pipeline with the university's own academic documents to deliver accurate, source-grounded answers to natural language queries.\n- - Team Allocation: Team 235 - Project Title: \"SRU Assistant: A RAG Framework for University Academic Query Resolution\".\n- A candidate may apply for re-evaluation or recounting of their Semester End Examination theory answer script within 10 days of the online publication of provisional results by submitting the prescribed fee at the Controller of Examinations office.",
+          "retrieved_chunk_ids": [
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0005",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0003"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "mrr": 0.0,
+            "ndcg_at_k": {
+              "3": 0.0,
+              "5": 0.0
+            },
+            "latency_ms": {
+              "mean": 0.36
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.0,
+            "context_relevance": 0.0,
+            "correctness": 0.0,
+            "completeness": 0.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.36,
+            "context_ms": 0.19,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.18,
+            "grounding_ms": 0.0,
+            "citation_ms": 3.7,
+            "total_ms": 4.45
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q15_out_of_kb_external_fact",
+          "query": "What is the capital of Australia?",
+          "category": "out_of_knowledge_base",
+          "is_answerable": false,
+          "expected_behavior": "insufficient_evidence",
+          "actual_answer": "I couldn't find sufficient information in the available SR University documents to answer this accurately.",
+          "retrieved_chunk_ids": [
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0005",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "mrr": 0.0,
+            "ndcg_at_k": {
+              "3": 0.0,
+              "5": 0.0
+            },
+            "latency_ms": {
+              "mean": 0.29
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 1.0,
+            "context_relevance": 0.0,
+            "correctness": 1.0,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.29,
+            "context_ms": 0.2,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.11,
+            "grounding_ms": 0.0,
+            "citation_ms": 0.0,
+            "total_ms": 0.6
+          },
+          "passed_grounding": false,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q16_version_academic_year",
+          "query": "What is the complete examination schedule for the 2026-27 academic session?",
+          "category": "version_sensitive",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- A student is required to complete a total of 160 academic credits to be eligible for the award of the B.Tech degree.\n- Mid-Semester Examination I: 12 September 2026 to 16 September 2026.\n- - Mid-Semester Examination I: 05 October 2026 to 10 October 2026 (1 Week)\n- SRU Assistant addresses this by combining a RAG pipeline with the university's own academic documents to deliver accurate, source-grounded answers to natural language queries.",
+          "retrieved_chunk_ids": [
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "doc_calendar_2026_27_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0005"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.5,
+            "ndcg_at_k": {
+              "3": 0.6309297535714575,
+              "5": 0.6309297535714575
+            },
+            "latency_ms": {
+              "mean": 0.38
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5,
+            "context_relevance": 0.2,
+            "correctness": 0.3243,
+            "completeness": 0.3333,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 0.38,
+            "context_ms": 0.17,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.15,
+            "grounding_ms": 0.0,
+            "citation_ms": 3.19,
+            "total_ms": 3.91
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        }
+      ]
+    },
+    "C": {
+      "experiment_id": "C",
+      "name": "Experiment C: Hybrid + Re-ranking",
+      "description": "Hybrid retrieval with institutional metadata filtering and cross-feature re-ranking",
+      "retrieval_mode": "enhanced",
+      "reranking_enabled": true,
+      "grounding_validation_enabled": false,
+      "citation_verification_enabled": false,
+      "total_queries": 16,
+      "aggregate_retrieval": {
+        "recall_at_k": {
+          "1": 0.5312,
+          "3": 0.8125,
+          "5": 0.8125
+        },
+        "precision_at_k": {
+          "1": 0.5625,
+          "3": 0.3542,
+          "5": 0.2375
+        },
+        "mrr": 0.7083,
+        "ndcg_at_k": {
+          "3": 0.7191,
+          "5": 0.7191
+        },
+        "latency_ms": {}
+      },
+      "aggregate_generation": {
+        "groundedness": 1.0,
+        "answer_relevance": 0.5211,
+        "context_relevance": 0.4375,
+        "correctness": 0.4977,
+        "completeness": 0.8125,
+        "unsupported_claim_rate": 0.0
+      },
+      "aggregate_citation": {
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "citation_completeness": 1.0,
+        "evidence_support": 1.0
+      },
+      "aggregate_latency_ms": {
+        "retrieval": {
+          "mean": 2.74,
+          "median": 2.73,
+          "p95": 3.31
+        },
+        "context": {
+          "mean": 0.09,
+          "median": 0.1,
+          "p95": 0.2
+        },
+        "conflict": {
+          "mean": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "generation": {
+          "mean": 0.1,
+          "median": 0.1,
+          "p95": 0.19
+        },
+        "grounding": {
+          "mean": 0.0,
+          "median": 0.0,
+          "p95": 0.0
+        },
+        "citation": {
+          "mean": 1.64,
+          "median": 1.79,
+          "p95": 3.32
+        },
+        "total": {
+          "mean": 4.6,
+          "median": 4.67,
+          "p95": 6.52
+        }
+      },
+      "category_metrics": {
+        "direct_factual": {
+          "count": 2,
+          "recall_at_5": 1.0,
+          "mrr": 0.75,
+          "groundedness": 1.0,
+          "answer_relevance": 0.7947,
+          "correctness": 0.3382,
+          "unsupported_claim_rate": 0.0
+        },
+        "date_based": {
+          "count": 2,
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "groundedness": 1.0,
+          "answer_relevance": 0.35,
+          "correctness": 0.5238,
+          "unsupported_claim_rate": 0.0
+        },
+        "course_related": {
+          "count": 2,
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "groundedness": 1.0,
+          "answer_relevance": 0.5834,
+          "correctness": 0.6055,
+          "unsupported_claim_rate": 0.0
+        },
+        "regulation": {
+          "count": 1,
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "groundedness": 1.0,
+          "answer_relevance": 0.8571,
+          "correctness": 0.5085,
+          "unsupported_claim_rate": 0.0
+        },
+        "department_specific": {
+          "count": 1,
+          "recall_at_5": 0.5,
+          "mrr": 0.3333,
+          "groundedness": 1.0,
+          "answer_relevance": 0.5714,
+          "correctness": 0.4333,
+          "unsupported_claim_rate": 0.0
+        },
+        "multi_document": {
+          "count": 1,
+          "recall_at_5": 1.0,
+          "mrr": 0.5,
+          "groundedness": 1.0,
+          "answer_relevance": 0.5714,
+          "correctness": 0.5806,
+          "unsupported_claim_rate": 0.0
+        },
+        "paraphrased": {
+          "count": 2,
+          "recall_at_5": 0.5,
+          "mrr": 0.5,
+          "groundedness": 1.0,
+          "answer_relevance": 0.4405,
+          "correctness": 0.4811,
+          "unsupported_claim_rate": 0.0
+        },
+        "ambiguous": {
+          "count": 2,
+          "recall_at_5": 0.75,
+          "mrr": 0.75,
+          "groundedness": 1.0,
+          "answer_relevance": 0.25,
+          "correctness": 0.5347,
+          "unsupported_claim_rate": 0.0
+        },
+        "out_of_knowledge_base": {
+          "count": 2,
+          "recall_at_5": 0.5,
+          "mrr": 0.5,
+          "groundedness": 1.0,
+          "answer_relevance": 0.5,
+          "correctness": 0.5,
+          "unsupported_claim_rate": 0.0
+        },
+        "version_sensitive": {
+          "count": 1,
+          "recall_at_5": 1.0,
+          "mrr": 0.5,
+          "groundedness": 1.0,
+          "answer_relevance": 0.5,
+          "correctness": 0.4746,
+          "unsupported_claim_rate": 0.0
+        }
+      },
+      "query_results": [
+        {
+          "query_id": "q01_direct_course_code",
+          "query": "What course code is assigned to the fundamental algorithms and data structures course?",
+          "category": "direct_factual",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The system ingests institutional documents such as course structures, semester calendars, and exam guidelines, converts them into vector embeddings, and stores them in a searchable vector database.\n- Detailed Course Syllabi > 23CS401: Deep Learning & Neural Architectures\" page=\"p.\n- Students will learn tree traversals, graph algorithms, and asymptotic complexity analysis for course 23CSE302T.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "doc_syllabus_23cse302t_chunk_0001",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0001"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.5,
+            "ndcg_at_k": {
+              "3": 0.6309297535714575,
+              "5": 0.6309297535714575
+            },
+            "latency_ms": {
+              "mean": 3.31
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.7143,
+            "context_relevance": 0.25,
+            "correctness": 0.3947,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 3.31,
+            "context_ms": 0.12,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.12,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.25,
+            "total_ms": 5.82
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q02_direct_regulation",
+          "query": "What academic regulation applies to B.Tech Computer Science course structure?",
+          "category": "direct_factual",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- Course Structure: Semester VII\" page=\"p.\n- The B.Tech Degree Program at SR University is designed as a four-year (eight semester) full-time undergraduate engineering curriculum under Regulation R23.\n- SRU Assistant addresses this by combining a RAG pipeline with the university's own academic documents to deliver accurate, source-grounded answers to natural language queries.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 2.84
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.875,
+            "context_relevance": 0.2,
+            "correctness": 0.2817,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.84,
+            "context_ms": 0.17,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.16,
+            "grounding_ms": 0.0,
+            "citation_ms": 3.32,
+            "total_ms": 6.52
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q03_date_mid1",
+          "query": "When is Mid-Semester Examination I scheduled in the academic calendar?",
+          "category": "date_based",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Mid-Semester Examination I: 12 September 2026 to 16 September 2026.\n- - Mid-Semester Examination I: 15 Marks (conducted at end of first spell).\n- - Mid-Semester Examination I: 05 October 2026 to 10 October 2026 (1 Week)\n- Mid-Semester Examination II: 10 November 2026 to 14 November 2026.",
+          "retrieved_chunk_ids": [
+            "doc_calendar_2026_27_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0001",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 2.87
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5,
+            "context_relevance": 0.2,
+            "correctness": 0.381,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.87,
+            "context_ms": 0.16,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.17,
+            "grounding_ms": 0.0,
+            "citation_ms": 3.05,
+            "total_ms": 6.28
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q04_date_commencement",
+          "query": "When does classwork commence for the 2026-27 academic session?",
+          "category": "date_based",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Commencement of Classwork: 10 August 2026.\n- - Commencement of Classwork: 10 August 2026",
+          "retrieved_chunk_ids": [
+            "doc_calendar_2026_27_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 2.73
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.2,
+            "context_relevance": 0.5,
+            "correctness": 0.6667,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.73,
+            "context_ms": 0.07,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.07,
+            "grounding_ms": 0.0,
+            "citation_ms": 0.71,
+            "total_ms": 3.59
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q05_course_topics",
+          "query": "What topics are covered in course 23CSE302T?",
+          "category": "course_related",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Students will learn tree traversals, graph algorithms, and asymptotic complexity analysis for course 23CSE302T.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0001"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 2.58
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5,
+            "context_relevance": 1.0,
+            "correctness": 0.8,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.58,
+            "context_ms": 0.02,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.03,
+            "grounding_ms": 0.0,
+            "citation_ms": 0.18,
+            "total_ms": 2.84
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q06_course_overview",
+          "query": "What is the overview and scope of the B.Tech Computer Science curriculum?",
+          "category": "course_related",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The B.Tech Degree Program at SR University is designed as a four-year (eight semester) full-time undergraduate engineering curriculum under Regulation R23.\n- The seventh semester of B.Tech CSE comprises core courses, professional electives, and capstone project work:\n- A student is required to complete a total of 160 academic credits to be eligible for the award of the B.Tech degree.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 2.8
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.6667,
+            "context_relevance": 0.3333,
+            "correctness": 0.411,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.8,
+            "context_ms": 0.08,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.08,
+            "grounding_ms": 0.0,
+            "citation_ms": 1.37,
+            "total_ms": 4.36
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q07_regulation_r23",
+          "query": "What curriculum guidelines are defined under Regulation R23 for Computer Science?",
+          "category": "regulation",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The B.Tech Degree Program at SR University is designed as a four-year (eight semester) full-time undergraduate engineering curriculum under Regulation R23.\n- Re-evaluation and Recounting Guidelines\" page=\"p.\n- Attendance and Condonation Regulations\" page=\"p.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0005",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 2.81
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.8571,
+            "context_relevance": 0.2,
+            "correctness": 0.5085,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.81,
+            "context_ms": 0.14,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.18,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.64,
+            "total_ms": 5.8
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q08_dept_cse_vii",
+          "query": "What are the syllabus details for Computer Science and Engineering Semester VII?",
+          "category": "department_specific",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Course Structure: Semester VII\" page=\"p.\n- VII Semester\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The seventh semester of B.Tech CSE comprises core courses, professional electives, and capstone project work:",
+          "retrieved_chunk_ids": [
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0000",
+            "doc_syllabus_23cse302t_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 0.5,
+              "5": 0.5
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.3333,
+            "ndcg_at_k": {
+              "3": 0.3065735963827292,
+              "5": 0.3065735963827292
+            },
+            "latency_ms": {
+              "mean": 2.77
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5714,
+            "context_relevance": 0.3333,
+            "correctness": 0.4333,
+            "completeness": 0.5,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.77,
+            "context_ms": 0.07,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.07,
+            "grounding_ms": 0.0,
+            "citation_ms": 0.89,
+            "total_ms": 3.83
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q09_multi_doc_course_and_exam",
+          "query": "What are the learning objectives of 23CSE302T and when is Mid-Semester Examination I scheduled?",
+          "category": "multi_document",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- - Mid-Semester Examination I: 15 Marks (conducted at end of first spell).\n- Mid-Semester Examination I: 12 September 2026 to 16 September 2026.\n- - Mid-Semester Examination I: 15 March 2027 to 20 March 2027\n- Students will learn tree traversals, graph algorithms, and asymptotic complexity analysis for course 23CSE302T.",
+          "retrieved_chunk_ids": [
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002",
+            "doc_calendar_2026_27_chunk_0000",
+            "doc_syllabus_23cse302t_chunk_0001",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0001",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.6666666666666666,
+              "5": 0.4
+            },
+            "mrr": 0.5,
+            "ndcg_at_k": {
+              "3": 0.6934264036172708,
+              "5": 0.6934264036172708
+            },
+            "latency_ms": {
+              "mean": 2.97
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5714,
+            "context_relevance": 0.4,
+            "correctness": 0.5806,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.97,
+            "context_ms": 0.15,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.17,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.89,
+            "total_ms": 6.21
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q10_paraphrased_graphs",
+          "query": "What will students master regarding graph algorithms and asymptotic analysis?",
+          "category": "paraphrased",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Students will learn tree traversals, graph algorithms, and asymptotic complexity analysis for course 23CSE302T.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0001"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 2.69
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.7143,
+            "context_relevance": 1.0,
+            "correctness": 0.8,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.69,
+            "context_ms": 0.02,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.03,
+            "grounding_ms": 0.0,
+            "citation_ms": 0.18,
+            "total_ms": 2.94
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q11_paraphrased_mid_exam",
+          "query": "When are the initial mid-term tests going to take place?",
+          "category": "paraphrased",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- - Mid-Semester Examination I: 15 Marks (conducted at end of first spell).\n- - Mid-Semester Examination II: 15 Marks (conducted at end of second spell).\n- - Continuous Assignments / Quizzes / Tutorial Tests: 10 Marks.",
+          "retrieved_chunk_ids": [
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "mrr": 0.0,
+            "ndcg_at_k": {
+              "3": 0.0,
+              "5": 0.0
+            },
+            "latency_ms": {
+              "mean": 2.58
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.1667,
+            "context_relevance": 0.0,
+            "correctness": 0.1622,
+            "completeness": 0.5,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.58,
+            "context_ms": 0.05,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.07,
+            "grounding_ms": 0.0,
+            "citation_ms": 0.86,
+            "total_ms": 3.59
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q12_ambiguous_mid_exam",
+          "query": "When are the mid exams?",
+          "category": "ambiguous",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Mid-Semester Examination I: 12 September 2026 to 16 September 2026.\n- - Mid-Semester Examination I: 15 Marks (conducted at end of first spell).\n- Mid-Semester Examination II: 10 November 2026 to 14 November 2026.\n- - Mid-Semester Examination II: 15 Marks (conducted at end of second spell).",
+          "retrieved_chunk_ids": [
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "doc_calendar_2026_27_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.5,
+            "ndcg_at_k": {
+              "3": 0.6309297535714575,
+              "5": 0.6309297535714575
+            },
+            "latency_ms": {
+              "mean": 2.53
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.0,
+            "context_relevance": 0.3333,
+            "correctness": 0.5455,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.53,
+            "context_ms": 0.12,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.11,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.21,
+            "total_ms": 4.98
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q13_ambiguous_syllabus",
+          "query": "Tell me about the course syllabus.",
+          "category": "ambiguous",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.5,
+              "3": 0.5,
+              "5": 0.5
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 0.6131471927654584,
+              "5": 0.6131471927654584
+            },
+            "latency_ms": {
+              "mean": 2.52
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5,
+            "context_relevance": 1.0,
+            "correctness": 0.5238,
+            "completeness": 0.6667,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.52,
+            "context_ms": 0.02,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.03,
+            "grounding_ms": 0.0,
+            "citation_ms": 0.18,
+            "total_ms": 2.77
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q14_out_of_kb_hostel_fees",
+          "query": "What is the hostel accommodation fee structure for SR University?",
+          "category": "out_of_knowledge_base",
+          "is_answerable": false,
+          "expected_behavior": "insufficient_evidence",
+          "actual_answer": "Based on the official SR University documentation:\n- The B.Tech Degree Program at SR University is designed as a four-year (eight semester) full-time undergraduate engineering curriculum under Regulation R23.\n- SRU Assistant addresses this by combining a RAG pipeline with the university's own academic documents to deliver accurate, source-grounded answers to natural language queries.\n- Course Structure: Semester VII\" page=\"p.\n- The Dean of Academic Affairs may condone shortage of attendance up to 10% (i.e., attendance between 65% and 74.9%) on genuine medical grounds or authorized participation in university-level sports/cultural events, provided:",
+          "retrieved_chunk_ids": [
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "mrr": 0.0,
+            "ndcg_at_k": {
+              "3": 0.0,
+              "5": 0.0
+            },
+            "latency_ms": {
+              "mean": 2.61
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.0,
+            "context_relevance": 0.0,
+            "correctness": 0.0,
+            "completeness": 0.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.61,
+            "context_ms": 0.2,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.19,
+            "grounding_ms": 0.0,
+            "citation_ms": 3.06,
+            "total_ms": 6.08
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q15_out_of_kb_external_fact",
+          "query": "What is the capital of Australia?",
+          "category": "out_of_knowledge_base",
+          "is_answerable": false,
+          "expected_behavior": "insufficient_evidence",
+          "actual_answer": "I couldn't find sufficient information in the available SR University documents to answer this accurately.",
+          "retrieved_chunk_ids": [],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 2.54
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 1.0,
+            "context_relevance": 1.0,
+            "correctness": 1.0,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.54,
+            "context_ms": 0.0,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.0,
+            "grounding_ms": 0.0,
+            "citation_ms": 0.0,
+            "total_ms": 2.56
+          },
+          "passed_grounding": false,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q16_version_academic_year",
+          "query": "What is the complete examination schedule for the 2026-27 academic session?",
+          "category": "version_sensitive",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- - Mid-Semester Examination I: 05 October 2026 to 10 October 2026 (1 Week)\n- Mid-Semester Examination I: 12 September 2026 to 16 September 2026.\n- A student is required to complete a total of 160 academic credits to be eligible for the award of the B.Tech degree.\n- - Mid-Semester Examination II: 30 November 2026 to 05 December 2026 (1 Week)",
+          "retrieved_chunk_ids": [
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000",
+            "doc_calendar_2026_27_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0001"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.5,
+            "ndcg_at_k": {
+              "3": 0.6309297535714575,
+              "5": 0.6309297535714575
+            },
+            "latency_ms": {
+              "mean": 2.73
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5,
+            "context_relevance": 0.25,
+            "correctness": 0.4746,
+            "completeness": 0.3333,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.73,
+            "context_ms": 0.12,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.12,
+            "grounding_ms": 0.0,
+            "citation_ms": 2.51,
+            "total_ms": 5.5
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        }
+      ]
+    },
+    "D": {
+      "experiment_id": "D",
+      "name": "Experiment D: Full Grounded Pipeline",
+      "description": "Complete pipeline with hybrid reranking, conflict detection, grounding validation, and citation verification",
+      "retrieval_mode": "enhanced",
+      "reranking_enabled": true,
+      "grounding_validation_enabled": true,
+      "citation_verification_enabled": true,
+      "total_queries": 16,
+      "aggregate_retrieval": {
+        "recall_at_k": {
+          "1": 0.5312,
+          "3": 0.8125,
+          "5": 0.8125
+        },
+        "precision_at_k": {
+          "1": 0.5625,
+          "3": 0.3542,
+          "5": 0.2375
+        },
+        "mrr": 0.7083,
+        "ndcg_at_k": {
+          "3": 0.7191,
+          "5": 0.7191
+        },
+        "latency_ms": {}
+      },
+      "aggregate_generation": {
+        "groundedness": 0.9417,
+        "answer_relevance": 0.5211,
+        "context_relevance": 0.4375,
+        "correctness": 0.4631,
+        "completeness": 0.8125,
+        "unsupported_claim_rate": 0.0583
+      },
+      "aggregate_citation": {
+        "citation_precision": 1.0,
+        "citation_recall": 0.9417,
+        "citation_completeness": 0.9417,
+        "evidence_support": 0.9333
+      },
+      "aggregate_latency_ms": {
+        "retrieval": {
+          "mean": 2.69,
+          "median": 2.7,
+          "p95": 2.88
+        },
+        "context": {
+          "mean": 0.1,
+          "median": 0.1,
+          "p95": 0.2
+        },
+        "conflict": {
+          "mean": 0.28,
+          "median": 0.29,
+          "p95": 0.68
+        },
+        "generation": {
+          "mean": 0.1,
+          "median": 0.1,
+          "p95": 0.19
+        },
+        "grounding": {
+          "mean": 1.24,
+          "median": 1.21,
+          "p95": 2.49
+        },
+        "citation": {
+          "mean": 2.92,
+          "median": 3.02,
+          "p95": 5.91
+        },
+        "total": {
+          "mean": 7.34,
+          "median": 7.45,
+          "p95": 12.01
+        }
+      },
+      "category_metrics": {
+        "direct_factual": {
+          "count": 2,
+          "recall_at_5": 1.0,
+          "mrr": 0.75,
+          "groundedness": 1.0,
+          "answer_relevance": 0.7947,
+          "correctness": 0.3382,
+          "unsupported_claim_rate": 0.0
+        },
+        "date_based": {
+          "count": 2,
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "groundedness": 0.7333,
+          "answer_relevance": 0.35,
+          "correctness": 0.3428,
+          "unsupported_claim_rate": 0.2666
+        },
+        "course_related": {
+          "count": 2,
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "groundedness": 1.0,
+          "answer_relevance": 0.5834,
+          "correctness": 0.6055,
+          "unsupported_claim_rate": 0.0
+        },
+        "regulation": {
+          "count": 1,
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "groundedness": 1.0,
+          "answer_relevance": 0.8571,
+          "correctness": 0.5085,
+          "unsupported_claim_rate": 0.0
+        },
+        "department_specific": {
+          "count": 1,
+          "recall_at_5": 0.5,
+          "mrr": 0.3333,
+          "groundedness": 1.0,
+          "answer_relevance": 0.5714,
+          "correctness": 0.4333,
+          "unsupported_claim_rate": 0.0
+        },
+        "multi_document": {
+          "count": 1,
+          "recall_at_5": 1.0,
+          "mrr": 0.5,
+          "groundedness": 0.8,
+          "answer_relevance": 0.5714,
+          "correctness": 0.4737,
+          "unsupported_claim_rate": 0.2
+        },
+        "paraphrased": {
+          "count": 2,
+          "recall_at_5": 0.5,
+          "mrr": 0.5,
+          "groundedness": 1.0,
+          "answer_relevance": 0.4405,
+          "correctness": 0.4811,
+          "unsupported_claim_rate": 0.0
+        },
+        "ambiguous": {
+          "count": 2,
+          "recall_at_5": 0.75,
+          "mrr": 0.75,
+          "groundedness": 1.0,
+          "answer_relevance": 0.25,
+          "correctness": 0.5347,
+          "unsupported_claim_rate": 0.0
+        },
+        "out_of_knowledge_base": {
+          "count": 2,
+          "recall_at_5": 0.5,
+          "mrr": 0.5,
+          "groundedness": 1.0,
+          "answer_relevance": 0.5,
+          "correctness": 0.5,
+          "unsupported_claim_rate": 0.0
+        },
+        "version_sensitive": {
+          "count": 1,
+          "recall_at_5": 1.0,
+          "mrr": 0.5,
+          "groundedness": 0.8,
+          "answer_relevance": 0.5,
+          "correctness": 0.3889,
+          "unsupported_claim_rate": 0.2
+        }
+      },
+      "query_results": [
+        {
+          "query_id": "q01_direct_course_code",
+          "query": "What course code is assigned to the fundamental algorithms and data structures course?",
+          "category": "direct_factual",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The system ingests institutional documents such as course structures, semester calendars, and exam guidelines, converts them into vector embeddings, and stores them in a searchable vector database.\n- Detailed Course Syllabi > 23CS401: Deep Learning & Neural Architectures\" page=\"p.\n- Students will learn tree traversals, graph algorithms, and asymptotic complexity analysis for course 23CSE302T.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "doc_syllabus_23cse302t_chunk_0001",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0001"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.5,
+            "ndcg_at_k": {
+              "3": 0.6309297535714575,
+              "5": 0.6309297535714575
+            },
+            "latency_ms": {
+              "mean": 2.7
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.7143,
+            "context_relevance": 0.25,
+            "correctness": 0.3947,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 0.9889
+          },
+          "latency": {
+            "retrieval_ms": 2.7,
+            "context_ms": 0.12,
+            "conflict_ms": 0.34,
+            "generation_ms": 0.11,
+            "grounding_ms": 1.41,
+            "citation_ms": 3.17,
+            "total_ms": 7.87
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q02_direct_regulation",
+          "query": "What academic regulation applies to B.Tech Computer Science course structure?",
+          "category": "direct_factual",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- Course Structure: Semester VII\" page=\"p.\n- The B.Tech Degree Program at SR University is designed as a four-year (eight semester) full-time undergraduate engineering curriculum under Regulation R23.\n- SRU Assistant addresses this by combining a RAG pipeline with the university's own academic documents to deliver accurate, source-grounded answers to natural language queries.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 2.83
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.875,
+            "context_relevance": 0.2,
+            "correctness": 0.2817,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 0.98
+          },
+          "latency": {
+            "retrieval_ms": 2.83,
+            "context_ms": 0.17,
+            "conflict_ms": 0.55,
+            "generation_ms": 0.17,
+            "grounding_ms": 1.9,
+            "citation_ms": 5.39,
+            "total_ms": 11.04
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q03_date_mid1",
+          "query": "When is Mid-Semester Examination I scheduled in the academic calendar?",
+          "category": "date_based",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "[Notice: University documentation contains a discrepancy: Note: An institutional date_discrepancy was detected between sources (calendar.txt, sru_academic_calendar_2026_27.txt).]\nBased on the official SR University documentation:\n- Mid-Semester Examination I: 12 September 2026 to 16 September 2026.\n- - Mid-Semester Examination I: 15 Marks (conducted at end of first spell).\n- - Mid-Semester Examination I: 05 October 2026 to 10 October 2026 (1 Week)\n- Mid-Semester Examination II: 10 November 2026 to 14 November 2026.",
+          "retrieved_chunk_ids": [
+            "doc_calendar_2026_27_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0001",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 2.85
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 0.8,
+            "answer_relevance": 0.5,
+            "context_relevance": 0.2,
+            "correctness": 0.2857,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.2
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 0.8,
+            "citation_completeness": 0.8,
+            "evidence_support": 0.8
+          },
+          "latency": {
+            "retrieval_ms": 2.85,
+            "context_ms": 0.16,
+            "conflict_ms": 0.58,
+            "generation_ms": 0.18,
+            "grounding_ms": 2.3,
+            "citation_ms": 5.91,
+            "total_ms": 12.01
+          },
+          "passed_grounding": true,
+          "passed_verification": false
+        },
+        {
+          "query_id": "q04_date_commencement",
+          "query": "When does classwork commence for the 2026-27 academic session?",
+          "category": "date_based",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "[Notice: University documentation contains a discrepancy: Note: An institutional date_discrepancy was detected between sources (calendar.txt, sru_academic_calendar_2026_27.txt).]\nBased on the official SR University documentation:\n- Commencement of Classwork: 10 August 2026.\n- - Commencement of Classwork: 10 August 2026",
+          "retrieved_chunk_ids": [
+            "doc_calendar_2026_27_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 2.72
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 0.6667,
+            "answer_relevance": 0.2,
+            "context_relevance": 0.5,
+            "correctness": 0.4,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.3333
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 0.6667,
+            "citation_completeness": 0.6667,
+            "evidence_support": 0.6667
+          },
+          "latency": {
+            "retrieval_ms": 2.72,
+            "context_ms": 0.07,
+            "conflict_ms": 0.23,
+            "generation_ms": 0.07,
+            "grounding_ms": 0.73,
+            "citation_ms": 2.22,
+            "total_ms": 6.07
+          },
+          "passed_grounding": true,
+          "passed_verification": false
+        },
+        {
+          "query_id": "q05_course_topics",
+          "query": "What topics are covered in course 23CSE302T?",
+          "category": "course_related",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Students will learn tree traversals, graph algorithms, and asymptotic complexity analysis for course 23CSE302T.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0001"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 2.53
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5,
+            "context_relevance": 1.0,
+            "correctness": 0.8,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.53,
+            "context_ms": 0.02,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.03,
+            "grounding_ms": 0.12,
+            "citation_ms": 0.29,
+            "total_ms": 3.01
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q06_course_overview",
+          "query": "What is the overview and scope of the B.Tech Computer Science curriculum?",
+          "category": "course_related",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The B.Tech Degree Program at SR University is designed as a four-year (eight semester) full-time undergraduate engineering curriculum under Regulation R23.\n- The seventh semester of B.Tech CSE comprises core courses, professional electives, and capstone project work:\n- A student is required to complete a total of 160 academic credits to be eligible for the award of the B.Tech degree.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 2.67
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.6667,
+            "context_relevance": 0.3333,
+            "correctness": 0.411,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.67,
+            "context_ms": 0.08,
+            "conflict_ms": 0.18,
+            "generation_ms": 0.08,
+            "grounding_ms": 1.12,
+            "citation_ms": 2.88,
+            "total_ms": 7.02
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q07_regulation_r23",
+          "query": "What curriculum guidelines are defined under Regulation R23 for Computer Science?",
+          "category": "regulation",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The B.Tech Degree Program at SR University is designed as a four-year (eight semester) full-time undergraduate engineering curriculum under Regulation R23.\n- Re-evaluation and Recounting Guidelines\" page=\"p.\n- Attendance and Condonation Regulations\" page=\"p.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0005",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 2.78
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.8571,
+            "context_relevance": 0.2,
+            "correctness": 0.5085,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 0.95
+          },
+          "latency": {
+            "retrieval_ms": 2.78,
+            "context_ms": 0.15,
+            "conflict_ms": 0.39,
+            "generation_ms": 0.13,
+            "grounding_ms": 1.29,
+            "citation_ms": 4.41,
+            "total_ms": 9.16
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q08_dept_cse_vii",
+          "query": "What are the syllabus details for Computer Science and Engineering Semester VII?",
+          "category": "department_specific",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Course Structure: Semester VII\" page=\"p.\n- VII Semester\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.\n- The seventh semester of B.Tech CSE comprises core courses, professional electives, and capstone project work:",
+          "retrieved_chunk_ids": [
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0000",
+            "doc_syllabus_23cse302t_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 0.5,
+              "5": 0.5
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.3333,
+            "ndcg_at_k": {
+              "3": 0.3065735963827292,
+              "5": 0.3065735963827292
+            },
+            "latency_ms": {
+              "mean": 2.69
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5714,
+            "context_relevance": 0.3333,
+            "correctness": 0.4333,
+            "completeness": 0.5,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 0.9733
+          },
+          "latency": {
+            "retrieval_ms": 2.69,
+            "context_ms": 0.07,
+            "conflict_ms": 0.14,
+            "generation_ms": 0.07,
+            "grounding_ms": 0.82,
+            "citation_ms": 1.97,
+            "total_ms": 5.78
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q09_multi_doc_course_and_exam",
+          "query": "What are the learning objectives of 23CSE302T and when is Mid-Semester Examination I scheduled?",
+          "category": "multi_document",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "[Notice: University documentation contains a discrepancy: Note: An institutional date_discrepancy was detected between sources (calendar.txt, sru_academic_calendar_2026_27.txt).]\nBased on the official SR University documentation:\n- - Mid-Semester Examination I: 15 Marks (conducted at end of first spell).\n- Mid-Semester Examination I: 12 September 2026 to 16 September 2026.\n- - Mid-Semester Examination I: 15 March 2027 to 20 March 2027\n- Students will learn tree traversals, graph algorithms, and asymptotic complexity analysis for course 23CSE302T.",
+          "retrieved_chunk_ids": [
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002",
+            "doc_calendar_2026_27_chunk_0000",
+            "doc_syllabus_23cse302t_chunk_0001",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0001",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.6666666666666666,
+              "5": 0.4
+            },
+            "mrr": 0.5,
+            "ndcg_at_k": {
+              "3": 0.6934264036172708,
+              "5": 0.6934264036172708
+            },
+            "latency_ms": {
+              "mean": 2.88
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 0.8,
+            "answer_relevance": 0.5714,
+            "context_relevance": 0.4,
+            "correctness": 0.4737,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.2
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 0.8,
+            "citation_completeness": 0.8,
+            "evidence_support": 0.8
+          },
+          "latency": {
+            "retrieval_ms": 2.88,
+            "context_ms": 0.15,
+            "conflict_ms": 0.55,
+            "generation_ms": 0.17,
+            "grounding_ms": 2.49,
+            "citation_ms": 5.46,
+            "total_ms": 11.73
+          },
+          "passed_grounding": true,
+          "passed_verification": false
+        },
+        {
+          "query_id": "q10_paraphrased_graphs",
+          "query": "What will students master regarding graph algorithms and asymptotic analysis?",
+          "category": "paraphrased",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Students will learn tree traversals, graph algorithms, and asymptotic complexity analysis for course 23CSE302T.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0001"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 2.71
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.7143,
+            "context_relevance": 1.0,
+            "correctness": 0.8,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.71,
+            "context_ms": 0.02,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.03,
+            "grounding_ms": 0.12,
+            "citation_ms": 0.29,
+            "total_ms": 3.19
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q11_paraphrased_mid_exam",
+          "query": "When are the initial mid-term tests going to take place?",
+          "category": "paraphrased",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- - Mid-Semester Examination I: 15 Marks (conducted at end of first spell).\n- - Mid-Semester Examination II: 15 Marks (conducted at end of second spell).\n- - Continuous Assignments / Quizzes / Tutorial Tests: 10 Marks.",
+          "retrieved_chunk_ids": [
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "mrr": 0.0,
+            "ndcg_at_k": {
+              "3": 0.0,
+              "5": 0.0
+            },
+            "latency_ms": {
+              "mean": 2.58
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.1667,
+            "context_relevance": 0.0,
+            "correctness": 0.1622,
+            "completeness": 0.5,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.58,
+            "context_ms": 0.05,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.07,
+            "grounding_ms": 0.86,
+            "citation_ms": 2.19,
+            "total_ms": 5.78
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q12_ambiguous_mid_exam",
+          "query": "When are the mid exams?",
+          "category": "ambiguous",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- Mid-Semester Examination I: 12 September 2026 to 16 September 2026.\n- - Mid-Semester Examination I: 15 Marks (conducted at end of first spell).\n- Mid-Semester Examination II: 10 November 2026 to 14 November 2026.\n- - Mid-Semester Examination II: 15 Marks (conducted at end of second spell).",
+          "retrieved_chunk_ids": [
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "doc_calendar_2026_27_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0002"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.5,
+            "ndcg_at_k": {
+              "3": 0.6309297535714575,
+              "5": 0.6309297535714575
+            },
+            "latency_ms": {
+              "mean": 2.53
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.0,
+            "context_relevance": 0.3333,
+            "correctness": 0.5455,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.53,
+            "context_ms": 0.12,
+            "conflict_ms": 0.44,
+            "generation_ms": 0.11,
+            "grounding_ms": 2.02,
+            "citation_ms": 3.44,
+            "total_ms": 8.68
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q13_ambiguous_syllabus",
+          "query": "Tell me about the course syllabus.",
+          "category": "ambiguous",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "Based on the official SR University documentation:\n- This course covers fundamental algorithms and data structures for B.Tech Computer Science under Regulation R23.",
+          "retrieved_chunk_ids": [
+            "doc_syllabus_23cse302t_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.5,
+              "3": 0.5,
+              "5": 0.5
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 0.6131471927654584,
+              "5": 0.6131471927654584
+            },
+            "latency_ms": {
+              "mean": 2.56
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.5,
+            "context_relevance": 1.0,
+            "correctness": 0.5238,
+            "completeness": 0.6667,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.56,
+            "context_ms": 0.02,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.03,
+            "grounding_ms": 0.12,
+            "citation_ms": 0.29,
+            "total_ms": 3.03
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q14_out_of_kb_hostel_fees",
+          "query": "What is the hostel accommodation fee structure for SR University?",
+          "category": "out_of_knowledge_base",
+          "is_answerable": false,
+          "expected_behavior": "insufficient_evidence",
+          "actual_answer": "Based on the official SR University documentation:\n- The B.Tech Degree Program at SR University is designed as a four-year (eight semester) full-time undergraduate engineering curriculum under Regulation R23.\n- SRU Assistant addresses this by combining a RAG pipeline with the university's own academic documents to deliver accurate, source-grounded answers to natural language queries.\n- Course Structure: Semester VII\" page=\"p.\n- The Dean of Academic Affairs may condone shortage of attendance up to 10% (i.e., attendance between 65% and 74.9%) on genuine medical grounds or authorized participation in university-level sports/cultural events, provided:",
+          "retrieved_chunk_ids": [
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "a4993680c845d5ca3bdcb3cd2e553b97b602a6c99e7854fb37518d9ed1755f99_chunk_0002",
+            "c2f179432abdbbe642f52145d67d226fd61d1b62879aa700eb72c41c4439f11b_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0001",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "mrr": 0.0,
+            "ndcg_at_k": {
+              "3": 0.0,
+              "5": 0.0
+            },
+            "latency_ms": {
+              "mean": 2.63
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 0.0,
+            "context_relevance": 0.0,
+            "correctness": 0.0,
+            "completeness": 0.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 0.9733
+          },
+          "latency": {
+            "retrieval_ms": 2.63,
+            "context_ms": 0.2,
+            "conflict_ms": 0.68,
+            "generation_ms": 0.19,
+            "grounding_ms": 2.4,
+            "citation_ms": 4.45,
+            "total_ms": 10.58
+          },
+          "passed_grounding": true,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q15_out_of_kb_external_fact",
+          "query": "What is the capital of Australia?",
+          "category": "out_of_knowledge_base",
+          "is_answerable": false,
+          "expected_behavior": "insufficient_evidence",
+          "actual_answer": "I couldn't find sufficient information in the available SR University documents to answer this accurately.",
+          "retrieved_chunk_ids": [],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 1.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "mrr": 1.0,
+            "ndcg_at_k": {
+              "3": 1.0,
+              "5": 1.0
+            },
+            "latency_ms": {
+              "mean": 2.6
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 1.0,
+            "answer_relevance": 1.0,
+            "context_relevance": 1.0,
+            "correctness": 1.0,
+            "completeness": 1.0,
+            "unsupported_claim_rate": 0.0
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_completeness": 1.0,
+            "evidence_support": 1.0
+          },
+          "latency": {
+            "retrieval_ms": 2.6,
+            "context_ms": 0.0,
+            "conflict_ms": 0.0,
+            "generation_ms": 0.0,
+            "grounding_ms": 0.0,
+            "citation_ms": 0.0,
+            "total_ms": 2.63
+          },
+          "passed_grounding": false,
+          "passed_verification": true
+        },
+        {
+          "query_id": "q16_version_academic_year",
+          "query": "What is the complete examination schedule for the 2026-27 academic session?",
+          "category": "version_sensitive",
+          "is_answerable": true,
+          "expected_behavior": "answer",
+          "actual_answer": "[Notice: University documentation contains a discrepancy: Note: An institutional date_discrepancy was detected between sources (calendar.txt, sru_academic_calendar_2026_27.txt).]\nBased on the official SR University documentation:\n- - Mid-Semester Examination I: 05 October 2026 to 10 October 2026 (1 Week)\n- Mid-Semester Examination I: 12 September 2026 to 16 September 2026.\n- A student is required to complete a total of 160 academic credits to be eligible for the award of the B.Tech degree.\n- - Mid-Semester Examination II: 30 November 2026 to 05 December 2026 (1 Week)",
+          "retrieved_chunk_ids": [
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0000",
+            "doc_calendar_2026_27_chunk_0000",
+            "5e0976ef08031bc724d13dd498b9011401ea917213646b351c0d87b718658ad6_chunk_0000",
+            "9ff1899047fd5ed38dd7e73139a0e84c6b3d29b578f59ce9cc538f5181aa5458_chunk_0001"
+          ],
+          "retrieval_metrics": {
+            "recall_at_k": {
+              "1": 0.0,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "precision_at_k": {
+              "1": 0.0,
+              "3": 0.3333333333333333,
+              "5": 0.2
+            },
+            "mrr": 0.5,
+            "ndcg_at_k": {
+              "3": 0.6309297535714575,
+              "5": 0.6309297535714575
+            },
+            "latency_ms": {
+              "mean": 2.74
+            }
+          },
+          "generation_metrics": {
+            "groundedness": 0.8,
+            "answer_relevance": 0.5,
+            "context_relevance": 0.25,
+            "correctness": 0.3889,
+            "completeness": 0.3333,
+            "unsupported_claim_rate": 0.2
+          },
+          "citation_metrics": {
+            "citation_precision": 1.0,
+            "citation_recall": 0.8,
+            "citation_completeness": 0.8,
+            "evidence_support": 0.8
+          },
+          "latency": {
+            "retrieval_ms": 2.74,
+            "context_ms": 0.12,
+            "conflict_ms": 0.4,
+            "generation_ms": 0.12,
+            "grounding_ms": 2.07,
+            "citation_ms": 4.38,
+            "total_ms": 9.85
+          },
+          "passed_grounding": true,
+          "passed_verification": false
+        }
+      ]
+    }
+  }
+}

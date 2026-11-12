@@ -1,0 +1,1046 @@
+{
+  "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+  "chunks": [
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0000",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 0,
+      "text": "### COURSE PLAN\n\nFor",
+      "token_count": 6,
+      "char_count": 20,
+      "word_count": 4,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "COURSE PLAN",
+        "heading_hierarchy": [
+          "COURSE PLAN"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          1
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0001",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0002"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0001",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 1,
+      "text": "### AI TECHNOLOGIES FOR UNMANNED AERIAL\n\n### VEHICLES (23CA201SE404)\n\nCourse Coordinator : Dr. Durgesh Nandan\n\nCourse Instructors :\n\nCourse Type : Specialization Elective\n\nSemester and Year : V Semester",
+      "token_count": 36,
+      "char_count": 202,
+      "word_count": 29,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "VEHICLES (23CA201SE404)",
+        "heading_hierarchy": [
+          "VEHICLES (23CA201SE404)"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          1
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0003",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0004",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0005",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0006",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0007",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0008"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0002",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 2,
+      "text": "### L-T-P : 2-0-2\n\nCredits : 3\n\nSchool : School of Computer Science and Artificial\n\nIntelligence\n\nDepartment : Department of Computer Science and Artificial\n\nIntelligence\n\nCourse Level : UG\n\nSchool of Computer Science and Artificial Intelligence\n\n____________________________________\n\nSR University,\n\nWarangal\n\n1.COURSE CONTEXT .......................................................... Error! Bookmark not defined.\n\n3.COURSESUMMARY ......................................................... Error! Bookmark not defined.\n\n4.COURSE-SPECIFIC LEARNING OUTCOMES (CO) ...... Error! Bookmark not defined.\n\n5.DETAILED SYLLABUS .................................................... Error! Bookmark not defined.\n\n6.STUDIOWORK/LABORATORYEXPERIMENTS: .......... Error! Bookmark not defined.\n\n7.TEXTBOOKS/LEARNING RESOURCES: ....................... Error! Bookmark not defined.\n\n8.REFERENCE BOOKS/LEARNING RESOURCES: ......... Error! Bookmark not defined.\n\n9.MOOC COURSES (Reference to the Course): ................... Error! Bookmark not defined.\n\n10.Lecture Wise Plan .............................................................. Error! Bookmark not defined.",
+      "token_count": 459,
+      "char_count": 1147,
+      "word_count": 109,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "L-T-P : 2-0-2",
+        "heading_hierarchy": [
+          "L-T-P : 2-0-2"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          1,
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0009",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0010",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0011",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0012",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0013",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0014",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0015",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0016",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0017",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0018",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0019",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0020",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0021",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0022",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0023",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0024",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0025",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0026",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0027",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0028"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0003",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 3,
+      "text": "11.Tutorial Wise Plan ............................................................. Error! Bookmark not defined.\n\n12.Lab Wise Plan .................................................................... Error! Bookmark not defined.\n\n13.Evaluation Components ..................................................... Error! Bookmark not defined.\n\n14.Proposed Industry Talks: ................................................... Error! Bookmark not defined.\n\n15.Start-ups related to the Course: .......................................... Error! Bookmark not defined.\n\n16.Certification Mapping: ....................................................... Error! Bookmark not defined.\n\n17.Software/Tools Used: ........................................................ Error! Bookmark not defined.",
+      "token_count": 470,
+      "char_count": 779,
+      "word_count": 55,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "L-T-P : 2-0-2",
+        "heading_hierarchy": [
+          "L-T-P : 2-0-2"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0029",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0030",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0031",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0032",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0033",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0034",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0035"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0004",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 4,
+      "text": "18.Hardware/Devices Used: ................................................... Error! Bookmark not defined.\n\n19.Proposed Case Studies: ...................................................... Error! Bookmark not defined.\n\n20.Advanced Research Topics: ............................................... Error! Bookmark not defined.\n\n21.Attendance Policy .............................................................. Error! Bookmark not defined.\n\n22.Academic Dishonesty & Plagiarism .................................. Error! Bookmark not defined.\n\n23.Instructor Responsible for Lecture PPTs Preparation ........ Error! Bookmark not defined.\n\n24.Instructor Responsible for Preparation of Lab Assignments ............ Error! Bookmark not\n\ndefined.\n\n25.Instructor Responsible for Preparation of Tutorial Sheet .. Error! Bookmark not defined.\n\n26.Any Other Instructor wise Responsibility:......................... Error! Bookmark not defined.",
+      "token_count": 412,
+      "char_count": 931,
+      "word_count": 83,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "L-T-P : 2-0-2",
+        "heading_hierarchy": [
+          "L-T-P : 2-0-2"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0036",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0037",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0038",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0039",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0040",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0041",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0042",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0043",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0044",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0045"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0005",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 5,
+      "text": "### COURSE CONTEXT\n\n### SCHOOL\n\nComputer Science and\n\nArtificial Intelligence",
+      "token_count": 14,
+      "char_count": 77,
+      "word_count": 10,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "SCHOOL",
+        "heading_hierarchy": [
+          "SCHOOL"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          3
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0046",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0047",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0048",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0049"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0006",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 6,
+      "text": "### DEPARTMENT\n\nComputer Science and\n\nArtificial Intelligence\n\nDEGREE B.Tech.",
+      "token_count": 14,
+      "char_count": 77,
+      "word_count": 9,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "DEPARTMENT",
+        "heading_hierarchy": [
+          "DEPARTMENT"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          3
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0050",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0051",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0052",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0053"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0007",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 7,
+      "text": "### DATE THIS COURSE\n\n### WILL BE EFFECTIVE\n\n### FROM\n\nJul–Dec,2025",
+      "token_count": 21,
+      "char_count": 67,
+      "word_count": 11,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "FROM",
+        "heading_hierarchy": [
+          "FROM"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          3
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0054",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0055",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0056",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0057"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0008",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 8,
+      "text": "### COURSE BRIEF\n\n### COURSE TITLE AI Technologies for\n\nUnmanned Aerial\n\nVehicles",
+      "token_count": 16,
+      "char_count": 81,
+      "word_count": 12,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "COURSE TITLE AI Technologies for",
+        "heading_hierarchy": [
+          "COURSE TITLE AI Technologies for"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          3
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0058",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0059",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0060",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0061"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0009",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 9,
+      "text": "### PRE-REQUISITES DEEP LEARNING\n\n### COURSE CODE 23CA201SE404 TOTAL CREDITS 3\n\n### COURSE TYPE Specialization\n\nElective",
+      "token_count": 24,
+      "char_count": 120,
+      "word_count": 16,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "COURSE TYPE Specialization",
+        "heading_hierarchy": [
+          "COURSE TYPE Specialization"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          3
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0062",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0063",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0064",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0065"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0010",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 10,
+      "text": "### L-T-P FORMAT 2-0-2\n\n### COURSE SUMMARY\n\nThis course introduces the fundamentals and advanced concepts of AI -powered UAV systems, covering\n\ncore UAV components, flight dynamics, and perception sensors. Students learn UAV simulation (Gazebo,\n\nAirSim) and ROS 2 middleware for autonomy. AI -driven perception topics include computer vision,\n\nobject detection, tracking, segmentation, and SLAM/VIO for localization. Path planning methods (A*,\n\nRRT, potential fields) and obstacle avoidance strategies enable autonomous navigation. High -level\n\nmission control is explored through state machines, behavior trees, and layered software architectures. The\n\ncourse also covers multi -UAV coordination, communication protocols, safety regulations, and emerging\n\napplications, building a strong foundation for UAV research and real-world deployments.",
+      "token_count": 156,
+      "char_count": 844,
+      "word_count": 109,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "COURSE SUMMARY",
+        "heading_hierarchy": [
+          "COURSE SUMMARY"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          3
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0066",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0067",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0068",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0069",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0070",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0071",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0072",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0073",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0074",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0075"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0011",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 11,
+      "text": "### COURSE-SPECIFIC LEARNING OUTCOMES (CO)\n\nBy the end of this program, students should have the following knowledge, skills and values:\n\nCO1: Understand the core concepts of UAV systems, their components, flight dynamics, and the role of AI\n\nin UAV applications.\n\nCO2: Apply AI and computer vision techniques for perception, mapping, and localization in UAVs.\n\nCO3: Design autonomous navigation strategies and path planning algorithms for UAVs in dynamic\n\nenvironments.\n\nCO4: Develop intelligent decision-making systems and understand communication, regulation, and\n\ncoordination in multi-UAV operations.\n\nCourse Outcomes (COs) PO1 PO2 PO3 PO4 PO5 PO6 PO7 PO8 PO9 PO10 PO11 PO12 PSO1 PSO2\n\nCO1: Understand the core concepts of\n\nUAV systems, their components, flight\n\ndynamics, and the role of AI in UAV\n\napplications.\n\n3 2\n\nCO2: Apply AI and computer vision\n\ntechniques for perception, mapping, and\n\nlocalization in UAVs.\n\n2 3 3 2\n\nCO3: Design autonomous navigation\n\nstrategies and path planning algorithms\n\nfor UAVs in dynamic environments.\n\n2 3 3 3 3\n\nCO4: Develop intelligent decision-\n\nmaking systems and understand\n\ncommunication, regulation, and\n\ncoordination in multi-UAV operations.\n\n2 2 3 3 3",
+      "token_count": 226,
+      "char_count": 1202,
+      "word_count": 178,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "COURSE-SPECIFIC LEARNING OUTCOMES (CO)",
+        "heading_hierarchy": [
+          "COURSE-SPECIFIC LEARNING OUTCOMES (CO)"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          3,
+          4
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0076",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0077",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0078",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0079",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0080",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0081",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0082",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0083",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0084",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0085",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0086",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0087",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0088",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0089",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0090",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0091",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0092",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0093",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0094",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0095",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0096",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0097",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0098",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0099",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0100",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0101",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0102",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0103"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0012",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 12,
+      "text": "### DETAILED SYLLABUS\n\n### UNIT I (Contact hours: 7)\n\nAI in UAVs: Course Overview, Applications, and Ethical Considerations , UAV Types, UAV Flight Dynamics\n\nand Control, Sensors for UAV Perception , Image Formation , LiDAR, IMU, GPS, Barometer, Sensor Fusion\n\nConcepts, ROS 2: Architecture, Nodes, Topics, Services, Messages , UAV Simulation Environments: Gazebo and\n\nAirSim, SITL/HITL\n\nUnit II (Contact hours: 7)\n\nComputer Vision for UAVs Feature Detection and Matching -SIFT, SURF, ORB, Object Detection Techniques -\n\ne.g., YOLO in Aerial Imagery , Object Tracking Algorithms -e.g., DeepSORT and Challenges , Semantic and\n\nInstance Segmentation for Scene Understanding, SLAM: SLAM Problem, Key Concepts -Localization, Mapping,\n\nLoop Closure, Visual SLAM -V-SLAM: Feature-based vs. Direct Methods, Monocular vs. Stereo , Visual-Inertial\n\nOdometry -VIO and SLAM: Sensor Fusion for Robust Localization.\n\nUnit III (Contact hours: 4)\n\nPath Planning Configuration Space, Grid -Based Methods -A*, Advanced Path Planning: Sampling -Based\n\nMethods -RRT, RRT*, Potential Fields, Real-time Obstacle Detection and Avoidance: Sensor-based Techniques -\n\nVFH, DWA, UAV Mission Control Architectures: Layered Software Stacks, Onboard Processing.\n\nUnit IV Decision-Making and Mission Control\n\nState Machines for UAV Task Management: Designing Mission Logic with FSMs , Behavior Trees for Complex\n\nUAV Missions: Principles and Advantages over FSMs , Communication and Networking: MAVLink Protocol,\n\nROS 2 Communication -DDS, Multi-UAV Systems: Coordination Concepts and Challenges , UAV Regulations\n\nand Safety: Airspace Rules -e.g., DGCA, Geofencing, Fail -Safes, Real-world Applications and Emerging\n\nTechnologies in AI-powered UAVs.",
+      "token_count": 348,
+      "char_count": 1720,
+      "word_count": 234,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "UNIT I (Contact hours: 7)",
+        "heading_hierarchy": [
+          "UNIT I (Contact hours: 7)"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          4
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0104",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0105",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0106",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0107",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0108",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0109",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0110",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0111",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0112",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0113",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0114",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0115",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0116",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0117",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0118",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0119",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0120",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0121",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0122",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0123",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0124",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0125"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0013",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 13,
+      "text": "### LABORATORY EXPERIMENTS:\n\n1.Development Environment Setup: Installing ROS 2, Gazebo/PX4 SITL, Python ROS 2\n\nPublisher/Subscriber.\n\n2. UAV Simulation: UAV Control -Takeoff, Landing, Waypoints in Gazebo/PX4 SITL using MAVROS\n\nor PX4-ROS 2 Bridge.\n\n3. Accessing Sensor Data: Reading IMU, GPS, and Camera Data from Simulated UAV via ROS 2 Topics.\n\n4. Image Processing with OpenCV: Loading, Processing, and Displaying Images from UAV's Simulated\n\nCamera Feed.\n\n5. Object Detection on Aerial Images: Pre-trained Object Detector -e.g., YOLO via OpenCV DNN on\n\nSimulated Camera Data.\n\n6. Visual Feature Tracking: Implementing a Feature Tracker -e.g., KLT on Simulated Video Streams.\n\n7. SLAM Implementation/Integration: Running V-SLAM Package -e.g., ORB-SLAM2/3 with Simulated\n\nSensor Data.\n\n8.Path Planning Implementation -Grid-Based: A* Algorithm for 2D Grid Navigation in Python.\n\n9. Path Planning Implementation -Sampling-Based: RRT for 2D Path Finding in Python.\n\n10. Reactive Obstacle Avoidance Simulation: Potential Field or Bug Algorithm in Simulation.\n\n11. Mission Control with State Machines/Behavior Trees: Mission Sequence -e.g., Takeoff-Waypoint-\n\nLand using FSM or BT library in Python/ROS 2.\n\n12. Combining elements for integrated task -e.g., fly to a point, detect an object, report.",
+      "token_count": 289,
+      "char_count": 1294,
+      "word_count": 179,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "LABORATORY EXPERIMENTS:",
+        "heading_hierarchy": [
+          "LABORATORY EXPERIMENTS:"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          4,
+          5
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0126",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0127",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0128",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0129",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0130",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0131",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0132",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0133",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0134",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0135",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0136",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0137",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0138",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0139",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0140",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0141",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0142",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0143",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0144"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0014",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 14,
+      "text": "### TEXTBOOKS:\n\n1. Mastering Drone Technology with AI: A comprehensive guide to drone operations and techniques, Dr.\n\nSubash K. Shide, Dr. Jyoti Sunil More, Dr. Chaitrali Prasanna Chaudhari, BPB Publication",
+      "token_count": 43,
+      "char_count": 206,
+      "word_count": 30,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "TEXTBOOKS:",
+        "heading_hierarchy": [
+          "TEXTBOOKS:"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          5
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0145",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0146",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0147"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0015",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 15,
+      "text": "### REFERENCE BOOKS:\n\n### N/A\n\nLecture Wise Plan\n\nNo. Content Planned\n\n1 AI in UAVs: Course Overview, Applications, and Ethical Considerations.\n\n2 UAV Types, Components -Sensors, Actuators, Flight Controller, Aerodynamics.\n\n3 UAV Flight Dynamics and Control: Principles of Flight, Stability, Control Loops -PID.\n\n4 Sensors for UAV Perception: Cameras -Visible, Thermal, Multispectral, Image Formation.\n\n5 LiDAR, IMU, GPS, Barometer, Sensor Fusion Concepts.\n\n6 ROS 2: Architecture, Nodes, Topics, Services, Messages.\n\n7 UAV Simulation Environments: Gazebo and AirSim, SITL/HITL\n\n8 Buffer Lecture\n\n9 Buffer Lecture\n\n10 Computer Vision for UAVs Feature Detection and Matching -SIFT, SURF, ORB.\n\n11 Object Detection Techniques -e.g., YOLO in Aerial Imagery.\n\n12 Object Tracking Algorithms -e.g., DeepSORT and Challenges.\n\n13 Semantic and Instance Segmentation for Scene Understanding.\n\n14 SLAM: SLAM Problem, Key Concepts -Localization, Mapping, Loop Closure.\n\n15 Visual SLAM -V-SLAM: Feature-based vs. Direct Methods, Monocular vs. Stereo.\n\n16 Buffer Lecture\n\n17 Path Planning Configuration Space, Grid-Based Methods -A*.\n\n18 Advanced Path Planning: Sampling-Based Methods -RRT, RRT*, Potential Fields.\n\n19 Real-time Obstacle Detection and Avoidance: Sensor-based Techniques -VFH, DWA.\n\n20 UAV Mission Control Architectures: Layered Software Stacks, Onboard Processing.\n\n21 Buffer Lecture\n\n22 Buffer Lecture\n\n23 State Machines for UAV Task Management: Designing Mission Logic with FSMs.\n\n24 Behavior Trees for Complex UAV Missions: Principles and Advantages over FSMs.\n\n25 Communication and Networking: MAVLink Protocol, ROS 2 Communication -DDS.\n\n26 Multi-UAV Systems: Coordination Concepts and Challenges.\n\n27 UAV Regulations and Safety: Airspace Rules -e.g., DGCA, Geofencing, Fail-Safes.\n\n28 Real-world Applications and Emerging Technologies in AI-powered UAVs.\n\n29 Computer Vision for UAVs Feature Detection and Matching -SIFT, SURF, ORB.\n\n30 Buffer Lecture\n\nLab Wise Plan\n\nNo. Content Planned\n\n1 Development Environment Setup: Installing ROS 2, Gazebo/PX4 SITL, Python ROS 2\n\nPublisher/Subscriber.\n\n2 UAV Simulation: UAV Control -Takeoff, Landing, Waypoints in Gazebo/PX4 SITL using MAVROS\n\nor PX4-ROS 2 Bridge.\n\n3 Accessing Sensor Data: Reading IMU, GPS, and Camera Data from Simulated UAV via ROS 2\n\nTopics.\n\n4 Image Processing with OpenCV: Loading, Processing, and Displaying Images from UAV's Simulated\n\nCamera Feed.",
+      "token_count": 495,
+      "char_count": 2423,
+      "word_count": 333,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "N/A",
+        "heading_hierarchy": [
+          "N/A"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          5,
+          6
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0148",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0149",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0150",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0151",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0152",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0153",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0154",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0155",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0156",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0157",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0158",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0159",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0160",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0161",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0162",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0163",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0164",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0165",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0166",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0167",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0168",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0169",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0170",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0171",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0172",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0173",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0174",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0175",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0176",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0177",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0178",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0179",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0180",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0181",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0182",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0183",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0184",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0185",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0186",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0187",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0188",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0189",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0190",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0191"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0016",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 16,
+      "text": "5 Object Detection on Aerial Images: Pre-trained Object Detector -e.g., YOLO via OpenCV DNN on\n\nSimulated Camera Data.\n\n6 Visual Feature Tracking: Implementing a Feature Tracker -e.g., KLT on Simulated Video Streams.\n\n7 Lab Exam 1\n\n8 SLAM Implementation/Integration: Running V-SLAM Package -e.g., ORB-SLAM2/3 with Simulated\n\nSensor Data.\n\n9 Path Planning Implementation -Grid-Based: A* Algorithm for 2D Grid Navigation in Python.\n\n10 Path Planning Implementation -Sampling-Based: RRT for 2D Path Finding in Python.\n\n11 Reactive Obstacle Avoidance Simulation: Potential Field or Bug Algorithm in Simulation.\n\n12 Mission Control with State Machines/Behavior Trees: Mission Sequence -e.g., Takeoff-Waypoint-\n\nLand using FSM or BT library in Python/ROS 2.\n\n13 Combining elements for integrated task -e.g., fly to a point, detect an object, report.\n\n14 Lab Exam 2\n\n15 Buffer Lecture\n\nEvaluation Components\n\nComponents of Course Evaluation Percentage\n\nMid Term Examination 15\n\nEnd Term Examination 30\n\nClass Test 05*2=10\n\nWorkshop and Certification 05+02=07\n\nContinuous activity evaluation and\n\nparticipation 05\n\nLab Exam 05*2=10\n\nIdeation and Hackathon 03+05=08\n\nProject, Paper, and Patent 15\n\n▪ Proposed Industry Talks: 1\n\n▪ Start-ups related to the Course:1\n\n▪ Software/Tools Used: ROS2, GAZBOO, PX4, SITL/HITL\n\n▪ Hardware/Devices Used: R A M 16 G B , I 7 p r o c e s s o r\n\n▪ Advanced Research Topics: 1\n\nAttendance Policy\n\n1. At least 75% attendance in the course is mandatory\n\n2. A maximum of 5% shall be allowed under medical grounds and 5% on representing the\n\nUniversity on official events outside like sports, hackathons, NCC, NSS etc.\n\n3. Students with less than 65% of attendance shall be prevented from writing the final\n\nassessment.\n\nAcademic Dishonesty & Plagiarism\n\nPlagiarism is \"to offer work or ideas from another source as one's own, with or without\n\nauthorization of the source author(s), directly by verbatim copying or by usage of any AI\n\nsoftware\" (i.e., with or without permission from the original author). In certain cases,\n\nauthorization might be provided for the usage of other sources through written permission\n\nmay not be considered as plagiarism. It is a serious academic offence which should be\n\navoided, the following method will be adopted to evaluate plagiarism in submitted\n\ndocuments including assignments, material, class test content and other similar academic",
+      "token_count": 499,
+      "char_count": 2395,
+      "word_count": 365,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "N/A",
+        "heading_hierarchy": [
+          "N/A"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          6,
+          7
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0192",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0193",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0194",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0195",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0196",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0197",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0198",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0199",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0200",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0201",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0202",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0203",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0204",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0205",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0206",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0207",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0208",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0209",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0210",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0211",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0212",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0213",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0214",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0215",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0216",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0217",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0218",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0219",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0220",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0221",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0222",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0223",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0224",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0225",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0226",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0227",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0228",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0229",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0230",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0231",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0232",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0233",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0234",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0235"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0017",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 17,
+      "text": "documents.\n\nLevel 1: Similarities up to 20% - Student will be asked to revise the document and resubmit for\n\nevaluation, once chance will be provided to revise.\n\nLevel 2: Similarities above 20% to 40%- Student will be warned and one chance will be provided\n\nto revise the document and resubmit.\n\nLevel 3: Similarities above 40% and above: If the plagiarism level is more than 40% student will\n\nget a Fail grade.\n\nInstructor Responsible for Lecture PPTs Preparation: Dr. Durgesh\n\nNandan\n\nLMS: Dr. Durgesh Nandan",
+      "token_count": 103,
+      "char_count": 510,
+      "word_count": 84,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "N/A",
+        "heading_hierarchy": [
+          "N/A"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          7
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0236",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0237",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0238",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0239",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0240",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0241",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0242",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0243",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0244",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0245"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_chunk_0018",
+      "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+      "chunk_index": 18,
+      "text": "### COURSE FILE: Dr. Durgesh Nandan\n\nInstructor Responsible for Preparation of Lab Assignments: Dr. Durgesh\n\nNandan\n\nAny Other Instructor wise Responsibility: Dr. Durgesh Nandan",
+      "token_count": 32,
+      "char_count": 177,
+      "word_count": 24,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "document_name": "AI for UAV course plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester V",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "COURSE FILE: Dr. Durgesh Nandan",
+        "heading_hierarchy": [
+          "COURSE FILE: Dr. Durgesh Nandan"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733",
+        "source_file": "AI for UAV course plan.pdf",
+        "page_numbers": [
+          7,
+          8
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0246",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0247",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0248",
+          "0a436fa5a103a4b22fdfc272cefe38aa9b307303704f91c4c5893ebbf9f20733_elem_0249"
+        ]
+      },
+      "table_metadata": null
+    }
+  ],
+  "total_chunks": 19,
+  "avg_token_count": 192.79,
+  "min_token_count": 6,
+  "max_token_count": 499,
+  "table_chunks_count": 0,
+  "duplicate_reports": [],
+  "generated_timestamp": "2026-11-09T08:07:36.921074+00:00"
+}

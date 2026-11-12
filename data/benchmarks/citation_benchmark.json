@@ -1,0 +1,122 @@
+{
+  "dataset_version": "1.0.0",
+  "dataset_hash": "2c6ea6912dd4deff4eaee14c42ff09d45909848964417374492f18dd6d8be15f",
+  "timestamp": "2026-09-17T14:35:14.336490+00:00",
+  "benchmark_configuration": {
+    "num_queries": 5,
+    "repetitions": 5,
+    "categories": [
+      "single_document_factual",
+      "multi_document_synthesis",
+      "insufficient_evidence",
+      "unsupported_claims",
+      "provenance_edge_cases"
+    ]
+  },
+  "operational_metrics": {
+    "citation_precision": 1.0,
+    "citation_recall": 0.9,
+    "average_support_score": 0.9,
+    "provenance_integrity_rate": 1.0
+  },
+  "latency_metrics_ms": {
+    "citation_total_mean_ms": 0.476,
+    "citation_total_median_ms": 0.45,
+    "citation_total_p95_ms": 1.107,
+    "claim_extraction_mean_ms": 0.163,
+    "claim_extraction_median_ms": 0.131,
+    "citation_mapping_mean_ms": 0.131,
+    "citation_mapping_median_ms": 0.113,
+    "citation_verification_mean_ms": 0.151,
+    "citation_verification_median_ms": 0.148,
+    "citation_formatting_mean_ms": 0.031,
+    "citation_formatting_median_ms": 0.011
+  },
+  "query_evaluations": [
+    {
+      "query_id": "Q1_single_doc_exam_dates",
+      "category": "single_document_factual",
+      "query": "When is the Mid-Semester Examination I?",
+      "answer": "The Mid-Semester Examination I is scheduled from 12 September 2026 to 16 September 2026 for all undergraduate programs.",
+      "cited_answer": "The Mid-Semester Examination I is scheduled from 12 September 2026 to 16 September 2026 for all undergraduate programs. [1]\n\n\nSources:\n[1] Academic Calendar 2026-27 \u2014 p. 3\n    Section: Academic Calendar 2026-27 > Examination Schedule",
+      "claims_extracted": 1,
+      "supported_claims": 1,
+      "unsupported_claims": 0,
+      "citations_emitted": 1,
+      "verified_citations": 1,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "overall_support_score": 1.0,
+      "provenance_valid": true,
+      "latency_mean_ms": 0.648
+    },
+    {
+      "query_id": "Q2_multi_doc_course_and_dates",
+      "category": "multi_document_synthesis",
+      "query": "What does 23CSE302T cover and when is its exam?",
+      "answer": "23CSE302T covers Advanced Data Structures including binary search trees and graph algorithms. The Mid-Semester Examination I is scheduled from 12 September 2026 to 16 September 2026 for all undergraduate programs.",
+      "cited_answer": "23CSE302T covers Advanced Data Structures including binary search trees and graph algorithms. [1] The Mid-Semester Examination I is scheduled from 12 September 2026 to 16 September 2026 for all undergraduate programs. [2]\n\n\nSources:\n[1] Syllabus 23CSE302T \u2014 p. 1\n    Section: Course Syllabus > 23CSE302T > Objectives\n[2] Academic Calendar 2026-27 \u2014 p. 3\n    Section: Academic Calendar 2026-27 > Examination Schedule",
+      "claims_extracted": 2,
+      "supported_claims": 2,
+      "unsupported_claims": 0,
+      "citations_emitted": 2,
+      "verified_citations": 2,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "overall_support_score": 1.0,
+      "provenance_valid": true,
+      "latency_mean_ms": 0.862
+    },
+    {
+      "query_id": "Q3_insufficient_evidence",
+      "category": "insufficient_evidence",
+      "query": "What is the capital of Australia?",
+      "answer": "I couldn't find sufficient information in the available SR University documents to answer this accurately.",
+      "cited_answer": "I couldn't find sufficient information in the available SR University documents to answer this accurately.",
+      "claims_extracted": 0,
+      "supported_claims": 0,
+      "unsupported_claims": 0,
+      "citations_emitted": 0,
+      "verified_citations": 0,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "overall_support_score": 1.0,
+      "provenance_valid": true,
+      "latency_mean_ms": 0.067
+    },
+    {
+      "query_id": "Q4_unsupported_fabricated_claim",
+      "category": "unsupported_claims",
+      "query": "What are the attendance and laboratory requirements?",
+      "answer": "Under regulation R23, students must maintain a minimum of 75% attendance to be eligible for end-semester examinations. Students must also achieve 85% on all laboratory experiments to avoid detention.",
+      "cited_answer": "Under regulation R23, students must maintain a minimum of 75% attendance to be eligible for end-semester examinations. [1] Students must also achieve 85% on all laboratory experiments to avoid detention.\n\n\nSources:\n[1] Academic Regulations R23 \u2014 p. 14\n    Section: Academic Regulations R23 > Attendance Requirements",
+      "claims_extracted": 2,
+      "supported_claims": 1,
+      "unsupported_claims": 1,
+      "citations_emitted": 1,
+      "verified_citations": 1,
+      "citation_precision": 1.0,
+      "citation_recall": 0.5,
+      "overall_support_score": 0.5,
+      "provenance_valid": true,
+      "latency_mean_ms": 0.497
+    },
+    {
+      "query_id": "Q5_provenance_edge_cases",
+      "category": "provenance_edge_cases",
+      "query": "What are the continuous assessment requirements?",
+      "answer": "All continuous internal evaluations require submitting three written assignments.",
+      "cited_answer": "All continuous internal evaluations require submitting three written assignments. [1]\n\n\nSources:\n[1] Internal Assessment Circular \u2014 p. N/A",
+      "claims_extracted": 1,
+      "supported_claims": 1,
+      "unsupported_claims": 0,
+      "citations_emitted": 1,
+      "verified_citations": 1,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "overall_support_score": 1.0,
+      "provenance_valid": true,
+      "latency_mean_ms": 0.307
+    }
+  ]
+}

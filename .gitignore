@@ -46,11 +46,24 @@ documents/processed/*
 !documents/processed/.gitkeep
 !documents/processed/README.md
 
-# Vector indexes and local data stores
+# Backups and temporary migration folders
+frontend_backup_pre_redesign/
+data/backups/*
+!data/backups/.gitkeep
+*.bak
+
+# Vector indexes and local runtime data stores
 *.faiss
 *.chroma
 *.sqlite3
-data/
+data/vectorstore/*
+!data/vectorstore/.gitkeep
+data/indices/*
+!data/indices/.gitkeep
+
+# Benchmark test suites and evaluation data (tracked for reproducibility)
+!data/benchmarks/
+!data/benchmarks/*
 
 # Logs and runtime artifacts
 logs/

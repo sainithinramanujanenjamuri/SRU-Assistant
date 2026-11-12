@@ -1,0 +1,553 @@
+{
+  "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+  "chunks": [
+    {
+      "chunk_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_chunk_0000",
+      "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+      "chunk_index": 0,
+      "text": "### 23CS201PE402\n\n### QUANTUM COMPUTING\n\n### L R P C\n\n2 0 2 3\n\nCourse type PROFESSIONAL\n\nELECTIVE Pre-requisite NA\n\nCourse Outcomes:\n\nAt the end of the course, the student will be able to:\n\nCO1: Apply quantum computing principles, quantum gates, and quantum circuits to develop basic\n\nquantum programs using Qiskit.\n\nCO2: Analyze quantum states, entanglement, noise, and quantum information concepts in quantum\n\ncomputing systems\n\nCO3: Implement and evaluate quantum algorithms such as Deutsch-Jozsa, Grover's Search, QFT,\n\nQPE, and Shor's Algorithm for computational problems\n\nCO4: Evaluate NISQ-era quantum hardware, error mitigation techniques, and hybrid quantum-\n\nclassical approaches for real-world applications\n\nCourse Articulation Matrix (CAM):",
+      "token_count": 145,
+      "char_count": 752,
+      "word_count": 104,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "document_name": "QUANTUM COMPUTING Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": null,
+        "program": null,
+        "academic_year": null,
+        "semester": null,
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "L R P C",
+        "heading_hierarchy": [
+          "L R P C"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "source_file": "QUANTUM COMPUTING Course Plan.pdf",
+        "page_numbers": [
+          1
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0001",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0002",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0003",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0004",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0005",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0006",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0007",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0008",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0009",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0010",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0011",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0012",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0013",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0014",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0015",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0016",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0017"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_chunk_0001",
+      "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+      "chunk_index": 1,
+      "text": "### PO/PSO\n\n### CO\n\n### PO1 PO2 PO3 PO4 PO5 PO6 PO7 PO8 PO9 PO10 PO11 PO12 PSO1 PSO2\n\n### CO1 3 2 1 3 1 3 2\n\n### CO2 2 3 2 2 1 1 3 2\n\n### CO3 2 3 3 2 2 2 3 3\n\n### CO4 2 3 2 2 2 1 2 2 3 3\n\nUnit-Wise Syllabus",
+      "token_count": 80,
+      "char_count": 206,
+      "word_count": 62,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "document_name": "QUANTUM COMPUTING Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": null,
+        "program": null,
+        "academic_year": null,
+        "semester": null,
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "CO4 2 3 2 2 2 1 2 2 3 3",
+        "heading_hierarchy": [
+          "CO4 2 3 2 2 2 1 2 2 3 3"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "source_file": "QUANTUM COMPUTING Course Plan.pdf",
+        "page_numbers": [
+          1
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0018",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0019",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0020",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0021",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0022",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0023",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0024",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0025"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_chunk_0002",
+      "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+      "chunk_index": 2,
+      "text": "### UNIT I Foundations of Quantum Computing\n\n1. Quantum Computing Motivation, classical bits vs. quantum bits -qubits\n\n2. Quantum States and Linear Algebra I , Hilbert spaces, state vectors, Dirac notation -∣ψ⟩, inner\n\nproducts, normalization, orthogonality.\n\n3. Quantum States and Linear Algebra, Basis states, superposition, global phase, tensor products for\n\nmulti-qubit systems.\n\n4. Single-Qubit Gates and Measurements, Pauli gates -X, Y, Z, Hadamard -H, Phase -S, T gates;",
+      "token_count": 105,
+      "char_count": 477,
+      "word_count": 68,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "document_name": "QUANTUM COMPUTING Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": null,
+        "program": null,
+        "academic_year": null,
+        "semester": null,
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "UNIT I Foundations of Quantum Computing",
+        "heading_hierarchy": [
+          "UNIT I Foundations of Quantum Computing"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "source_file": "QUANTUM COMPUTING Course Plan.pdf",
+        "page_numbers": [
+          1
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0026",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0027",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0028",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0029",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0030",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0031",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0032"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_chunk_0003",
+      "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+      "chunk_index": 3,
+      "text": "### UNITary evolution; projective measurements, Born rule. , ,\n\n5. Multi-Qubit Gates and Entanglement, CNOT, Controlled-Z, Toffoli gates; constructing\n\nentanglement -Bell states; concept of universal gate sets.\n\n6. Quantum Circuits and Qiskit , Quantum circuit model, visualizing circuits, brief intro to Qiskit\n\nstructure -QuantumCircuit, backends.",
+      "token_count": 68,
+      "char_count": 349,
+      "word_count": 45,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "document_name": "QUANTUM COMPUTING Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": null,
+        "program": null,
+        "academic_year": null,
+        "semester": null,
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "UNITary evolution; projective measurements, Born rule. , ,",
+        "heading_hierarchy": [
+          "UNITary evolution; projective measurements, Born rule. , ,"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "source_file": "QUANTUM COMPUTING Course Plan.pdf",
+        "page_numbers": [
+          1
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0033",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0034",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0035",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0036",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0037"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_chunk_0004",
+      "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+      "chunk_index": 4,
+      "text": "### UNIT II Noise and Information\n\n7. Noise, Decoherence and Mixed States, Sources of noise -relaxation, dephasing, decoherence;\n\nlimitations of state vectors; intro to density matrices -ρ\n\n8. Describing Noise: Quantum Operations, Mixed states vs. superpositions; partial trace; Kraus\n\noperators, quantum channels -depolarizing, amplitude damping.",
+      "token_count": 66,
+      "char_count": 347,
+      "word_count": 45,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "document_name": "QUANTUM COMPUTING Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": null,
+        "program": null,
+        "academic_year": null,
+        "semester": null,
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "UNIT II Noise and Information",
+        "heading_hierarchy": [
+          "UNIT II Noise and Information"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "source_file": "QUANTUM COMPUTING Course Plan.pdf",
+        "page_numbers": [
+          1
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0038",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0039",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0040",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0041",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0042"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_chunk_0005",
+      "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+      "chunk_index": 5,
+      "text": "### UNIT III Algorithms\n\n9. Query Model and Deutsch-Jozsa Algorithm, Black-box -oracle model; Deutsch's problem; Deutsch-\n\nJozsa algorithm demonstrating quantum parallelism.\n\n10. Bernstein-Vazirani and Simon's Algorithms, Bernstein-Vazirani algorithm; Simon's problem and\n\nalgorithm\n\n11. Quantum Teleportation and Superdense Coding, Using entanglement as a resource; protocols for\n\nteleportation and superdense coding.",
+      "token_count": 79,
+      "char_count": 418,
+      "word_count": 49,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "document_name": "QUANTUM COMPUTING Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": null,
+        "program": null,
+        "academic_year": null,
+        "semester": null,
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "UNIT III Algorithms",
+        "heading_hierarchy": [
+          "UNIT III Algorithms"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "source_file": "QUANTUM COMPUTING Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0043",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0044",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0045",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0046",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0047",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0048",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0049"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_chunk_0006",
+      "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+      "chunk_index": 6,
+      "text": "### UNIT IV Search and QFT\n\n12. Search and QFT, Grover's Search Algorithm, Unstructured search problem; Grover iteration:\n\noracle and diffusion operator; geometric interpretation.\n\n13. Performance analysis -O-N complexity; optimality; potential applications\n\n14. Quantum Fourier Transform -QFT, Definition of QFT over Z N ; comparison to classical DFT; circuit\n\nimplementation",
+      "token_count": 71,
+      "char_count": 376,
+      "word_count": 50,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "document_name": "QUANTUM COMPUTING Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": null,
+        "program": null,
+        "academic_year": null,
+        "semester": null,
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "UNIT IV Search and QFT",
+        "heading_hierarchy": [
+          "UNIT IV Search and QFT"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "source_file": "QUANTUM COMPUTING Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0050",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0051",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0052",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0053",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0054",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0055"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_chunk_0007",
+      "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+      "chunk_index": 7,
+      "text": "### UNIT V Factoring and Phase\n\n15. Quantum Phase Estimation -QPE, Using QFT to estimate eigenvalues of UNITary operators;\n\ncircuit and analysis, QFT\n\n16. Principles of Shor's Algorithm I: Reduction, Factoring problem; reduction to order finding\n\n17. QPE for order finding; modular exponentiation circuit; classical post-processing, QPE",
+      "token_count": 66,
+      "char_count": 336,
+      "word_count": 47,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "document_name": "QUANTUM COMPUTING Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": null,
+        "program": null,
+        "academic_year": null,
+        "semester": null,
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "UNIT V Factoring and Phase",
+        "heading_hierarchy": [
+          "UNIT V Factoring and Phase"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "source_file": "QUANTUM COMPUTING Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0056",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0057",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0058",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0059",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0060"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_chunk_0008",
+      "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+      "chunk_index": 8,
+      "text": "### UNIT VI NISQ and Hardware\n\n18. Quantum Complexity and BQP, P, NP; BQP; relationship between complexity classes; implications\n\nof Shor's algorithm\n\n19. NISQ Era: Challenges and Error Mitigation, NISQ limitations; error mitigation -measurement\n\ncorrection, ZNE. Density Matrix\n\n20. Hybrid quantum-classical approach; VQE for ground state energy; QAOA for optimization;\n\nParameterized circuits\n\n21. Superconducting and Trapped Ions, Physical realization of qubits; principles, pros/cons of major\n\nplatforms.\n\n22. Photonics and Other Approaches, Photonic qubits, topological qubits, quantum annealing -D-\n\nWave.\n\n23. Quantum Error Correction -QEC - bit-flip, phase-flip codes; stabilizer codes intro -e.g., Steane\n\ncode conceptual\n\n24. Application areas -chemistry, materials, finance, ML; ethical considerations; future trends.\n\nRecitation / Tutorial Topics\n\nGuided Tutorial Activities Only\n\nTutorial 1\n\nQuantum States and Linear Algebra: Represent qubits using Dirac notation; verify normalization and\n\northogonality; compute tensor products for 2- and 3-qubit systems; identify basis states and\n\nsuperposition states.\n\nTutorial 2\n\nQuantum Gates and Circuit Design: Apply Pauli (X, Y, Z), Hadamard (H), S, and T gates on qubits;\n\ndesign simple quantum circuits; predict measurement outcomes; construct Bell states using H and\n\nCNOT gates.\n\nTutorial 3\n\nGrover's Search and Quantum Fourier Transform: Design Grover's oracle and diffusion operator;\n\nperform one and two Grover iterations; construct QFT circuits for 2- and 3-qubit systems; analyze\n\ncomputational complexity and applications.\n\nTutorial 4\n\nQuantum Phase Estimation and Shor's Algorithm: Build the QPE circuit; estimate eigenvalues of\n\nsimple unitary operators; explain order finding in Shor's algorithm; solve small integer factorization\n\nexamples conceptually.\n\nTutorial 5\n\nNISQ Computing and Hybrid Quantum Algorithms: implement parameterized quantum circuits;\n\ndemonstrate VQE and QAOA workflows using Qiskit; compare ideal and noisy simulations\n\nLab / Product Components\n\nProduct 1: Quantum Circuit Designer and Simulator\n\nObjectives: Design and simulate fundamental quantum circuits using Qiskit.\n\nKey Topics Covered: Qubits, quantum states, single- and multi-qubit gates, Bell states,\n\nmeasurements, QuantumCircuit\n\nExpected Deliverable: A Qiskit application that creates, visualizes, and simulates quantum circuits\n\nwith measurement outcomes and state visualizations.\n\nProduct 2: Quantum Algorithm Demonstrator\n\nObjectives: Implement and compare fundamental quantum algorithms with classical approaches.\n\nKey Topics Covered: Deutsch-Jozsa, Bernstein-Vazirani, Simon's Algorithm, Grover's Search, QFT\n\nExpected Deliverable: A Qiskit-based toolkit that executes selected quantum algorithms, displays",
+      "token_count": 494,
+      "char_count": 2768,
+      "word_count": 354,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "document_name": "QUANTUM COMPUTING Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": null,
+        "program": null,
+        "academic_year": null,
+        "semester": null,
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "UNIT VI NISQ and Hardware",
+        "heading_hierarchy": [
+          "UNIT VI NISQ and Hardware"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "source_file": "QUANTUM COMPUTING Course Plan.pdf",
+        "page_numbers": [
+          2,
+          3
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0061",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0062",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0063",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0064",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0065",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0066",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0067",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0068",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0069",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0070",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0071",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0072",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0073",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0074",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0075",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0076",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0077",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0078",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0079",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0080",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0081",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0082",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0083",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0084",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0085",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0086",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0087",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0088",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0089",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0090",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0091",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0092",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0093",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0094",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0095",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0096",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0097",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0098",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0099",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0100",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0101",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0102",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0103",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0104",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0105",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0106"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_chunk_0009",
+      "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+      "chunk_index": 9,
+      "text": "circuit diagrams, simulation results, and compares quantum vs. classical complexity.\n\nProduct 3: Hybrid Quantum Optimization System\n\nObjectives: Develop a hybrid quantum-classical optimization application on a noisy quantum\n\nsimulator.\n\nKey Topics NISQ computing, parameterized circuits, VQE, QAOA, error mitigation, quantum\n\nhardware\n\nExpected Deliverable: A Qiskit application that solves a small optimization problem using\n\nVQE/QAOA, evaluates noisy vs. ideal execution, and reports performance metrics.\n\nText Books\n\n1. Bernhardt, C. “Quantum Computing for Everyone”. MIT Press, 2023.\n\n2. Hidary, J. “Quantum Computing an Applied Approach”. 2ndedn. Springer, 2022.\n\nReference Books\n\n1. Hundt, R. “Quantum Computing for Programmers”. O'Reilly Media,2022.\n\n2. Wong, H.Y.“Introduction to Quantum Computing From a Layperson to a Programmer”,\n\nSpringer, 2022.\n\nOnline Resources / Useful Links\n\n1. IBM Quantum Learning – Introduction to Quantum Computing and Qiskit\n\n(https://quantum.cloud.ibm.com)\n\n2. IBM Quantum Platform – Quantum Composer and Lab (https://quantum.cloud.ibm.com/)\n\n3. Qiskit Documentation (https://quantum.cloud.ibm.com/docs/en/guides)\n\n4. Qiskit GitHub Repository (https://github.com/Qiskit/qiskit)\n\n5. Google Quantum AI (https://quantumai.google/)\n\n6. Quantum Algorithm Zoo (https://quantumalgorithmzoo.org/)",
+      "token_count": 295,
+      "char_count": 1327,
+      "word_count": 156,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "document_name": "QUANTUM COMPUTING Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": null,
+        "program": null,
+        "academic_year": null,
+        "semester": null,
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "UNIT VI NISQ and Hardware",
+        "heading_hierarchy": [
+          "UNIT VI NISQ and Hardware"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496",
+        "source_file": "QUANTUM COMPUTING Course Plan.pdf",
+        "page_numbers": [
+          3,
+          4
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0107",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0108",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0109",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0110",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0111",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0112",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0113",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0114",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0115",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0116",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0117",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0118",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0119",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0120",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0121",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0122",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0123",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0124",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0125",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0126",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0127",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0128",
+          "ce52fe4550a726fa38f0c3e0694637fca233ddd544a780f8fa6dc2dbdfd42496_elem_0129"
+        ]
+      },
+      "table_metadata": null
+    }
+  ],
+  "total_chunks": 10,
+  "avg_token_count": 146.9,
+  "min_token_count": 66,
+  "max_token_count": 494,
+  "table_chunks_count": 0,
+  "duplicate_reports": [],
+  "generated_timestamp": "2026-11-09T08:07:51.490360+00:00"
+}

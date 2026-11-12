@@ -1,0 +1,2247 @@
+{
+  "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+  "chunks": [
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0000",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 0,
+      "text": "### COURSE PLAN\n\nFor\n\nEthical Hacking & Vulnerability Assessment",
+      "token_count": 11,
+      "char_count": 64,
+      "word_count": 9,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "COURSE PLAN",
+        "heading_hierarchy": [
+          "COURSE PLAN"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          1
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0001",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0002",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0003"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0001",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 1,
+      "text": "### (23CC201SE403)\n\nCourse Coordinator : Dr. T.Sampath Kumar\n\nCourse Instructors : Dr. T.Sampath Kumar\n\nCourse Type : Professional Elective\n\nSemester and Year : I Semester and IV Year",
+      "token_count": 38,
+      "char_count": 183,
+      "word_count": 28,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "(23CC201SE403)",
+        "heading_hierarchy": [
+          "(23CC201SE403)"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          1
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0004",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0005",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0006",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0007",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0008"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0002",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 2,
+      "text": "### L-T-P : 2-0-2\n\nCredits : 3\n\nSchool : School of Computer Science &\n\nArtificial Intelligence\n\nDepartment : Computer Science Engineering\n\nCourse Level : UG\n\nSchool of Computer Science and Artificial Intelligent\n\nSR University,\n\nWarangal",
+      "token_count": 46,
+      "char_count": 237,
+      "word_count": 35,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "L-T-P : 2-0-2",
+        "heading_hierarchy": [
+          "L-T-P : 2-0-2"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          1
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0009",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0010",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0011",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0012",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0013",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0014",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0015",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0016",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0017"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0003",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 3,
+      "text": "### 1. COURSE CONTEXT\n\n### SCHOOL CS&AI\n\n### DEPARTMENT\n\n### CSE\n\nDEGREE B.Tech DATE THIS",
+      "token_count": 28,
+      "char_count": 89,
+      "word_count": 15,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "CSE",
+        "heading_hierarchy": [
+          "CSE"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0018",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0019",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0020",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0021",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0022"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0004",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 4,
+      "text": "### COURSE\n\n### WILL BE\n\n### EFFECTIVE\n\n### FROM\n\n05th August 2026",
+      "token_count": 20,
+      "char_count": 66,
+      "word_count": 12,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "FROM",
+        "heading_hierarchy": [
+          "FROM"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [
+          "05th August 2026"
+        ],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0023",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0024",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0025",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0026",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0027"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0005",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 5,
+      "text": "### 2. COURSE BRIEF\n\n### COURSE\n\n### TITLE\n\nEthical Hacking &\n\nVulnerability Assessment PRE-",
+      "token_count": 22,
+      "char_count": 92,
+      "word_count": 14,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "TITLE",
+        "heading_hierarchy": [
+          "TITLE"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0028",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0029",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0030",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0031",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0032"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0006",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 6,
+      "text": "### REQUISITES\n\n### PROGRAMMIN\n\n### G\n\n### KNOWLEDGE\n\n### COURSE\n\n### CODE\n\n### 23CC201SE403 TOTAL\n\n### CREDITS\n\n3",
+      "token_count": 34,
+      "char_count": 114,
+      "word_count": 18,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "CREDITS",
+        "heading_hierarchy": [
+          "CREDITS"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0033",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0034",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0035",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0036",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0037",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0038",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0039",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0040",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0041"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0007",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 7,
+      "text": "### COURSE\n\n### TYPE\n\nProfessional Elective L-T-P",
+      "token_count": 15,
+      "char_count": 49,
+      "word_count": 7,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "TYPE",
+        "heading_hierarchy": [
+          "TYPE"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0042",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0043",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0044"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0008",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 8,
+      "text": "### FORMAT\n\n2-0-2",
+      "token_count": 9,
+      "char_count": 17,
+      "word_count": 3,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "FORMAT",
+        "heading_hierarchy": [
+          "FORMAT"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0045",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0046"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0009",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 9,
+      "text": "### 3. COURSE SUMMARY\n\n### 4. COURSE-SPECIFIC LEARNING OUTCOMES (CO)\n\nBy the end of this program, students should have the following knowledge, skills, and\n\nvalues:\n\n CO1: Explain ethical hacking principles, cyber laws, reconnaissance and information\n\ngathering.\n\n CO2: Perform network scanning, enumeration and vulnerability assessment using\n\nprofessional tools.\n\n CO3: Analyze and assess web, wireless, cloud, mobile and IoT security vulnerabilities.\n\n CO4: Apply penetration testing methodologies using Metasploit and related security tools.\n\n CO5: Evaluate vulnerabilities, prioritize remediation and prepare professional assessment\n\nreports.\n\nCourse Articulation Matrix\n\nCOs / POs PO\n\n1",
+      "token_count": 124,
+      "char_count": 696,
+      "word_count": 93,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "4. COURSE-SPECIFIC LEARNING OUTCOMES (CO)",
+        "heading_hierarchy": [
+          "4. COURSE-SPECIFIC LEARNING OUTCOMES (CO)"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0047",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0048",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0049",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0050",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0051",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0052",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0053",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0054",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0055",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0056",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0057",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0058",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0059",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0060",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0061"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0010",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 10,
+      "text": "### PO\n\n2",
+      "token_count": 5,
+      "char_count": 9,
+      "word_count": 3,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "PO",
+        "heading_hierarchy": [
+          "PO"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0062",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0063"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0011",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 11,
+      "text": "### PO\n\n3",
+      "token_count": 5,
+      "char_count": 9,
+      "word_count": 3,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "PO",
+        "heading_hierarchy": [
+          "PO"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0064",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0065"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0012",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 12,
+      "text": "### PO\n\n4",
+      "token_count": 5,
+      "char_count": 9,
+      "word_count": 3,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "PO",
+        "heading_hierarchy": [
+          "PO"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0066",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0067"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0013",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 13,
+      "text": "### PO\n\n5",
+      "token_count": 5,
+      "char_count": 9,
+      "word_count": 3,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "PO",
+        "heading_hierarchy": [
+          "PO"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0068",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0069"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0014",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 14,
+      "text": "### PO\n\n6",
+      "token_count": 5,
+      "char_count": 9,
+      "word_count": 3,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "PO",
+        "heading_hierarchy": [
+          "PO"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0070",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0071"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0015",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 15,
+      "text": "### PO\n\n7",
+      "token_count": 5,
+      "char_count": 9,
+      "word_count": 3,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "PO",
+        "heading_hierarchy": [
+          "PO"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0072",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0073"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0016",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 16,
+      "text": "### PO\n\n8",
+      "token_count": 5,
+      "char_count": 9,
+      "word_count": 3,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "PO",
+        "heading_hierarchy": [
+          "PO"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0074",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0075"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0017",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 17,
+      "text": "### PO\n\n9",
+      "token_count": 5,
+      "char_count": 9,
+      "word_count": 3,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "PO",
+        "heading_hierarchy": [
+          "PO"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0076",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0077"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0018",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 18,
+      "text": "### PO1\n\n0",
+      "token_count": 5,
+      "char_count": 10,
+      "word_count": 3,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "PO1",
+        "heading_hierarchy": [
+          "PO1"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0078",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0079"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0019",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 19,
+      "text": "### PO1\n\n1",
+      "token_count": 5,
+      "char_count": 10,
+      "word_count": 3,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "PO1",
+        "heading_hierarchy": [
+          "PO1"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0080",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0081"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0020",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 20,
+      "text": "### PO1\n\n2",
+      "token_count": 5,
+      "char_count": 10,
+      "word_count": 3,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "PO1",
+        "heading_hierarchy": [
+          "PO1"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0082",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0083"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0021",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 21,
+      "text": "### PSO\n\n1",
+      "token_count": 5,
+      "char_count": 10,
+      "word_count": 3,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "PSO",
+        "heading_hierarchy": [
+          "PSO"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0084",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0085"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0022",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 22,
+      "text": "### PSO\n\n2",
+      "token_count": 5,
+      "char_count": 10,
+      "word_count": 3,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "PSO",
+        "heading_hierarchy": [
+          "PSO"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0086",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0087"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0023",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 23,
+      "text": "### CO1 2 - - - - - - - 2 2 - - - 2\n\n### CO2 3 - 3 - 2 - - - - - - - - 3\n\n### CO3 - - 3 - 2 - - - 2 - - - - 3\n\n### CO4 - - 2 - 3 - - - - - 3 - - 2\n\n### CO5 - - - - 3 - 2 - - - 2 - - 3\n\n### 5. DETAILED SYLLABUS\n\n### UNIT I Foundations of Ethical Hacking and Information Gathering\n\n1. Ethical Hacking - Importance, and Legal Framework\n\n2. Life Cycle: Planning, Reconnaissance, Scanning, Exploitation, Post-Exploitation,\n\nReporting\n\n3. Threats, Attack Vectors, and Hacker Mindset -Black, White, and Grey Hat Hackers\n\n4. Passive Reconnaissance Techniques -OSINT, Social Engineering Basics\n\n5. Active Reconnaissance Techniques -Network Probing, Port Scanning Fundamentals\n\n6. Foot printing and Open-Source Intelligence -OSINT Tools and Methodologies",
+      "token_count": 193,
+      "char_count": 744,
+      "word_count": 151,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "UNIT I Foundations of Ethical Hacking and Information Gathering",
+        "heading_hierarchy": [
+          "UNIT I Foundations of Ethical Hacking and Information Gathering"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          2,
+          3
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0088",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0089",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0090",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0091",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0092",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0093",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0094",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0095",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0096",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0097",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0098",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0099",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0100",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0101"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0024",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 24,
+      "text": "### UNIT II: Network and System Vulnerabilities and Attacks\n\n7. Network Scanning and Enumeration Techniques: Nmap in Detail\n\n8. Vulnerability Analysis - Tools -Nessus, OpenVAS, and Vulnerability Scoring Systems -",
+      "token_count": 39,
+      "char_count": 212,
+      "word_count": 30,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "UNIT II: Network and System Vulnerabilities and Attacks",
+        "heading_hierarchy": [
+          "UNIT II: Network and System Vulnerabilities and Attacks"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          3
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0102",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0103",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0104"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0025",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 25,
+      "text": "### CVSS\n\n9. Password Attacks and Countermeasures: Brute-Force, Dictionary Attacks, Password\n\nCracking Tools -Hydra, John Ripper\n\n10. Network Infrastructure Vulnerabilities and Security: Router and Switch Security,\n\nFirewall\n\n11. System Hacking: OS Vulnerabilities -Windows and Linux, Privilege Escalation\n\n12. Malware Threats: Types -Viruses, Worms, Trojans, Ransomware, Analysis, and\n\nMitigation",
+      "token_count": 73,
+      "char_count": 397,
+      "word_count": 48,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "CVSS",
+        "heading_hierarchy": [
+          "CVSS"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          3
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0105",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0106",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0107",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0108",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0109",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0110",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0111",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0112"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0026",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 26,
+      "text": "### UNIT III: Specialized Domains and Exploitation\n\n13. Web Application Security: Common Vulnerabilities, and Web Application Architecture\n\n14. SQL Injection and Cross-Site Scripting -XSS Attacks and Prevention\n\n15. Wireless Network Hacking and Security: Protocols -WEP, WPA/WPA2/WPA3, Attacks,\n\nand Security Measures\n\n16. Mobile Platform Security and Ethical Hacking: Android and iOS Mobile Vulnerabilities\n\n17. Cloud Security: -IaaS, PaaS, SaaS, Shared Responsibility Model, Cloud Vulnerabilities\n\n18. IoT Security: Architecture, Common Vulnerabilities, and Exploitation Concepts",
+      "token_count": 105,
+      "char_count": 581,
+      "word_count": 72,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "UNIT III: Specialized Domains and Exploitation",
+        "heading_hierarchy": [
+          "UNIT III: Specialized Domains and Exploitation"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          3
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0113",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0114",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0115",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0116",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0117",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0118",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0119",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0120"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0027",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 27,
+      "text": "### UNIT IV: Advanced Topics, Tools, and Practices\n\n19. Metasploit Framework and Advanced Exploitation Techniques\n\n20. Session Hijacking and Denial-of-Service -DoS and Distributed Denial-of-Service -DDoS\n\nAttacks and Mitigation\n\n21. Evading IDS, Firewalls, and Honeypots: Techniques and Countermeasures\n\n22. API Security: Introduction, Common API Vulnerabilities\n\n23. Vulnerability Management Lifecycle: Identification, Assessment, Prioritization,\n\nRemediation, and Reporting\n\n24. Legal and Ethical Considerations: Cyber Laws, Ethical Guidelines, and Reporting\n\nLabs\n\n1. Setting up an Ethical Hacking Lab Environment using Virtualization -VirtualBox/VMware\n\nand Installing Kali Linux/Parrot OS\n\n2. Passive Information Gathering using OSINT Framework, Whois, DNS Lookup, and\n\nGoogle Dorking Techniques\n\n3. Active Reconnaissance: Network Scanning with Nmap for Host Discovery, Port\n\nScanning, and Service Detection\n\n4. Vulnerability Analysis using OpenVAS or Nessus to Identify Security Weaknesses in\n\nTarget Systems\n\n5. Enumeration of Services and Users using Tools like Netcat, Telnet, and SNMPWalk\n\n6. Password Cracking using Tools like Hydra for Online Attacks and John Ripper for Offline\n\nCracking\n\n7. Exploiting System Vulnerabilities using Metasploit Framework -Auxiliary Modules,\n\nExploits, Payloads\n\n8. Web Application Vulnerability Assessment using Burp Suite Proxy to Intercept and\n\nAnalyze Web Traffic\n\n9. SQL Injection Attacks: Identifying and Exploiting SQL Injection Vulnerabilities in Web\n\nApplications using Tools like SQLmap\n\n10. Wireless Network Penetration Testing using Aircrack-ng Suite to Capture and Crack\n\nWEP/WPA/WPA2 Keys\n\n11. Cloud Security Assessment: Exploring AWS/Azure Security Configurations and\n\nIdentifying Common Misconfigurations using Command Line Tools or Web Consoles\n\n12. API Security Testing using Postman or OWASP ZAP to Test for Common API\n\nVulnerabilities such as Broken Authentication and Authorization\n\nText Books\n\n1. Keshav Kaushik and Akashdeep Bhardwaj “Perspective on Ethical hacking and\n\nPenetration Testing”,Sep 2023.\n\nReference Books\n\n1. William Stallings, “Data and Computer Communications”, 10th Edition, 2021.\n\n2. William Stallings, “Cryptography and Network Security Principles and Practice”,\n\n2024.\n\n6. MOOC COURSES (Reference to the Course):",
+      "token_count": 392,
+      "char_count": 2299,
+      "word_count": 297,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "UNIT IV: Advanced Topics, Tools, and Practices",
+        "heading_hierarchy": [
+          "UNIT IV: Advanced Topics, Tools, and Practices"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          3,
+          4,
+          5
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0121",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0122",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0123",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0124",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0125",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0126",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0127",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0128",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0129",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0130",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0131",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0132",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0133",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0134",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0135",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0136",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0137",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0138",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0139",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0140",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0141",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0142",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0143",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0144",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0145",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0146",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0147",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0148",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0149",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0150",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0151",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0152",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0153",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0154",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0155",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0156",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0157",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0158",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0159",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0160",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0161"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0028",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 28,
+      "text": "### S\n\n.",
+      "token_count": 5,
+      "char_count": 8,
+      "word_count": 3,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "S",
+        "heading_hierarchy": [
+          "S"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          5
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0162",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0163"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0029",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 29,
+      "text": "### N\n\no\n\n.\n\nCourse\n\nName\n\nPlatform/\n\nProvider Topics Covered URL\n\n1 Ethical\n\nHacker\n\nCisco\n\nNetworkin\n\ng\n\nAcademy\n\n(Skills for\n\nAll)\n\nEthical Hacking Methodology,\n\nReconnaissance, Scanning,\n\nVulnerability Assessment,\n\nPenetration Testing, Web\n\nSecurity\n\nhttps://www.netacad.\n\ncom/courses/ethical-\n\nhacker\n\n2\n\nEthical\n\nHacking\n\nEssentials",
+      "token_count": 61,
+      "char_count": 338,
+      "word_count": 39,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "N",
+        "heading_hierarchy": [
+          "N"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          5
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0164",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0165",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0166",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0167",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0168",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0169",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0170",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0171",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0172",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0173",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0174",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0175",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0176",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0177",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0178",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0179",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0180",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0181",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0182",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0183",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0184",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0185",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0186",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0187",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0188",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0189",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0190"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0030",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 30,
+      "text": "### (EHE)\n\nCoursera",
+      "token_count": 7,
+      "char_count": 19,
+      "word_count": 3,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "(EHE)",
+        "heading_hierarchy": [
+          "(EHE)"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          5
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0191",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0192"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0031",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 31,
+      "text": "### (EC-\n\nCouncil)\n\nEthical Hacking Fundamentals,\n\nPassword Attacks, Malware\n\nAnalysis, Web Security, Cloud\n\nSecurity, IoT Security\n\nhttps://www.coursera\n\n.org/learn/ethical-\n\nhacking-essentials-\n\nehe\n\n3\n\nEthical\n\nHacking\n\nEssentials",
+      "token_count": 49,
+      "char_count": 233,
+      "word_count": 24,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "(EC-",
+        "heading_hierarchy": [
+          "(EC-"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          5
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0193",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0194",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0195",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0196",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0197",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0198",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0199",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0200",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0201",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0202",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0203",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0204",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0205",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0206"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0032",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 32,
+      "text": "### (EHE)\n\nedX (EC-\n\nCouncil)\n\nCyber Security Fundamentals,\n\nEthical Hacking, Vulnerability\n\nAssessment, Penetration\n\nTesting, Security Tools\n\nhttps://www.edx.org/l\n\nearn/information-\n\nsecurity/ec-council-\n\nethical-hacking-\n\nessentials-ehe\n\n4\n\nCertified\n\nEthical\n\nHacker\n\n(CEH v13",
+      "token_count": 62,
+      "char_count": 280,
+      "word_count": 27,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "(EHE)",
+        "heading_hierarchy": [
+          "(EHE)"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          5
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0207",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0208",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0209",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0210",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0211",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0212",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0213",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0214",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0215",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0216",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0217",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0218",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0219",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0220",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0221",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0222",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0223"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0033",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 33,
+      "text": "### AI)\n\n### EC-\n\nCouncil\n\nEthical Hacking Lifecycle,\n\nNetwork Security, Web\n\nSecurity, Cloud Security, AI-\n\nassisted Ethical Hacking,\n\nIncident Response\n\nhttps://www.eccounc\n\nil.org/train-\n\ncertify/certified-\n\nethical-hacker-ceh/\n\n5",
+      "token_count": 56,
+      "char_count": 233,
+      "word_count": 25,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "EC-",
+        "heading_hierarchy": [
+          "EC-"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          5
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0224",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0225",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0226",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0227",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0228",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0229",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0230",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0231",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0232",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0233",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0234",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0235",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0236"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0034",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 34,
+      "text": "### IBM\n\nCybersecurit\n\ny Analyst\n\nProfessional\n\nCertificate\n\nCoursera",
+      "token_count": 10,
+      "char_count": 69,
+      "word_count": 8,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "IBM",
+        "heading_hierarchy": [
+          "IBM"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          5
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0237",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0238",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0239",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0240",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0241",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0242"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0035",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 35,
+      "text": "### (IBM)\n\nNetwork Security, Vulnerability\n\nAssessment, Incident Response,\n\nThreat Intelligence, Penetration\n\nTesting Basics\n\nhttps://www.coursera\n\n.org/professional-\n\ncertificates/ibm-\n\ncybersecurity-\n\nanalyst\n\n6\n\nGoogle\n\nCybersecurit\n\ny\n\nProfessional\n\nCertificate\n\nCoursera\n\n(Google)\n\nSecurity Operations, Network\n\nDefense, Linux Security,\n\nVulnerability Management,\n\nSIEM, Incident Response\n\nhttps://www.coursera\n\n.org/professional-\n\ncertificates/google-\n\ncybersecurity\n\n7. Lecture Wise Plan\n\nSessio\n\nn Topic Duration\n\n1\n\nCourse Overview & Outcomes 5 min\n\nIntroduction to Ethical Hacking 15 min\n\nImportance of Cyber Security 15 min\n\nLegal & Ethical Framework 10 min\n\nRecap & Q&A 5 min\n\n2\n\nTypes of Hackers 5 min\n\nCyber Attack Lifecycle 15 min\n\nThreats & Attack Vectors 15 min\n\nPenetration Testing Methodology 10 min\n\nRecap & Q&A 5 min\n\n3\n\nPassive Reconnaissance 5 min\n\nOSINT Fundamentals 15 min\n\nWhois, DNS & Google Dorking 15 min\n\nFootprinting Techniques 10 min\n\nRecap & Q&A 5 min\n\n4\n\nActive Reconnaissance 5 min\n\nHost Discovery 15 min\n\nPort Scanning Concepts 15 min\n\nNetwork Mapping 10 min\n\nRecap & Q&A 5 min\n\n5\n\nNmap Fundamentals 5 min\n\nAdvanced Scanning Options 15 min\n\nService Enumeration 15 min\n\nScanning Best Practices 10 min\n\nRecap & Q&A 5 min\n\n6\n\nVulnerability Assessment 5 min\n\nCVSS Scoring 15 min\n\nNessus Overview 15 min\n\nOpenVAS Overview 10 min\n\nRecap & Q&A 5 min\n\n7\n\nPassword Security 5 min\n\nBrute Force Attacks 15 min\n\nDictionary Attacks 15 min\n\nPassword Countermeasures 10 min\n\nRecap & Q&A 5 min\n\n8 Hydra Tool 5 min\n\nJohn the Ripper 15 min\n\nPassword Hashes 15 min\n\nMulti-Factor Authentication 10 min\n\nRecap & Q&A 5 min\n\n9\n\nWindows Security 5 min\n\nWindows Vulnerabilities 15 min\n\nLinux Security 15 min\n\nLinux Privilege Escalation 10 min\n\nRecap & Q&A 5 min\n\n10\n\nMalware Overview 5 min\n\nViruses & Worms 15 min\n\nTrojans & Ransomware 15 min\n\nMalware Detection & Mitigation 10 min\n\nRecap & Q&A 5 min\n\n11\n\nNetwork Infrastructure Security 5 min\n\nRouter Security 15 min\n\nSwitch Security 15 min\n\nFirewall Concepts 10 min\n\nRecap & Q&A 5 min\n\n12\n\nWeb Application Architecture 5 min\n\nOWASP Top 10 15 min\n\nAuthentication Vulnerabilities 15 min\n\nSession Management 10 min\n\nRecap & Q&A 5 min\n\n13\n\nSQL Injection 5 min\n\nSQL Injection Types 15 min\n\nSQLMap Demonstration 15 min\n\nPrevention Techniques 10 min\n\nRecap & Q&A 5 min\n\n14\n\nCross-Site Scripting 5 min\n\nStored & Reflected XSS 15 min\n\nDOM-Based XSS 15 min\n\nXSS Prevention 10 min\n\nRecap & Q&A 5 min\n\n15\n\nWireless Security Basics 5 min\n\nWEP/WPA/WPA2/WPA3 15 min\n\nWireless Attack Techniques 15 min\n\nWireless Protection 10 min\n\nRecap & Q&A 5 min",
+      "token_count": 498,
+      "char_count": 2595,
+      "word_count": 412,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "(IBM)",
+        "heading_hierarchy": [
+          "(IBM)"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          5,
+          6,
+          7
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0243",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0244",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0245",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0246",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0247",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0248",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0249",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0250",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0251",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0252",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0253",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0254",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0255",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0256",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0257",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0258",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0259",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0260",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0261",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0262",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0263",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0264",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0265",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0266",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0267",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0268",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0269",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0270",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0271",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0272",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0273",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0274",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0275",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0276",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0277",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0278",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0279",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0280",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0281",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0282",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0283",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0284",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0285",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0286",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0287",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0288",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0289",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0290",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0291",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0292",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0293",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0294",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0295",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0296",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0297",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0298",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0299",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0300",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0301",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0302",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0303",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0304",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0305",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0306",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0307",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0308",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0309",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0310",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0311",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0312",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0313",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0314",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0315",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0316",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0317",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0318",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0319",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0320",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0321",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0322",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0323",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0324",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0325",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0326",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0327",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0328",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0329",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0330",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0331",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0332",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0333",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0334",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0335",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0336",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0337",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0338",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0339",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0340",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0341",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0342",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0343",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0344",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0345",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0346",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0347",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0348",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0349",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0350",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0351",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0352",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0353",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0354",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0355",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0356",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0357",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0358",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0359",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0360"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0036",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 36,
+      "text": "16 Mobile Security 5 min\n\nAndroid Security 15 min\n\niOS Security 15 min\n\nMobile Threats 10 min\n\nRecap & Q&A 5 min\n\n17\n\nCloud Computing Models 5 min\n\nIaaS, PaaS & SaaS 15 min\n\nCloud Threats 15 min\n\nShared Responsibility Model 10 min\n\nRecap & Q&A 5 min\n\n18\n\nIoT Architecture 5 min\n\nIoT Vulnerabilities 15 min\n\nIoT Attack Scenarios 15 min\n\nIoT Security Best Practices 10 min\n\nRecap & Q&A 5 min\n\n19\n\nMetasploit Overview 5 min\n\nFramework Architecture 15 min\n\nModules & Payloads 15 min\n\nExploitation Workflow 10 min\n\nRecap & Q&A 5 min\n\n20\n\nSession Hijacking 5 min\n\nDoS Attacks 15 min\n\nDDoS Attacks 15 min\n\nMitigation Strategies 10 min\n\nRecap & Q&A 5 min\n\n21\n\nIDS & IPS 5 min\n\nFirewall Evasion 15 min\n\nHoneypots 15 min\n\nEvasion Countermeasures 10 min\n\nRecap & Q&A 5 min\n\n22\n\nAPI Security 5 min\n\nOWASP API Top 10 15 min\n\nAuthentication & Authorization 15 min\n\nAPI Testing 10 min\n\nRecap & Q&A 5 min\n\n23\n\nVulnerability Management Lifecycle 5 min\n\nRisk Assessment 15 min\n\nRemediation Planning 15 min\n\nProfessional Reporting 10 min\n\nRecap & Q&A 5 min\n\n24\n\nCyber Laws 5 min\n\nDigital Evidence 15 min\n\nEthical Guidelines 15 min\n\nResponsible Disclosure 10 min\n\nRecap & Q&A 5 min\n\n25 Emerging Trends in Ethical Hacking 5 min\n\nAI in Penetration Testing 15 min\n\nCloud-Native Security 15 min\n\nZero Trust Security 10 min\n\nCourse Review & Q&A 5 min\n\n8 Lab.\n\nLab No. Experiment Tools / Software Used\n\nLab 1\n\nInstall VirtualBox/VMware, create virtual machines, install\n\nKali Linux/Parrot OS, configure networking (NAT, Bridged,\n\nHost-only).\n\nVirtualBox/VMware, Kali\n\nLinux, Parrot OS\n\nLab 2\n\nPerform domain reconnaissance using OSINT Framework,\n\nWhois, DNS Lookup, and Google Dorking without interacting\n\ndirectly with the target.\n\nOSINT Framework, Whois,\n\nnslookup, dig, Google Dorks\n\nLab 3 Discover live hosts, perform TCP/UDP port scanning, identify\n\nrunning services, operating systems, and versions. Nmap\n\nLab 5 Enumerate services, banners, shared resources, and SNMP\n\ninformation from target systems.\n\nNetcat (nc), Telnet,\n\nSNMPWalk\n\nLab 6\n\nPerform password auditing through online authentication\n\ntesting and offline password hash analysis in an authorized lab\n\nenvironment.\n\nHydra, John the Ripper\n\nLab 7\n\nExplore auxiliary modules, exploits, payloads, and post-\n\nexploitation techniques in a controlled laboratory\n\nenvironment.\n\nMetasploit Framework\n\nLab 8\n\nIntercept HTTP/HTTPS requests, analyze web traffic, modify\n\nrequests, and identify common web application\n\nvulnerabilities.\n\nBurp Suite Community\n\nEdition\n\nLab 9\n\nIdentify SQL Injection vulnerabilities in intentionally\n\nvulnerable web applications and analyze the impact using\n\nautomated tools.\n\nSQLmap,\n\nDVWA/Mutillidae/WebGoa\n\nt\n\nLab 10",
+      "token_count": 499,
+      "char_count": 2680,
+      "word_count": 414,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "(IBM)",
+        "heading_hierarchy": [
+          "(IBM)"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          7,
+          8,
+          9
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0361",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0362",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0363",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0364",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0365",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0366",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0367",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0368",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0369",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0370",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0371",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0372",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0373",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0374",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0375",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0376",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0377",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0378",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0379",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0380",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0381",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0382",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0383",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0384",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0385",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0386",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0387",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0388",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0389",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0390",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0391",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0392",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0393",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0394",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0395",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0396",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0397",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0398",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0399",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0400",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0401",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0402",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0403",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0404",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0405",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0406",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0407",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0408",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0409",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0410",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0411",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0412",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0413",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0414",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0415",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0416",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0417",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0418",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0419",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0420",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0421",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0422",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0423",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0424",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0425",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0426",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0427",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0428",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0429",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0430",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0431",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0432",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0433",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0434",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0435",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0436",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0437",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0438",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0439",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0440",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0441",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0442",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0443",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0444",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0445",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0446",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0447",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0448",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0449",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0450",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0451",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0452",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0453",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0454",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0455",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0456",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0457",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0458",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0459",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0460",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0461",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0462"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0037",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 37,
+      "text": "Capture wireless traffic, understand Wi-Fi authentication\n\nmechanisms, and perform security testing on authorized\n\nwireless networks.\n\nAircrack-ng Suite,\n\nWireshark\n\nLab 11\n\nExplore AWS/Azure security configurations, IAM policies,\n\nstorage permissions, and identify common cloud\n\nmisconfigurations.\n\nAWS Console/CLI, Azure\n\nPortal/CLI\n\nLab 12\n\nTest REST APIs for common security issues such as broken\n\nauthentication, authorization flaws, insecure endpoints, and\n\nimproper input validation.\n\nPostman, OWASP ZAP\n\nEnd Lab Exam\n\n8. Evaluation Components\n\nComponents of Course Evaluation Percentage\n\nEnd Theory Exam 40\n\nCertification 10\n\nEnd Lab Exam 20\n\nCourse Project 10\n\nMid Exam 20\n\n9. Start-ups related to the Course: NA\n\n10. Certification Mapping: NA\n\n11. Software/Tools Used:\n\nThe course utilizes industry-standard ethical hacking and penetration testing software to\n\nprovide practical exposure to vulnerability assessment, network security, web application\n\nsecurity, cloud security, API security, wireless security, malware analysis, and digital\n\nforensics. Students perform laboratory experiments using Kali Linux, Parrot Security OS,\n\nOracle VirtualBox, VMware Workstation, Nmap, Wireshark, Burp Suite, OWASP ZAP,\n\nMetasploit Framework, OpenVAS, Nessus Essentials, SQLmap, Hydra, John the Ripper,\n\nAircrack-ng, Netcat, SNMPWalk, Postman, DVWA, OWASP Juice Shop, bWAPP, AWS\n\nFree Tier, Microsoft Azure, Lynis, Sysinternals Suite, Autopsy, Volatility Framework,\n\nPEStudio, Visual Studio Code, Git, and Python. These tools enable students to develop\n\npractical skills in ethical hacking, penetration testing, vulnerability assessment, digital\n\nforensics, and secure system analysis.\n\n12. Hardware/Devices Used:\n\nThe course requires modern desktop or laptop computers with multi-core Intel Core i5/i7 or\n\nAMD Ryzen processors, a minimum of 16 GB RAM, 512 GB SSD storage, and hardware\n\nvirtualization support (Intel VT-x/AMD-V) to execute multiple virtual machines and\n\npenetration testing tools efficiently. The laboratory utilizes managed network switches,\n\nwireless routers, external USB Wi-Fi adapters supporting monitor mode and packet\n\ninjection, Raspberry Pi and ESP32 development boards for IoT security experiments,\n\nAndroid smartphones, external storage devices for digital forensics, multimedia projectors,\n\nand reliable high-speed Internet connectivity. Optional infrastructure such as firewall\n\nappliances (Fortinet/pfSense), NAS devices, and forensic write blockers may be used for\n\nadvanced security, network defense, and digital forensic investigations.\n\n13. Proposed Case Studies:\n\nEnterprise Network Vulnerability Assessment\n\n Perform reconnaissance, network scanning, service enumeration, and vulnerability\n\nassessment of a simulated enterprise network using Nmap, Nessus, and OpenVAS. Analyze\n\nidentified vulnerabilities and recommend remediation measures.\n\nWeb Application Penetration Testing",
+      "token_count": 499,
+      "char_count": 2916,
+      "word_count": 366,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "(IBM)",
+        "heading_hierarchy": [
+          "(IBM)"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          9,
+          10,
+          11
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0463",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0464",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0465",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0466",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0467",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0468",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0469",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0470",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0471",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0472",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0473",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0474",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0475",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0476",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0477",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0478",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0479",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0480",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0481",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0482",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0483",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0484",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0485",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0486",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0487",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0488",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0489",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0490",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0491",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0492",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0493",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0494",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0495",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0496",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0497",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0498",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0499",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0500",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0501",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0502",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0503",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0504",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0505",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0506",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0507",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0508",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0509",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0510",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0511",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0512",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0513",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0514",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0515",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0516",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0517"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0038",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 38,
+      "text": " Conduct a comprehensive security assessment of a deliberately vulnerable web application\n\n(DVWA, OWASP Juice Shop, or bWAPP) to identify SQL Injection, Cross-Site Scripting\n\n(XSS), Broken Authentication, and other OWASP Top 10 vulnerabilities using Burp Suite,\n\nSQLmap, and OWASP ZAP.\n\nWireless Network Security Assessment\n\n Evaluate the security of a wireless network by analyzing Wi-Fi protocols\n\n(WEP/WPA/WPA2/WPA3), performing controlled wireless security assessments using\n\nAircrack-ng, and recommending secure wireless configurations.\n\nCloud Infrastructure Security Assessment\n\n Assess the security configuration of cloud resources hosted on AWS or Microsoft Azure by\n\nidentifying common misconfigurations, access control weaknesses, exposed storage\n\nservices, and implementing cloud security best practices based on the shared responsibility\n\nmodel.\n\nIncident Response and Vulnerability Management\n\n Simulate a cyber incident involving malware infection or unauthorized access. Perform\n\nvulnerability assessment, analyze attack vectors, prioritize vulnerabilities using CVSS,\n\nprepare a professional Vulnerability Assessment and Penetration Testing (VAPT) report,\n\nand recommend mitigation and incident response strategies.\n\n14. Advanced Research Topics:\n\n1. AI-Assisted Ethical Hacking and Automated Penetration Testing\n\nApplying Artificial Intelligence to automate reconnaissance, vulnerability discovery,\n\nexploitation, and penetration testing.\n\n2. Large Language Models (LLMs) for Vulnerability Discovery and Exploit\n\nAnalysis\n\nLeveraging LLMs to identify software vulnerabilities, analyze exploits, generate\n\nsecure code, and assist security analysts.\n\n3. Cloud-Native Security and Kubernetes Penetration Testing\n\nResearch on securing cloud-native applications, containerized environments,\n\nKubernetes clusters, and cloud infrastructure.\n\n4. Zero-Day Vulnerability Detection using Machine Learning\n\nDeveloping intelligent machine learning and deep learning models to detect\n\npreviously unknown cyber threats and zero-day attacks.\n\n5. IoT and Industrial IoT (IIoT) Security Assessment\n\nInvestigating security vulnerabilities, penetration testing techniques, and defense\n\nmechanisms for IoT and industrial control systems.\n\n15. Attendance Policy:\n\n1. At least 75% attendance in the course is mandatory\n\n2. A maximum of 5% shall be allowed under medical grounds and 5% on representing the\n\nUniversity on official events outside like sports, hackathons, NCC, NSS etc.\n\n3. Students with less than 65% of attendance shall be prevented from writing the final\n\nassessment.\n\n16. Academic Dishonesty & Plagiarism:\n\nPlagiarism is \"to offer work or ideas from another source as one's own, with or without\n\nauthorization of the source author(s), directly by verbatim copying or by usage of any AI\n\nsoftware\" (i.e., with or without permission from the original author). In certain cases,\n\nauthorization might be provided for the usage of other sources through written permission",
+      "token_count": 497,
+      "char_count": 2981,
+      "word_count": 386,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "(IBM)",
+        "heading_hierarchy": [
+          "(IBM)"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          11,
+          12
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0518",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0519",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0520",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0521",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0522",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0523",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0524",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0525",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0526",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0527",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0528",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0529",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0530",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0531",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0532",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0533",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0534",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0535",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0536",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0537",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0538",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0539",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0540",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0541",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0542",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0543",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0544",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0545",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0546",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0547",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0548",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0549",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0550",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0551",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0552",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0553",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0554",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0555",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0556",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0557",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0558",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0559",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0560",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0561",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0562",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0563"
+        ]
+      },
+      "table_metadata": null
+    },
+    {
+      "chunk_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_chunk_0039",
+      "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+      "chunk_index": 39,
+      "text": "may not be considered as plagiarism. It is a serious academic offence which should be\n\navoided; the following method will be adopted to evaluate plagiarism in submitted\n\ndocuments including assignments, material, class test content and other similar academic\n\ndocuments.\n\n Level 1: Similarities up to 10% - Student will be asked to revise the document\n\nand resubmit for evaluation, once chance will be provided to revise.\n\n Level 2: Similarities above 10% to 20%- Student will be warned and one chance\n\nwill be provided to revise the document and resubmit.\n\n Level 3: Similarities above 20%: If the plagiarism level is more than 20%\n\nstudent will get a Fail grade.\n\n17. Instructor Responsible for Lecture PPTs Preparation:\n\nDr. T.Sampath Kumar\n\n18. Instructor Responsible for Lab Assignments Preparation:\n\nDr. T.Sampath Kumar\n\n19. Instructor Responsible for Minutes of the Meeting:\n\nDr. T.Sampath Kumar\n\n20. Instructor Responsible for LMS:\n\nDr. T.Sampath Kumar\n\n21. Instructor Responsible for Course File:\n\nDr. T.Sampath Kumar",
+      "token_count": 202,
+      "char_count": 1029,
+      "word_count": 158,
+      "is_table": false,
+      "is_oversized": false,
+      "metadata": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "document_name": "Ethical Hacking Course Plan.pdf",
+        "document_type": ".pdf",
+        "department": "Artificial Intelligence and Machine Learning, Computer Science and Engineering, Information Technology",
+        "program": "B.Tech",
+        "academic_year": null,
+        "semester": "Semester I",
+        "category": "syllabus",
+        "regulations": [],
+        "section_path": "(IBM)",
+        "heading_hierarchy": [
+          "(IBM)"
+        ],
+        "chunk_course_codes": [],
+        "chunk_dates": [],
+        "chunk_regulations": [],
+        "chunk_examinations": []
+      },
+      "provenance": {
+        "document_id": "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501",
+        "source_file": "Ethical Hacking Course Plan.pdf",
+        "page_numbers": [
+          12
+        ],
+        "line_numbers": [],
+        "element_ids": [
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0564",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0565",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0566",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0567",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0568",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0569",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0570",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0571",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0572",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0573",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0574",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0575",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0576",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0577",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0578",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0579",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0580",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0581",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0582",
+          "0ff6f4054e0c148879ca131105bed733952e5ea4290853ec76a1ea457880e501_elem_0583"
+        ]
+      },
+      "table_metadata": null
+    }
+  ],
+  "total_chunks": 40,
+  "avg_token_count": 91.47,
+  "min_token_count": 5,
+  "max_token_count": 499,
+  "table_chunks_count": 0,
+  "duplicate_reports": [],
+  "generated_timestamp": "2026-11-09T08:07:44.256709+00:00"
+}
